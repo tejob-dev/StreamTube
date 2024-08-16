@@ -1,0 +1,204 @@
+.nsl-container{
+    .nsl-container-buttons{
+        width: 100%;
+    }
+}
+
+#loginform{
+
+	label{
+		margin-bottom: 0.75rem;
+	}
+
+	input[type=text],
+	input[type=password]{
+		width: 100%;
+		max-width: 100%;
+	}
+
+	p{
+		margin-bottom: 1.5rem;
+	}
+
+	.login-submit{
+		margin-bottom: 0;
+	}
+}
+
+body.login.custom-theme-login{
+
+	p{
+		line-height: 2;
+		width: 100%;
+	}
+
+	#site-search form {
+	    padding-bottom: 0;
+	}	
+
+	#login{
+		padding: 2% 0 0 0;
+		width: 500px;
+
+		h1{
+			display: none;
+		}
+
+		input[type="text"],
+		input[type="email"],
+		input[type="password"],
+		select{
+			display: block;
+			padding: .375rem .75rem;
+			font-size: 1rem;
+			background: #f1f3f4;
+			border: 1px solid #ced4da;
+			max-width: 100%;
+			
+			&:focus{
+				background-color: #fff;
+				box-shadow: none;
+				outline: none;
+				border-color: #ced4da;
+			}
+
+	        &:-webkit-autofill,
+	        &:-webkit-autofill:hover, 
+	        &:-webkit-autofill:focus{
+	            -webkit-box-shadow: 0 0 0 1000px #f1f3f4 inset;
+	            -webkit-text-fill-color: #212529;
+	        }			
+		}
+
+		form{
+			border: none;
+			border-radius: 3px;
+			padding: 1.5rem;
+
+			label{
+				margin-bottom: 1rem;
+			}			
+
+			.form-check{
+				input{
+					margin-top: 4px;
+				}
+			}
+
+			.admin-email__actions-primary .button,
+			input[type="submit"]{
+				width: 100%;
+				padding: .2rem;
+				font-size: 1rem;
+			    background-color: #ce1e1e!important;
+			    border: 1px solid #ce1e1e!important;
+			    color: #fff!important;
+			    border-radius: 35px;
+			    outline: none;
+			    box-shadow: none;
+			}
+		}
+
+		#loginform{
+			#wp-submit{
+				margin-top: 2rem;
+			}
+		}
+
+		.wp-hide-pw{
+			outline: none;
+			box-shadow: none;
+		    border: none!important;
+		    background: none!important;
+		}		
+
+		.admin-email-confirm-form{
+
+			a{
+				color: #fff;
+			}
+
+			.admin-email__actions-primary .button{
+				margin-bottom: 1rem;
+				text-align: center;
+			}
+
+			.admin-email__actions{
+
+				div{
+					text-align: center;				
+				}
+			}
+		}
+
+		@media only screen and (max-width: 425px) {
+			width: 95%;
+		}		
+	}
+
+	#nav,
+	#backtoblog{
+		text-align: center;
+		font-size: 1rem;
+		font-weight: 700;			
+	}
+
+	.language-switcher{
+		max-width: 500px;	
+	}
+
+	form#language-switcher{
+		display: flex;
+		align-items: center;
+		gap: 1rem;
+
+		select{
+			border-radius: 35px;
+			padding: .2rem 1.5rem;
+		}
+
+		input[type=submit]{
+			background: #666;
+			border-color: #666;
+			border-radius: 35px;
+			position: relative;
+			color: #fff;
+    		padding: 0.2rem 1.5rem;
+		}
+
+		#language-switcher-locales{
+		    background: #f1f3f4;
+		    border: 1px solid #ced4da;			
+		}
+	}
+
+	.nsl-container-buttons{
+		width: 100%;
+	}
+
+	@media screen and (max-width: 782px){
+
+		form#language-switcher{
+			display: block;
+
+			 input[type=submit]{
+			 	margin-top: 1rem;
+			 	font-size: 1rem;
+			 }
+
+			 input[type=submit],
+			 #language-switcher-locales{
+			 	width: 100%;
+			 	max-width: 100%;
+			 	line-height: 1;
+			 }
+		}
+	}
+
+	@media screen and (max-width: 520px){
+		#login,
+		.language-switcher{
+			max-width: 90%;	
+		}
+	}
+}

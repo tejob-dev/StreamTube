@@ -1,0 +1,910 @@
+.player-wrapper p:empty {
+    display: none;
+}
+
+.player-container .vjs-icon-whatsapp:before {
+    content: "";
+    background: url(../img/whatsapp.svg) no-repeat center center/contain;
+    background-size: 50%;
+    width: 40px;
+    height: 24px;
+    display: block;
+}
+
+.player-container .position-absolute {
+    position: absolute;
+}
+
+.player-container .text-white {
+    color: #fff;
+}
+
+.player-container .bg-cover {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.player-container .ratio-9x16 .vjs-poster {
+    background-size: contain !important;
+}
+
+.player-container .player-header .post-title {
+    font-size: 1.2rem !important;
+}
+
+.player-container .player-poster {
+    opacity: .2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.player-container .mycred-sell-this-wrapper {
+    z-index: 2;
+}
+
+.player-container .mycred-sell-this-wrapper .btn {
+    color: #fff;
+    padding: 0.25rem 1.5rem;
+    font-size: 1rem;
+    background: red;
+    border-radius: 35px;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    font-weight: 400;
+    line-height: 1.5;
+    cursor: pointer;
+    text-decoration: none;
+    max-width: 200px;
+}
+
+.player-container .mycred-sell-this-wrapper .mycred-buy-link {
+    display: block;
+    margin: 0.75rem auto;
+}
+
+.player-container .require-membership,
+.player-container .error-message {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    color: #fff;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    line-height: 2;
+    font-size: 1.2rem;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.player-container .require-membership h3,
+.player-container .error-message h3 {
+    font-size: 1.5rem !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+}
+
+.player-container .require-membership a:not(.btn),
+.player-container .error-message a:not(.btn) {
+    color: #fff;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.player-container .require-membership .translate-middle,
+.player-container .error-message .translate-middle {
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    background: #1b1b1b8f;
+    border: none;
+    margin: 0;
+    padding: 1.5rem;
+}
+
+.player-container .require-membership .add_to_cart_inline,
+.player-container .error-message .add_to_cart_inline {
+    border: none !important;
+    padding: 0 !important;
+    color: #ff1212;
+    text-decoration: none;
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.player-container .require-membership .add_to_cart_inline del,
+.player-container .error-message .add_to_cart_inline del {
+    font-size: 1.5rem;
+    color: #acaaaa;
+}
+
+.player-container .require-membership .add_to_cart_inline ins,
+.player-container .error-message .add_to_cart_inline ins {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.player-container .require-membership .add_to_cart_inline .product_type_external,
+.player-container .require-membership .add_to_cart_inline .product_type_grouped,
+.player-container .require-membership .add_to_cart_inline .added_to_cart,
+.player-container .require-membership .add_to_cart_inline .add_to_cart_button,
+.player-container .error-message .add_to_cart_inline .product_type_external,
+.player-container .error-message .add_to_cart_inline .product_type_grouped,
+.player-container .error-message .add_to_cart_inline .added_to_cart,
+.player-container .error-message .add_to_cart_inline .add_to_cart_button {
+    background-color: #ce1212 !important;
+    border: 1px solid #ce1212 !important;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 35px;
+    padding: 0.75rem 3rem !important;
+    text-decoration: none;
+    display: block;
+    line-height: 1;
+}
+
+.player-container .require-membership .add_to_cart_inline .add_to_cart_button.added,
+.player-container .error-message .add_to_cart_inline .add_to_cart_button.added {
+    display: none !important;
+}
+
+@media only screen and (max-width: 480px) {
+
+    .player-container .require-membership>div,
+    .player-container .error-message>div {
+        width: 90%;
+    }
+}
+
+.player-container .require-membership {
+    font-size: 1.2rem;
+}
+
+.player-container #player_ima-ad-container {
+    z-index: 50 !important;
+}
+
+.player-container .player-embed-inner .video-js,
+.player-container .player-embed-inner iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .player-container .require-membership,
+    .player-container .error-message {
+        line-height: 1.5;
+        font-size: 1.2rem;
+    }
+
+    .player-container .require-membership {
+        padding: 1rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .player-container .require-membership {
+        font-size: 1rem;
+        padding: 0;
+    }
+}
+
+.video-js .text-message {
+    font-size: 1.4rem !important;
+    font-weight: 500;
+}
+
+.video-js .vjs-big-play-button {
+    z-index: 3;
+}
+
+.video-js .vjs-big-vr-play-button {
+    width: 88px !important;
+    height: 88px !important;
+}
+
+.video-js .vjs-control-bar {
+    z-index: 2;
+}
+
+.video-js .vjs-menu {
+    min-width: 6em;
+}
+
+.video-js .vjs-menu .vjs-menu-item-text {
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.video-js .vjs-menu .vjs-selected {
+    background-color: #6fb04e69;
+}
+
+.video-js .vjs-menu .vjs-selected:hover {
+    background-color: #6fb04e69;
+}
+
+.video-js .vjs-menu .vjs-menu-content {
+    background-color: #000000de;
+}
+
+.video-js .ima-ad-container {
+    z-index: 3 !important;
+}
+
+.video-js .vjs-modal-dialog.vjs-text-track-settings {
+    z-index: 10;
+    height: 100%;
+    background: #000000f0;
+}
+
+.video-js .vjs-modal-dialog.vjs-text-track-settings .vjs-close-button .vjs-icon-placeholder {
+    font-size: 1rem;
+    color: #d10018;
+}
+
+.video-js .vjs-modal-dialog.vjs-text-track-settings .vjs-modal-dialog-content legend {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.video-js .vjs-modal-dialog.vjs-text-track-settings .vjs-modal-dialog-content button {
+    font-size: .8rem;
+    padding: .5rem 1.5rem;
+    border-radius: 25px;
+    background: #d10018b8;
+    color: #fff;
+}
+
+.video-js .vjs-modal-dialog.vjs-text-track-settings .vjs-modal-dialog-content .vjs-default-button {
+    background-color: #333;
+}
+
+.video-js .vjs-modal-dialog.vjs-text-track-settings .vjs-modal-dialog-content select {
+    position: relative;
+    border: 1px solid #111;
+    background-color: #222 !important;
+    color: #fff !important;
+    font-size: .9rem;
+    border-radius: 0.25rem;
+    padding: .375rem 1.75rem .375rem .75rem;
+    max-width: 15em;
+    width: 15em;
+    margin-bottom: 0.75rem !important;
+    display: inline-block;
+    margin-bottom: 0;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background-image: none;
+}
+
+.video-js .vjs-modal-dialog.vjs-text-track-settings .vjs-modal-dialog-content select:focus {
+    border: 1px solid #111;
+    background-color: #222 !important;
+}
+
+.video-js .vjs-modal-dialog.vjs-text-track-settings .vjs-modal-dialog-content fieldset {
+    border: 1px solid #111;
+    padding: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+.video-js .streamtube-plugin {
+    position: absolute;
+}
+
+.video-js .streamtube-spinner {
+    width: 100%;
+    height: 100%;
+    background: #000;
+    z-index: 5;
+}
+
+.video-js .streamtube-topbar {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(#000000a6, #11111100);
+}
+
+.video-js .streamtube-watermark {
+    z-index: 10;
+    cursor: pointer;
+}
+
+.video-js .streamtube-watermark.top-right {
+    top: 10px;
+    right: 10px;
+}
+
+.video-js .streamtube-watermark.top-left {
+    top: 10px;
+    left: 10px;
+}
+
+.video-js .streamtube-watermark.bottom-left {
+    left: 10px;
+    bottom: 50px;
+}
+
+.video-js .streamtube-watermark.bottom-right {
+    right: 10px;
+    bottom: 50px;
+}
+
+.video-js .streamtube-watermark img {
+    max-height: 30px;
+}
+
+@media only screen and (max-width: 767px) {
+    .video-js .streamtube-watermark img {
+        max-width: 120px;
+        height: auto;
+    }
+}
+
+.video-js .vjs-logo-button {
+    cursor: pointer;
+    min-width: 6em;
+}
+
+.video-js .vjs-logo-button img {
+    max-width: 90%;
+    height: auto;
+    padding: 0.2em;
+}
+
+.video-js .streamtube-share {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    font-size: 13px;
+    overflow: auto;
+    visibility: hidden;
+    z-index: 5;
+    background: #000;
+    opacity: .9;
+}
+
+.video-js .streamtube-share p {
+    margin-bottom: 1.5em;
+}
+
+.video-js .streamtube-share label {
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+
+.video-js .streamtube-share .form-control {
+    display: block;
+    width: 100%;
+    font-weight: 400;
+    background-clip: padding-box;
+    height: calc(1.8125rem + 2px);
+    padding: .25rem .5rem;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    border: 1px solid #333;
+    background: #222;
+    color: #fff;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .25rem;
+    outline: none;
+    box-shadow: none;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.video-js .streamtube-share .form-control:focus {
+    background: #222 !important;
+}
+
+.video-js .streamtube-share textarea {
+    height: 90px !important;
+}
+
+.video-js .streamtube-share .share-topbar {
+    margin: 10px 10px 0 10px;
+    padding-bottom: 0;
+    visibility: visible;
+    display: flex;
+    align-items: center;
+}
+
+.video-js .streamtube-share .share-topbar:after {
+    clear: both;
+}
+
+.video-js .streamtube-share .share-topbar button {
+    background: #ce1212;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    cursor: pointer;
+    opacity: 1;
+    margin-right: 1rem;
+}
+
+.video-js .streamtube-share .share-topbar button .vjs-icon-share {
+    font-size: 15px;
+}
+
+.video-js .streamtube-share .share-topbar .post-title {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    cursor: pointer;
+    max-width: 70%;
+    line-height: 1.2;
+}
+
+.video-js .streamtube-share .share-body {
+    width: 70%;
+    margin: 50px auto;
+}
+
+@media only screen and (max-width: 1024px) {
+    .video-js .streamtube-share .share-body {
+        width: 90%;
+    }
+}
+
+.video-js .streamtube-share .share-socials {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.video-js .streamtube-share .share-socials button {
+    background: #222;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin-right: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.video-js .streamtube-share .share-socials button:last-child {
+    margin-right: 0;
+}
+
+.video-js .streamtube-share .share-socials button:hover {
+    opacity: .8;
+}
+
+.video-js .streamtube-share .share-socials .btn-facebook {
+    background: #3b5999;
+}
+
+.video-js .streamtube-share .share-socials .btn-twitter {
+    background: #1DA1F2;
+}
+
+.video-js .streamtube-share .share-socials .btn-pinterest {
+    background: #bd081c;
+}
+
+.video-js .streamtube-share .share-socials .btn-linkedin {
+    background: #2867b2;
+}
+
+.video-js .streamtube-share .share-socials .btn-whatsapp {
+    background: #128c7e;
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .video-js .streamtube-share .share-socials .btn-whatsapp {
+        display: inline-block;
+    }
+}
+
+.video-js .streamtube-share.active {
+    visibility: visible !important;
+    z-index: 5;
+}
+
+.video-js .streamtube-share.active .share-topbar button {
+    background: red;
+}
+
+.video-js .streamtube-next-post {
+    z-index: 2;
+    background: #000000e0;
+    padding: 1.5rem;
+    color: #fff;
+}
+
+.video-js .streamtube-next-post a {
+    color: #fff;
+}
+
+.video-js .streamtube-next-post .post-title {
+    font-size: 1.2rem;
+}
+
+.video-js .streamtube-next-post button {
+    font-size: 1rem;
+    color: #fff;
+}
+
+.video-js .streamtube-next-post .countdown {
+    margin-left: .5rem;
+    font-weight: 700;
+}
+
+.video-js .streamtube-next-post .next-post-wrap {
+    width: 350px;
+    background: #1b1b1b;
+}
+
+@media only screen and (max-width: 1024px) {
+    .video-js .streamtube-next-post .post-thumbnail {
+        display: none;
+    }
+
+    .video-js .streamtube-next-post .post-meta {
+        margin: 0 0.5rem 1rem 0 !important;
+    }
+}
+
+.video-js.vjs-has-upnext .streamtube-next-post {
+    z-index: 6;
+}
+
+.video-js .btn-toggle-playlist {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    padding: 3px 8px;
+    margin: 0;
+    background: #0000009e;
+    border-radius: 3px;
+    z-index: 11;
+}
+
+.video-js .btn-toggle-playlist span {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.video-js .streamtube-playlist {
+    position: absolute;
+    top: 0;
+    right: -500px;
+    width: 500px;
+    max-width: 100%;
+    height: 100%;
+    z-index: 12;
+    background: #000000de;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    line-height: 1.5;
+    overflow: hidden;
+}
+
+.video-js .streamtube-playlist .item-thumbnail {
+    width: 130px;
+    min-width: 130px;
+    position: relative;
+    margin: 0 0.75rem;
+}
+
+.video-js .streamtube-playlist .item-thumbnail:before {
+    display: block;
+    padding-top: calc(9 / 16 * 100%);
+    content: "";
+}
+
+.video-js .streamtube-playlist .item-thumbnail img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.video-js .streamtube-playlist .item-index {
+    min-width: 20px;
+    text-align: center;
+}
+
+.video-js .streamtube-playlist .item-title h3 {
+    font-size: 13px;
+    line-height: 1.5;
+    color: #fff;
+    text-decoration: none;
+}
+
+.video-js .streamtube-playlist .item-length {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    background: #000;
+    padding: 0 5px;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.video-js .streamtube-playlist .item-author a {
+    font-size: 12px;
+    line-height: 1.5;
+    color: #ccc;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.video-js .streamtube-playlist .item-body {
+    display: flex;
+}
+
+.video-js .streamtube-playlist .playlist-header {
+    padding: 0.5rem 1rem;
+    height: 80px;
+    display: flex;
+    align-items: flex-start;
+    background: #000;
+    border-bottom: 1px solid #222;
+    overflow: hidden;
+}
+
+.video-js .streamtube-playlist .playlist-header .playlist-title {
+    margin: 0.3rem 0;
+    font-size: 1rem;
+}
+
+.video-js .streamtube-playlist .playlist-header .playlist-meta {
+    font-size: .9rem;
+    color: #cccccc;
+    display: flex;
+    gap: 1rem;
+}
+
+.video-js .streamtube-playlist .playlist-header .playlist-meta a {
+    color: #cccccc;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.video-js .streamtube-playlist .playlist-header .playlist-meta .sep {
+    margin: 0 .3rem;
+}
+
+.video-js .streamtube-playlist .playlist-header .btn-close {
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.video-js .streamtube-playlist .playlist-header .btn-close span {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.video-js .streamtube-playlist .playlist-item {
+    display: flex;
+    gap: 0.25rem;
+    align-items: center;
+    border-bottom: 1px solid #222;
+    padding: 0.75rem;
+    direction: ltr;
+    font-size: 13px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.video-js .streamtube-playlist .playlist-item.active,
+.video-js .streamtube-playlist .playlist-item:hover {
+    background: #111;
+}
+
+.video-js .streamtube-playlist .playlist-item.active .vjs-icon-play,
+.video-js .streamtube-playlist .playlist-item:hover .vjs-icon-play {
+    color: #ce1212;
+}
+
+.video-js .streamtube-playlist .playlist-items {
+    direction: rtl;
+    overflow-y: hidden;
+    overflow-y: scroll;
+    max-height: calc(100vh - 100px);
+}
+
+.video-js .streamtube-playlist.active {
+    right: 0;
+}
+
+.video-js .streamtube-transparent-layer {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.video-js .vjs-menu-chapter .vjs-chapter-button {
+    cursor: pointer !important;
+    height: 100%;
+    font-size: 1.7rem;
+}
+
+.video-js .vjs-menu-chapter .vjs-menu-item {
+    text-align: left;
+    position: relative;
+    padding: 0;
+    cursor: initial;
+}
+
+.video-js .vjs-menu-chapter .vjs-menu-item .vjs-chapter-count {
+    margin-right: 1.75rem;
+}
+
+.video-js .vjs-menu-chapter .vjs-menu-item .vjs-chapter-time {
+    font-weight: bold;
+    margin-right: 1em;
+    min-width: 4em;
+    color: #5fdb25;
+    text-align: right;
+}
+
+.video-js .vjs-menu-chapter .vjs-menu-item .vjs-chapter-text {
+    max-height: 2rem;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    white-space: normal;
+    background: none;
+}
+
+.video-js .vjs-menu-chapter .vjs-menu-item .vjs-chapter-icon {
+    font-size: 25px;
+    position: absolute;
+    left: 40px;
+    top: 15px;
+    cursor: pointer;
+}
+
+.video-js .vjs-menu-chapter .vjs-selected .vjs-chapter-icon {
+    color: #5fdb25;
+}
+
+.video-js .vjs-menu-chapter .vjs-menu-item-text {
+    display: flex;
+    color: #fff;
+    max-width: 80%;
+    position: relative;
+    padding: 1rem;
+}
+
+.video-js .vjs-menu-chapter .vjs-menu {
+    width: 50em;
+    left: -47em;
+}
+
+@media only screen and (max-width: 425px) {
+    .video-js .vjs-menu-chapter .vjs-menu {
+        width: 39em;
+        left: -30em;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .video-js .vjs-menu-chapter .vjs-menu {
+        width: 38em;
+        left: -27em;
+    }
+}
+
+.video-js.vjs-ended .vjs-poster {
+    display: block;
+}
+
+.video-js.vjs-has-collection .streamtube-watermark.top-right {
+    right: 70px;
+}
+
+.video-js.vjs-user-inactive .share-topbar .post-title {
+    display: none;
+}
+
+.video-js.vjs-theme-city .vjs-menu-chapter .vjs-menu {
+    left: 1em;
+}
+
+.video-js.vjs-theme-city .vjs-playback-rate .vjs-playback-rate-value,
+.video-js.vjs-theme-fantasy .vjs-playback-rate .vjs-playback-rate-value {
+    line-height: 54px;
+}
+
+.video-js.vjs-theme-sea .vjs-playback-rate .vjs-playback-rate-value {
+    line-height: 37px;
+}
+
+.video-js.vjs-has-xr canvas {
+    cursor: grabbing;
+    z-index: 2;
+}
+
+.video-js.vjs-has-xr .streamtube-transparent-layer {
+    display: none;
+}
+
+.video-js.videojs-code-initializing .spinner,
+.video-js.videojs-code-downloading .spinner {
+    color: #02dc76 !important;
+}
+
+@media only screen and (max-width: 992px) {
+
+    .video-js .vjs-playback-rate,
+    .video-js .vjs-picture-in-picture-control,
+    .video-js .vjs-quality-selector {
+        display: none;
+    }
+}
+
+.rtl .video-js .streamtube-share .share-topbar button {
+    margin-left: 1rem;
+    margin-right: 0;
+}
+
+.rtl .video-js .streamtube-share .share-socials button:last-child {
+    margin-left: 0px;
+    margin-right: 10px;
+}
+
+.rtl .video-js .btn-toggle-playlist {
+    left: 10px;
+    right: auto;
+}
+
+.rtl .video-js .streamtube-playlist {
+    left: -500px;
+    right: auto;
+}
+
+.rtl .video-js .streamtube-playlist.active {
+    left: 0;
+}
+
+.rtl .video-js .streamtube-playlist .playlist-header .btn-close {
+    transform: rotate(180deg);
+    margin-right: auto;
+    margin-left: 0;
+}
+
+.rtl .video-js .streamtube-playlist .playlist-item {
+    direction: rtl;
+}
+
+.rtl .video-js .streamtube-watermark.top-right {
+    left: 10px;
+    right: auto;
+}
+
+.rtl .video-js.vjs-has-collection .streamtube-watermark.top-right {
+    left: 70px;
+    right: auto;
+}

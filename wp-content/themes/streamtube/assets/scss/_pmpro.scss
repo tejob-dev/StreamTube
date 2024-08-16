@@ -1,0 +1,458 @@
+.pmpro_btn{
+	border-radius: 35px!important;
+}
+
+.pmpro_message{
+    border-left: 4px solid #72aee6;
+    padding: 12px;
+    margin-left: 0;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+    border-color: transparent;
+    color: #212529;
+	&.pmpro_error{
+		border-left-color: #d63638;
+	}
+
+	&.pmpro_success{
+		border-left-color: #198754;
+	}
+}
+
+.pmpro_content_message{
+    border: 1px solid #ebebeb;
+    text-align: center;
+    margin-bottom: 1rem;
+
+	.btn{
+		font-size: 1rem;
+		border-radius: 35px!important;
+		font-weight: normal;
+		color: #fff!important;
+		font-size: .9rem;
+	}	
+
+	.btn-join-now{
+		background-color: #0d6efd!important;
+		border: 1px solid #0d6efd!important;
+	    color: #fff;			  
+	}
+
+	.btn-login{
+	    background-color: #ce1e1e!important;
+	    border: 1px solid #ce1e1e!important;
+	    color: #fff;			  
+	}	
+}
+
+.player-embed{
+	.require-membership{
+		z-index: 2;
+		color: #fff;
+		font-size: 1.1rem;		
+		text-align: center;		
+
+		.pmpro_content_message{
+			border: none;
+			margin-bottom: 0;
+		}
+	}
+
+}
+
+.pmpro_billing_wrap,
+.pmpro_invoice_wrap,
+.pmpro_checkout-fields,
+.pmpro-plan-description,
+.pmpro_confirmation_wrap,
+.check-list{
+	li{
+		list-style: none;
+		position: relative;
+		padding-left: 30px;
+		line-height: 2.5;
+		
+		&:before{
+			content: "\e811";
+			font-family: "fontello";
+			position: absolute;
+			left: 0;
+			top: -4px;
+			color: #19dc82;
+			font-size: 1.2rem;				
+		}
+
+		&.unchecked{
+			&:before{
+				content: "\e813";
+				color: #ce1212;
+			}
+		}
+	}
+}
+
+.pmpro_billing_wrap{
+	ul{
+		padding: 0;
+	}
+}
+
+.pmpro_confirmation_wrap{
+    max-width: 700px;
+    margin: 0 auto;
+    background: #fff;
+	padding: 2.5rem 2.5rem 0 2.5rem;
+	box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+
+	> p:first-child{
+	    border-left: 4px solid #198754;
+	    padding: 12px;
+	    margin-left: 0;
+	    margin-bottom: 20px;
+	    background-color: #fff;
+	    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+	}
+
+	h3, h2{
+		font-size: 1.2rem;
+	}
+
+	ul{
+		padding: 0;
+	}
+
+	.pmpro_actions_nav{
+		padding-bottom: 1.5rem;
+	}
+}
+
+.pmpro-affiliates-wrap{
+
+	ul{
+    	list-style: none;
+	    padding: 0;
+	    line-height: 2;	
+	}
+
+	.pmpro_a-right{
+		font-size: 1rem;
+		font-weight: 600;
+	}
+
+	.table-row-heading,
+	.table-row-body{
+		display: flex;		
+	}
+
+    .row-item {
+        flex: 1;
+        border: 1px solid #e9ecef;
+        padding: .5rem;
+        text-align: center;
+    }			
+
+	.table-row-heading{
+		font-weight: 600;
+	}	
+
+	.pmpro_affiliates-table-container{
+		margin: 1rem 0;
+	}
+}
+
+.pmpro_box{
+	
+	h2{
+		font-size: 1.3rem;
+	}	
+
+	h3{
+		font-size: 1.2rem;
+	}
+}
+
+.pmpro_table{
+	a{
+		color: #212529;
+		font-weight: 600;
+		text-decoration: none;
+	}
+}
+
+#pmpro_actionlink-levels{
+    padding: 0.375rem 1.5rem;
+    background: #ce1212;
+    color: #fff;
+    border-radius: 35px;
+    font-size: .9rem;	
+}
+
+.pmpro_login_wrap{
+    width: 400px;
+    margin: 0 auto;
+
+    h2{
+    	display: none;
+    }
+
+    #loginform{
+		margin-bottom: 1rem;
+	    margin-left: 0;
+	    font-weight: 400;
+	    overflow: hidden;
+	    background: #fff;
+	    border: none;
+	    border-radius: 3px;
+	    padding: 2.5rem;    
+	    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+	    .input{
+	    	max-width: 100%;
+	    }
+
+	    #wp-submit{
+		    width: 100%;
+		    padding: 0.2rem;
+		    font-size: 1rem;
+		    background-color: #ce1e1e !important;
+		    border: 1px solid #ce1e1e !important;
+		    color: #fff !important;
+		    border-radius: 35px;
+		    outline: none;
+		    box-shadow: none;	    	
+	    }
+
+	    + hr{
+	    	display: none;
+	    }
+    }	
+
+    .pmpro_actions_nav{
+    	a{
+    		font-weight: 600;
+    		color: #212529;
+    		text-decoration: none;
+    	}
+    }
+}
+
+#pmpro_btn-submit,
+.pmpro_cancel_return_home a,
+.pmpro_actionlinks .pmpro_yeslink,
+.pmpro_actions_nav a{
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    padding: 0.375rem 1.5rem;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    background: #ce1212;
+    border-color: #ce1212;
+    border-radius: 35px;
+    color: #fff;    
+
+    &:hover{
+    	opacity: .8;
+    }	
+}
+
+.pmpro_cancel_wrap{
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+    padding: 1.5rem;
+    background: #fff;
+    text-align: center;
+
+    h2{
+	    font-size: 1.5rem;
+	    margin-bottom: 1.5rem;    
+    }
+
+    .pmpro_nolink{
+    	text-decoration: none;
+    }
+}
+
+.pmpro_invoice_wrap{
+	
+	h3{
+		font-size: 1.2rem;
+	}
+
+	ul{
+	    list-style: none;
+	    padding: 0;
+	    line-height: 2.5;
+	}
+
+	.pmpro_invoice-total{
+		p{
+			font-size: 1.2rem;
+			color: #19dc82;
+			font-weight: 700;
+		    margin: 1rem 0;
+		}
+	}
+}
+
+[class*="pmpro_checkout_gateway"]{
+
+    max-width: 700px;
+    margin: 0 auto;
+    background: #fff;
+	padding: 1.5rem 1.5rem 0 1.5rem;
+	box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+
+	a{
+	    color: #212529;
+	    font-weight: 600;
+	    font-style: normal;
+	    text-decoration: none;
+	}
+
+	ol{
+		padding: 0;
+	}
+
+	.form-select,
+	.input{
+		max-width: 100%!important;
+		width: 100%!important;
+	}
+
+	h3{
+		margin-top: 0!important;
+	}
+
+	.levellist{
+		.levelnametext{
+			font-size: 1.2rem;
+		}
+	}
+
+	.pmpro_checkout-field{
+		position: relative;
+	}
+
+	.pmpro_asterisk{
+	    position: absolute;
+	    top: 0;
+	    right: 0;
+
+	    abbr{
+		    font-size: .7rem;
+		    color: #fff;
+		    background: #666;
+		    padding: 0.3rem;
+		    border-radius: 3px;	    
+	    	&:before{
+	    		content: attr(title);
+	    	}
+	    }
+	}
+
+	.pmpro_checkout-h3-msg{
+		font-size: 1rem!important;
+	}
+
+	.pmpro_submit {
+	    text-align: center;
+	    margin-top: 2rem;
+	}	
+
+	#pmpro_processing_message{
+		margin: 0!important;
+		text-align: center!important;
+	}
+
+	#pmpro_level_cost{
+	    text-align: center;
+	    border: 1px solid #e9ecef;
+	    padding: 1rem;
+	    border-radius: 3px;		
+
+	    strong{
+			display: block;
+			font-size: 2rem;
+			color: #0dcaf0;	    
+	    }
+	}
+
+	#pmpro_payment_method{
+
+		.pmpro_checkout-fields{	
+			display: flex;
+			margin: 1rem 0;
+			gap: 1rem;
+			span{
+			    background: #f8f9fa;
+			    padding: 1rem;			
+			    border: 1px solid #dee2e6;
+			    border-radius: 3px;
+			}
+
+			.gateway_paypalexpress{
+				margin-left: 0;
+			}
+
+		}
+
+	}
+}
+
+.pmpro_checkout_gateway-stripe{
+	.pmpro_payment-expiration{
+		display: block!important;
+	}
+}
+
+.pmpro_invoice-billing-address{
+	[class*=pmpro_invoice-field-billing]{
+		margin-top: .5rem;
+	}
+}
+
+.pmpro_invoice-payment-method{
+	line-height: 2;
+}
+
+.pmpro_a-print{
+	z-index:1;
+	position: relative;	
+}
+
+.type-video{
+	&.pmpro-level-required{
+		.video-hover{
+			.icon-play{
+				&:before{
+					content: "\e81a";
+				}
+			}
+		}
+
+		&.pmpro-has-access{
+			.video-hover{
+				.icon-play{
+					&:before{
+						content: '\e856';
+					}
+				}
+			}		
+		}		
+	}
+}

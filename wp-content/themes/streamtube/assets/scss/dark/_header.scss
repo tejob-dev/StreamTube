@@ -1,0 +1,87 @@
+html[data-theme=dark]{
+	.site-header{
+		background: #1b1b1b;
+		form{
+			.btn__icon{
+				color: #f9fafb;
+			}
+
+			button[type="submit"]{
+				background: #ce1212;
+				border: 1px solid #ce1212;
+			}
+		}
+
+		.header-user{
+			.btn__icon{
+				color: #f9fafb;
+			}
+		}
+
+		.header-user__notification {
+			.list-notification{
+			    border-top: 1px solid #444;
+			    border-bottom: 1px solid #444;
+			}
+		}
+
+		.header-user__dropdown{
+			.author-name{
+				a{
+					color: #f9fafb;
+				}
+			}
+
+			.point-type{
+				>div{
+					background: #444 !important;
+					border: none!important;			
+					color: #fff!important;		
+				}
+			}
+		}
+
+		&.backdrop-blur{
+			background: rgba( 27, 27, 27, 0.8 );
+		}		
+	}
+
+	.site-search{
+		input[name="s"]{
+		    color: #f9fafb;
+			border: 1px solid #333;
+			background: #222;			
+		}	
+	}	
+
+	.autocomplete-results{
+		background: #111!important;
+	    .post-item{
+	    	&:hover{
+	    		background: #222;
+	    	}
+	    }
+    }		
+
+	.navbar-toggler{
+		span{
+			color: #f8f9fa;
+		}
+	}
+	
+	.theme-switcher{
+		.icon-moon{
+			color: #fff;
+		}
+	}
+
+	@media only screen and (max-width: 1000px){
+		.site-search{
+			background: #222;
+		}
+	}
+
+	.page-header{
+		background-color: #121212!important;
+	}
+}

@@ -1,0 +1,58 @@
+html[data-theme=dark]{
+	.player-wrapper{
+		.player-header{
+			background: #333;
+		}
+	}	
+
+	.single-body{
+		.post-tags{
+			a{
+				color: #fff;
+				background: #333;
+
+				&:hover{
+					background: #222;
+				}
+			}
+		}
+	}
+
+	.comment-respond{
+	    border-top: 1px solid #333!important;
+    }
+
+    .single-video-v3,
+    .single-video-v4{
+    	.single-video__body__main{
+    		background: #111!important;
+    	}
+
+    	.comments-list-lg{
+    		background: #111!important;
+    		border-left: 1px solid #222 !important;	
+
+    		.comment-respond{
+    			.widget-title-wrap{
+    				display: none!important;
+    			}
+    		}
+
+    		.comments-list{
+	    		.comment-respond{
+	    			.widget-title-wrap{
+	    				display: flex!important;
+
+	    				h3{
+							text-transform: inherit;
+							font-size: .9rem;
+							font-weight: 300;
+							letter-spacing: 0;	
+							font-family: 'Lato', sans-serif;    				
+	    				}
+	    			}
+	    		}    			
+    		}
+    	}
+    }
+}

@@ -1,0 +1,75 @@
+html[data-theme=dark]{
+
+	.mycred-filter{
+
+	    input[type=submit]{
+	    	min-width: 100px;
+			color: #fff;
+			background-color: #0d6efd!important;
+			border-color: #0d6efd!important;
+			font-size: 1rem;
+			border-radius: 35px!important;
+			box-shadow: none;
+			outline: none;
+			border: none;
+			font-weight: normal!important;	
+	    }
+	}
+
+
+	#cashcred{
+
+		.cashcred-nav-tabs{
+		    border-bottom: 1px solid #444;
+		    
+			li{
+				border-color: #444 #444 #333;	
+			}
+
+			.active{
+			    background-color: #333!important;
+			    color: #fff!important;
+			    border-color: #444 #444 #333!important;
+			}
+		}
+
+		#cashcred_tab_content{
+			background: #1b1b1b;
+			border: 1px solid #222;
+		}
+	}
+
+	form#mycred-transfer-form-transfer{
+		background: #1b1b1b!important;
+		border-color: #222!important;
+	}
+
+	form.buy-form-creds{
+		.form-group{
+			button{
+				background-color: #dc3545!important;
+				border-color: #dc3545!important;			
+			}
+		}
+	}
+
+	#buycred-checkout-page{
+		table{
+			color: #f9f9f9;
+
+			thead{
+				 th{
+				 	border-bottom: 1px solid #666;
+				 }
+			}
+		}
+
+		h2 span{
+			color: #fff;
+		}
+
+		.checkout-order{
+			background-color: #222;
+		}			
+	}
+}

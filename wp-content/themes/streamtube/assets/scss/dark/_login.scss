@@ -1,0 +1,60 @@
+html[data-theme=dark]{
+
+	.nsl-container-buttons{
+		.nsl-button-google[data-skin=light]{
+		    background-color: #333!important;
+		    color: #f9f9f9;
+		}
+	}
+
+	body.login.custom-theme-login{
+		div#login{
+			a{
+				color:#f9f9f9!important;
+			}
+
+			form{
+				background: #1b1b1b;
+			}
+
+			select,
+			input[type="text"],
+			input[type="email"],
+			input[type="password"]{
+				background-color: #222!important;
+				border-color: #333;
+				&:focus{
+					background-color: #333!important;
+					border-color: #444;
+				}
+			}
+
+			.wp-hide-pw{
+				color: #fff;
+				outline: none;
+				box-shadow: none;
+				border: none;
+			}
+
+			.success,
+			.message,
+			#login_error{
+				background-color: #333;
+			}
+		}
+
+		form#language-switcher{
+
+			#language-switcher-locales{
+				color:#f9f9f9;
+				background-color: #222;
+				border-color: #333;
+				&:focus,
+				&:hover{
+					color:#f9f9f9;			
+				}
+			}
+
+		}
+	}
+}

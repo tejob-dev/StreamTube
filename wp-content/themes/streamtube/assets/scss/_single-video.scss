@@ -1,0 +1,402 @@
+.button-group-download{
+	.badge{
+		left: 3.5rem;
+	}
+}
+
+.sources-navigator{
+	.icon{
+		top: 16px;
+		left: 16px;		
+	}
+
+	.source-label {
+	    padding-left: 1.5rem;
+	}	
+
+	.active{
+		.dot{
+			background: #ce1212;
+		}
+	}
+}
+
+.player-wrapper{
+
+	overflow: hidden;
+
+	.player-header{
+		background: #fff;
+		display: none;
+	}
+
+	.sticky-player{
+		position: fixed;
+		left: auto;
+		top: auto;		
+		right: 10px;
+		bottom: 10px;
+		z-index: 100;
+		width: 500px;
+		height: auto;
+
+		.ratio::before {
+			padding-top: calc(9 / 16 * 100%);
+		}		    
+
+		.player-header{
+			display: block;
+		}
+
+		.password-protected{
+			p{
+				display: none;
+			}
+		}
+
+		@media only screen and (max-width: 600px) {
+			top: 0;
+			left: 0!important;
+			width: 100%;
+			height: 0;
+			z-index: 99999;
+		}
+	}
+
+	.post-password-form{
+		font-size: 1.3rem;
+		border: 1px solid #222 !important;
+
+	    input[name=post_password],
+	    input[name=post_password]:focus{
+	        color: #f9f9f9!important;
+	        border: 1px solid #333 !important;
+	        background-color: #222!important;
+	    }
+	}	
+
+	.password-protected >div{
+		padding: 0!important;
+	}
+
+	.ratio-2x3,
+	.ratio-9x16{
+		&:before{
+			padding-top: calc( 100vh - 60px );
+		}
+	}
+
+	@media only screen and (max-width: 768px) {
+
+		.ratio-21x9{
+			&:before{
+				padding-top: calc(9 / 16 * 100%);
+			}
+		}			
+
+	}	
+}
+
+.single-main{
+	.player-wrapper{
+		.progress{
+			height: 2rem;
+			background: #333;
+			font-size: 1rem;
+		}
+	}
+
+	.single-video__body{
+	    height: calc( 100vh - 70px);
+		overflow-y: auto;
+	}
+
+	.sidebar-float + .site-main{
+		overflow: hidden;
+		height: auto;
+	}
+
+	@media ( max-width: 992px ){
+	
+		.single-video__body,
+		.comments-fixed .comments-list-lg{
+			height: auto!important;
+			overflow: visible;
+		}
+
+		.comments-area{
+			height: auto!important;
+		}
+
+	}
+}
+
+.single-body{
+
+	.post-meta__items{
+		font-size: 1rem;
+	}
+
+	.post-meta__right{
+		.btn__text{
+			font-size: 1rem!important;
+		}
+	}
+
+	.post-bottom__author + .post-bottom__content{
+		.post-content{
+			padding-left: 7rem;
+		}
+	}
+
+	.post-options{
+		overflow-x: auto;
+
+		&::-webkit-scrollbar,
+		&::-webkit-scrollbar-thumb{
+			background: transparent;
+		}
+	}
+		
+	@media only screen and (max-width: 768px) {
+
+		.post-options{
+
+			>div{
+				gap: 1rem!important;
+			}
+			.btn{
+				padding: 0.25rem .5rem !important;
+
+				.btn__icon{
+					font-size: 1rem!important;
+				}
+			}
+
+			.wppl-button-wrap{
+				>div{
+					gap: 1rem!important;
+				}				
+			}
+		}	
+
+		.post-bottom__author + .post-bottom__content{
+			.post-content{
+				padding-left: 0;
+			}
+		}
+	}		
+
+}
+
+.single-video-v3{
+
+	overflow: hidden;
+	
+    .sticky-player {
+        left: 210px;
+        right: auto;
+
+        @media only screen and (max-width: 1300px){
+        	left: 50px;
+        }
+
+        @media only screen and (max-width: 1200px){
+        	left: 0;
+        }        
+    }   
+
+    .sidebar-secondary.sidebar-collapse + .site-main{
+    	.sticky-player {
+        	left: 70px;
+        }    	
+    }
+
+    .comments-list-lg {
+    	height: calc( 100vh - 60px);
+	}
+
+    .comments-livechat .comments-list-lg {
+    	height: calc( 100vh - 100px );
+	}	
+
+	&.single-no-comments{
+		overflow-y: scroll;
+	}
+
+	&.single-comment-open{
+		.live-chatbox-wrap .bp-messages-wrap{
+			height: calc( 100vh - 110px ) !important;
+		}
+	}
+
+	&.live-chat-template{
+		overflow-y: hidden;
+	}	
+
+    @media only screen and (max-width: 1024px){
+    	overflow-y: scroll!important;
+
+    	.comments-fixed{
+    		padding-left: 1.5rem!important;
+    		padding-right: 1.5rem!important;
+    	}
+    }	
+}
+
+.comments-fixed{
+
+	.widget-title-wrap{
+		padding: 0.75rem 1.5rem!important;
+	}
+
+	.comment-avatar{
+		margin-right:0.75rem !important
+	}
+
+	.comment-title{
+		padding: 0.75rem 1.5rem!important;
+	} 
+
+	.post-comments{
+		height: 100%;
+	}
+
+	.comments-list{
+		overflow-y: auto;
+
+		.comment{
+			padding: 1.5rem;
+		}
+
+		.user-avatar{
+			width: 45px;
+			height: 45px;
+		}
+
+		.comment-text{
+			padding-left: 3rem !important;
+			padding-right: 0;
+		}
+	}		
+
+	.comment-respond{
+	    order: 3;
+	    width: 100%;
+	    border-top: 1px solid #e9ecef;
+	    button[type="submit"]{	    	
+			padding-left: 2rem!important;
+			padding-right: 2rem!important;				
+	    }
+	}
+
+	.comments-area{
+		height: 100%;
+	}
+
+	&.comments--nofixed{
+		border: none!important;
+		height: auto;
+		&>div{
+			border: none!important;
+		}
+
+		.comment-title{
+			display: block!important;
+			padding: 1rem;
+			margin: 0;
+
+			.widget-title{
+				margin:0;
+				padding: 0;
+			}
+		}
+
+		.post-comments{
+			height: auto;
+		}
+
+		.comments-list{
+			overflow: visible;
+		}
+
+		.comment-respond{
+			position: relative!important;
+		}
+	}
+
+    .live-chatbox-wrap{
+
+        .bp-messages-threads-wrapper{
+            max-height: 100%!important;
+            height: 100%!important;        
+        }
+
+        .message-content{
+            max-width: 100%!important;
+        }
+
+        .bp-messages-wrap{
+            height: calc( 100vh - 70px ) !important;
+		    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+		    border: none;            
+        }        
+    }
+
+    .comments-livechat{
+        .bp-messages-wrap{
+            height: calc( 100vh - 110px ) !important;         
+        }
+    }
+}
+
+.comments-fixed{
+	.comment-avatar{
+		.user-avatar{
+			width: 35px;
+			height: 35px;
+		}
+	}
+
+	.comments-list{
+		.comment-respond{
+			.widget-title-wrap{
+				display: flex!important;
+			}
+
+			.comment-avatar{
+				display: none!important;
+			}			
+		}	
+	}
+
+	.comments-list-lg {
+	    height: calc( 100vh - 60px);
+	}		
+}
+
+.logged-in.admin-bar{
+	.comments-fixed {
+
+		.comments-list-lg {
+		    height: calc( 100vh - 100px);
+		}	
+
+		.comments-livechat .comments-list-lg{
+			height: calc( 100vh - 130px );
+		}
+
+		.live-chatbox-wrap .bp-messages-threads-wrapper{
+			height: 95%!important;        
+		}
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.post-bottom__author{
+		display: block!important;
+		#btn-private-message .btn__icon{
+			font-size: 1rem;
+		}
+	}
+}

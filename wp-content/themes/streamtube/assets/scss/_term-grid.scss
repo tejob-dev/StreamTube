@@ -1,0 +1,151 @@
+.term-grid{
+
+	.icon__playlist{
+		color: #fff;
+	}
+
+	.term-box{
+		background: #000000a1;
+		padding: 1rem;
+		z-index: 2;
+	}
+
+	.term-title{
+	    font-size: 1rem;
+	}	
+	
+	&.term-layout-default{
+
+		.term-box{
+			min-width: 60%;
+			max-width: 60%;
+		}
+
+		.term-title{
+		    color: #fff;
+		    text-transform: uppercase;
+		    position: relative;
+		    font-weight: bold;
+		    font-family: 'Poppins', sans-serif;
+		    letter-spacing: 2px;
+		    overflow: hidden;
+		    -webkit-line-clamp: 2;
+		    display: -webkit-box;
+		    -webkit-box-orient: vertical;
+		    text-overflow: ellipsis;
+		    white-space: normal;
+			&:after{
+				position: absolute;
+				content: "";
+				width: 50px;
+				height: 2px;
+				bottom: -.5rem;
+				left: 50%;
+				transform: translate(-50%,-50%)!important;
+				background: #fff;
+			}
+		}
+
+		.post-count{
+			font-size: .9rem;
+			text-transform: capitalize;
+			font-weight: 500;
+		}
+	}
+
+	&.term-layout-playlist{
+		.term-box{
+			height: 100%;
+			width: 30%;
+			right: 0;
+			top: 0;
+		}
+
+		.play-all-box{
+		    background: #000000a1;
+		    -webkit-transition: .3s;
+		    -o-transition: .3s;
+		    transition: .3s;
+		    opacity: 0;
+		}
+
+		.post-permalink:hover{
+			.play-all-box{
+				opacity: 1;
+			}
+		}
+	}
+
+	&.term-layout-overlay{
+
+		.post-bottom{
+			position: absolute;
+			left: .75rem;
+			bottom: .75rem;
+
+			.post-title{
+				position: relative;
+				a{
+					color: #f9f9f9;
+					padding-left: 1rem;
+				}
+
+				&:before{
+			    	content: "";
+				    position: absolute;
+				    left: 0;
+				    top: 9px;
+				    width: 7px;
+				    height: 7px;
+				    border: 1px solid #ce1212;
+				    border-radius: 50%;
+	    			background: #ce1212;
+				}
+			}
+		}
+	}
+}
+
+.terms-menu{
+	.term-item{
+		a{
+			text-transform: capitalize;
+		    background: #e2e2e2;
+		    color: #111;
+		    border-radius: 8px;
+		    padding: 0.25rem 0.75rem;
+		    text-decoration: none;
+		    display: block;
+
+		   &:hover{
+		   		opacity: .8;
+		   }
+		}
+
+		&.current{
+			a{
+				background: #222;
+				color: #fff;
+			}
+		}
+	}
+
+	&.no-slick{
+		.term-item{
+			display: inline-block;	
+	    	margin: 0.5rem;
+		}		
+	}
+
+	&.slick-initialized{
+
+		.slick-arrow:before{
+			color: #1b1b1b;
+		}
+
+		.slick-prev + .slick-list{
+		    margin-left: 2rem!important;
+		    margin-right: 2rem!important;			
+		}
+	}
+}

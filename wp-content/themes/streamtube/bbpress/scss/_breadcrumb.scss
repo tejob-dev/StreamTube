@@ -1,0 +1,28 @@
+.forum-title{
+	font-family: 'Poppins', sans-serif;
+}
+
+div.bbp-breadcrumb{
+	font-size: 90%;
+	color: #444;
+
+	a{
+		color: #444;
+   		text-decoration: none;
+	}
+
+	.bbp-breadcrumb-sep{
+		color: #aaa;
+		margin: 0 0.2rem;
+	}
+
+	.bbp-breadcrumb-current{
+		color: #aaa;
+	}
+}
+
+#bbpress-forums{
+	.bbp-breadcrumb{
+		display: none;
+	}
+}

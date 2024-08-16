@@ -1,0 +1,22 @@
+html[data-theme=dark]{
+	.terms-menu{
+		.term-item{
+			a{
+				background: #333;
+				color: #fff;
+			}
+
+			&.current{
+				a{
+					background: #ce1212;
+				}
+			}			
+		}
+
+		&.slick-initialized{
+			.slick-arrow:before{
+				color: #fff;
+			}
+		}		
+	}
+}

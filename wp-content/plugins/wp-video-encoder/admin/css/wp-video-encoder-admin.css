@@ -1,0 +1,25 @@
+.encode-status__reencode {
+    display: flex;
+}
+
+.wpve-progress {
+    display: flex;
+    height: 1.2rem;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: #e9ecef;
+    border-radius: .25rem;
+}
+
+.wpve-progress .progress-bar {
+	background: #1dbf56;
+	padding: .1rem .5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	overflow: hidden;
+	color: #fff;
+	text-align: center;
+	white-space: nowrap;
+	transition: width .6s ease;
+}

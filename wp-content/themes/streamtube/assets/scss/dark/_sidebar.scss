@@ -1,0 +1,188 @@
+html[data-theme=dark]{
+    .widget-title-wrap {
+        border-bottom: 1px solid #333;
+    }
+
+    .widget-title{
+        color: #f9fafb;
+    }
+
+    .widget{
+        color: #f9f9f9;
+        a{
+            color: #f9f9f9;
+        }
+    }
+
+    table, .wp-block-table {
+        th,
+        td{
+            border: 1px solid #333;
+            padding: 1rem;
+        }
+    }    
+
+    .wp-block-archives-list,
+    .wp-block-latest-posts__list,
+    .wp-block-latest-comments,
+    .wp-block-categories-list{
+        li{
+            border-bottom: 1px solid #222;    
+        }
+    }
+
+    .widget_archive,
+    .widget_categories,
+    .widget_pages,
+    .widget_meta,
+    .widget_recent_comments,
+    .widget_recent_entries,
+    .widget_rss,
+    .widget_nav_menu,
+    .widget_product_categories,
+    .widget_top_rated_products,
+    .widget_recently_viewed_products,
+    .widget_recent_reviews,
+    .widget_products,
+    .dokan-store-menu{
+        ul{
+            li{
+                border-bottom: 1px solid #222;    
+            }
+        }
+    }
+
+    .widget_top_rated_products,
+    .widget_recently_viewed_products,
+    .widget_recent_reviews,
+    .widget_products{
+        ul{
+            li{
+                .product-title{
+                    color: #f9fafb;
+                }
+            }
+        }
+    }    
+
+    .tagcloud{
+        a{
+            background-color: #333;
+        }
+    }    
+
+    .widget-filter{
+        .list-cloud{
+            > div{
+                span{
+                    border: 1px solid #444;
+                    background: #666;
+                }
+
+                input{
+                    &:checked + span{
+                        background: #05758b;
+
+                        &:before{
+                            color: #fff;
+                        }
+                    }
+                }                
+            }
+        }
+    }
+
+    .widget-videos-playlist{
+        .post-grid{
+
+            .post-item{
+
+                border-bottom: 1px solid #222;
+                
+                &.active{
+                    background: #222;
+                }
+            }
+        }        
+    }   
+
+    .playlist-content-widget{
+
+        .btn__icon{
+            color: #f9fafb;
+        }
+
+        .playlist-item{
+            &.active,
+            &:hover{
+                background: #222;
+            }
+        }
+    }
+
+    .widget-taxonomy{
+        .categorydiv{
+
+            .category-tabs{
+
+                a{
+                    color: #dee2e6;
+                }
+
+                .tabs{
+                    a{
+                        background-color: #333;
+                        border-color: #444 #444 #333;  
+
+                    }
+                }
+            }
+        }
+
+        .taxonomy-add-new,
+        .categorychecklist{
+            border: 1px solid #333;
+        }
+
+        .taxonomy-add-new{
+            background: #444;
+        }
+
+        input[type=button]{
+            background: #006df8!important;
+            color: #f9fafb; 
+        }
+    }    
+
+    .sidebar-primary{
+        .widget{
+            background: #1b1b1b;
+           
+        }    
+    }
+
+    .sidebar-secondary{
+
+        .nav-link{
+            color: #f9fafb; 
+        }
+
+        .dropdown-toggle{
+            &:after{
+                color: #f9fafb; 
+            }
+        }
+
+        .widget{
+            border-bottom: 1px solid #333;    
+        }
+
+        a{
+            color: #f9f9f9;
+        }
+
+        .dropdown-menu{
+            background: #222;
+        }      
+    }    
+}

@@ -1,0 +1,74 @@
+#bbpress-forums{
+
+	@media only screen and (max-width: 768px){
+
+		.bbp-header,
+		.bbp-footer{
+			display: none;
+		}
+
+		.bbp-body{
+
+			.bbp-forum-info,
+			.bbp-topic-title{
+				width: 100%!important;
+			}
+
+			.bbp-forum-topic-count,
+			.bbp-forum-reply-count,
+			.bbp-forum-freshness,
+			.bbp-topic-voice-count,
+			.bbp-topic-reply-count,
+			.bbp-topic-freshness{
+				display: none;
+			}
+		}
+
+	}
+
+	@media only screen and (max-width: 480px){
+		.bbp-body{
+			.bbp-topic-content,
+			.bbp-reply-content,
+			.bbp-reply-author,
+			.bbp-topic-author,
+			.bbp-forum-content{
+				margin-left: 0!important;
+				padding: 0!important;
+				width: auto!important;
+				.avatar{
+					width: 50px;
+					height: 50px;
+				}
+			}
+
+			.bbp-reply-author,
+			.bbp-topic-author{
+				min-height: 70px!important;
+				padding-left: 60px!important;
+			}
+		}
+
+		.bbp-pagination-count,
+		.bbp-pagination-links{
+			float: none;
+			display: block;
+			margin: 0 auto;
+			width: 100%;
+		}
+
+		.bbp-pagination-links{
+			margin-top: 1.5rem;
+		}
+	}
+
+	@media only screen and (max-width: 375px){
+		.bbp-body{
+			.bbp-forum-info__thumbnail,
+			.bbp-topic-avatar{
+				display: none;
+			}
+		}
+	}
+
+}

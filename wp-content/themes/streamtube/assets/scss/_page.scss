@@ -1,0 +1,15 @@
+.search-results{
+	.page-main{
+		.post-excerpt{
+			font-size: 1rem;
+		}
+	}
+}
+
+.edit-post{
+
+	.col_main{
+		height: calc( 100vh - 60px);
+		overflow-y: auto;
+	}
+}

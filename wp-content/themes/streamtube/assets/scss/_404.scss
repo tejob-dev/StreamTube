@@ -1,0 +1,19 @@
+.error-404-wrap{
+
+    h1{
+    	font-size: 10rem;
+    	font-family: 'Poppins', sans-serif;
+    	line-height: 1.2;
+    }
+
+    .btn{
+        border-radius: 35px;
+        text-transform: capitalize;
+    }
+
+    @media (max-width: 320px){
+        h1{
+            font-size: 7rem;
+        }
+    }
+}

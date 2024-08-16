@@ -1,0 +1,63 @@
+#bbpress-forums{
+	
+	fieldset.bbp-form{
+		input[type=text],
+		select{
+			padding: .375rem .75rem;
+			height: auto;					
+		}
+
+		legend{
+			font-size: 1.2rem;
+		}
+
+		.bbp-the-content{
+			min-height: 50px;
+			height: 100px;
+		}
+	}
+
+	.bbp-submit-wrapper{
+		button[type=submit]{
+			background: #ce1e1e!important;
+			border-color: #ce1e1e!important;
+			border-radius: 35px;		
+			color: #fff!important;	
+			padding: 0.5rem 2rem;
+			box-shadow: none;
+			border: none;				
+		}
+	}
+
+	.bbp-topic-form,
+	.bbp-reply-form{
+		background: #fff;
+		font-size: 1rem;
+		margin-bottom: 1.5rem;
+		
+		.quicktags-toolbar{
+			.ed_button{
+				font-size: 1rem;
+				text-transform: lowercase;
+			}
+		}
+
+		.bbp-the-content{
+			font-size: 1rem!important;	
+		}
+
+	}
+
+	.bbp-login-form{
+		display: none;
+		background: #fff;
+	}
+
+	.avatar{
+		border-radius: 50%;
+		padding: 0.25rem;
+		background-color: #fff;
+		border: 1px solid #dee2e6!important;		
+	}
+
+}

@@ -1,0 +1,113 @@
+.section-messages{
+
+    .user-name{
+    	font-size: .9rem;
+	    font-weight: 600;
+
+	    a{
+	    	text-decoration: none;
+	    }
+    }
+
+	.search_user-wrap{
+		margin: 0 -12px 0px -12px;
+
+		input[name="search_users"]{
+			border-radius: 35px;
+		}
+
+		button[type="submit"]{
+			right: 0;
+		}
+	} 
+
+	.list-message-wrap{
+		height: calc( 100vh - 60px );
+		.list-message__threads{
+			overflow-y: auto;
+		}
+
+		.list-message{
+			.badge{
+			    transform: translate(-50%, -50%);
+			    top: 50%;
+			    right: 0;				
+			}
+		}
+	}
+
+	.list-reply-wrap{
+		height: calc( 100vh - 60px );
+
+		.list-reply__top{
+			z-index: 1;
+			.user-name{
+				font-size: 1rem;
+			}
+
+			[class*=icon]{
+				color: #6c757d;
+			}
+
+			.icon-ellipsis-vert{
+				font-size: 1.5rem;
+			}
+		}
+
+		.list-reply__body{
+			overflow-y: auto;
+
+			.message{
+				.message_content{
+				    max-width: 30em;
+				}
+
+				&.mine{
+					text-align: right;
+
+					.message_content{
+						text-align: left;
+					}
+				}
+
+				&:last-child{
+					margin-bottom: 0px!important;
+				}
+			}
+		}
+	}
+
+	@media only screen and (max-width: 1000px) {
+
+		.list-message-wrap{
+			position: fixed;
+			top: 133px;
+			width: 84px;
+			background: #f8f9fa!important;
+
+			.user-avatar{
+				width: 50px;
+				height: 50px;
+			}
+		}
+
+		.list-reply__body,
+		.list-reply__bottom{
+			margin-left: 84px;
+		}
+	}
+
+	@media only screen and (max-width: 700px){
+		.list-reply__body{
+			.user-avatar{
+				display: none;
+			}
+
+			.message_content{
+				width: 100%!important;
+				max-width: 100%!important;
+			}
+		}
+	}
+
+}

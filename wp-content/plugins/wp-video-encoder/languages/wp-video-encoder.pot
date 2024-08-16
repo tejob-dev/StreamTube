@@ -1,0 +1,618 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: streamtube\n"
+"POT-Creation-Date: 2024-03-05 09:37+0700\n"
+"PO-Revision-Date: 2016-01-22 14:55+0700\n"
+"Last-Translator: \n"
+"Language-Team: https://themeforest.net/user/phpface\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: esc_html__;esc_html_e;__;_e;esc_attr_e;esc_attr__;_n\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../admin/class-wp-video-encoder-admin.php:103
+#: ../public/class-wp-video-encoder-public.php:113
+msgid "Encoding"
+msgstr ""
+
+#: ../admin/class-wp-video-encoder-admin.php:104
+#: ../admin/partials/encode-status.php:60
+#: ../public/class-wp-video-encoder-public.php:114
+msgid "Encoded"
+msgstr ""
+
+#: ../admin/class-wp-video-encoder-admin.php:105
+#: ../admin/partials/encode-status.php:39
+#: ../public/class-wp-video-encoder-public.php:116
+msgid "Waiting"
+msgstr ""
+
+#: ../admin/class-wp-video-encoder-admin.php:106
+#: ../admin/partials/encode-status.php:71
+#: ../public/class-wp-video-encoder-public.php:117
+msgid "Failed"
+msgstr ""
+
+#: ../admin/class-wp-video-encoder-admin.php:113
+msgid "Sorry, you do not have permission to view log."
+msgstr ""
+
+#: ../admin/class-wp-video-encoder-admin.php:127
+msgid "Log file was not found."
+msgstr ""
+
+#: ../admin/class-wp-video-encoder-admin.php:145
+#: ../admin/class-wp-video-encoder-admin.php:198
+#: ../admin/partials/encode-status.php:82
+msgid "Encode"
+msgstr ""
+
+#: ../admin/class-wp-video-encoder-admin.php:146
+msgid "Date"
+msgstr ""
+
+#: ../admin/class-wp-video-encoder-admin.php:199
+msgid "Generate Thumbnail Image"
+msgstr ""
+
+#: ../admin/class-wp-video-encoder-admin.php:200
+msgid "Generate Animated Image"
+msgstr ""
+
+#: ../admin/class-wp-video-encoder-admin.php:304
+#, php-format
+msgid "%s post has been moved into the encode queue."
+msgstr ""
+
+#: ../admin/partials/encode-status.php:50
+msgid "encoding"
+msgstr ""
+
+#: ../admin/partials/encode-status.php:97
+msgid "Re-encode"
+msgstr ""
+
+#: ../admin/partials/encode-status.php:109
+msgid "Log"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:33
+#, php-format
+msgid "%s function is disabled"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:52
+#: ../includes/class-wp-video-encoder-site-health.php:63
+msgid "WP Video Encoder"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:57
+msgid "General"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:71
+msgid "Encoder Version"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:75
+msgid "Version 1 - Legacy"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:76
+msgid "Version 2 - Recommended"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:88
+msgid "FFmpeg bin Path"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:101
+msgid "Auto Generate Thumbnail Image"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:102
+msgid "Auto generate video image after uploading."
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:115
+msgid "Auto Generate Animated Image"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:116
+msgid "Auto generate video animated (webp) image after uploading."
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:129
+msgid "Auto Encode"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:130
+msgid "Auto encode file after uploading."
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:143
+msgid "Nice"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:144
+msgid "Run at a lower priority to prevent crashing system resources."
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:157
+msgid "Nice Bin Path"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:174
+msgid "Nice Priority Value"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:191
+msgid "Encode Threads"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:192
+msgid "Maximum FFmpeg encode threads"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:205
+msgid "Allow Formats"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:218
+msgid "Video Codec"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:222
+msgid "H.264"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:234
+msgid "H.264 Profile"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:238
+#: ../includes/class-wp-video-encoder-customizer.php:352
+msgid "None"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:239
+msgid "Baseline"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:240
+msgid "Main"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:241
+msgid "High"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:257
+msgid "Method to fix encoded H.264 headers for streaming"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:261
+msgid "none"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:262
+msgid "movflags faststart"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:278
+msgid "Encode quality control method"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:282
+msgid "Constant Rate Factor (CRF)"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:294
+msgid "H.264 Constant Rate Factors (CRF)"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:311
+msgid "HLS PlayList Type"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:315
+#: ../includes/class-wp-video-encoder-customizer.php:334
+msgid "Default"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:316
+msgid "Vod"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:317
+msgid "Event"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:318
+msgid "Live"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:330
+msgid "HLS Segment Type"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:335
+msgid "MPEGTS"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:336
+msgid "FMP4"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:348
+msgid "HLS Flags"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:368
+msgid "HLS Segment Folder Name"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:372
+#: ../includes/class-wp-video-encoder-customizer.php:510
+msgid "Resolution"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:373
+msgid "Index"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:375
+msgid "Structure of segment folder name"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:386
+msgid "Strict 2"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:389
+msgid "Add -strict -2 parameter"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:400
+msgid "Extra Parameters"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:403
+msgid "Add your extra parameters"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:421
+msgid "Auto publish parent post"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:422
+msgid "Auto publish post after encode done."
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:435
+msgid "Notification"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:436
+msgid "Auto send notification to the author after encode done."
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:449
+msgid "Admin Ajax"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:450
+msgid "Enable admin ajax request instead of Rest."
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:456
+msgid "Animated Image"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:470
+msgid "Start At"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:483
+msgid "Setpts"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:496
+msgid "Length"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:499
+msgid "Length of animated image, default is 5 seconds"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:523
+msgid "Image File Type"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:526
+msgid "Image File Type: webp or gif"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:531
+#: ../includes/class-wp-video-encoder-customizer.php:548
+msgid "Watermark"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:549
+msgid "Upload your own watermark"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:563
+msgid "Position"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:566
+msgid "Top Right"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:567
+msgid "Top Left"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:568
+msgid "Bottom Right"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:569
+msgid "Bottom Left"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:570
+msgid "Center"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:583
+msgid "Size"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:586
+msgid "Fixed"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:587
+msgid "Percentage Of Video Width"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:588
+msgid "Percentage Of Video Height"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:601
+msgid "Percentage"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:603
+msgid "E.g: 0.3 or 0.5, 1 is equal to Video Width"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:620
+msgid "Padding"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:633
+msgid "Opacity"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:635
+msgid "E.g: 0.5 or 0.8, 1 is no opacity."
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:640
+msgid "Encrypt"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:654
+msgid "Enable"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:667
+msgid "HLS Encryption File Info Endpoint"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:671
+#, php-format
+msgid "Leave this as default or change to an unique endpoint, once changing this option, you have to update %s"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:675
+msgid "Permalinks"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:692
+msgid "HLS Encryption File URL"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:695
+msgid "Encryption file URL, keep it accessible forever during your website lifetime, using for segment encryption, if the file is not found, we cannot decrypt your encoded videos."
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:714
+msgid "HLS Encryption File"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:715
+msgid "Upload the Encryption file here"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:733
+msgid "HLS Encrypt Initialisation Vector"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:736
+msgid "For segment encryption, optional"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:744
+msgid "Resolutions"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:758
+msgid "426x240 Resolution"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:761
+msgid "Enable 426x240 resolution"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:772
+msgid "640x360 Resolution"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:775
+msgid "Enable 640x360 resolution"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:786
+msgid "854x480 Resolution"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:789
+msgid "Enable 854x480 resolution"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:800
+msgid "1280x720 (HD 720) Resolution"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:803
+msgid "Enable 1280x720 resolution"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:814
+msgid "1920x1080 (HD 1080) Resolution"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:817
+msgid "Enable 1920x1080 resolution"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:832
+msgid "2560x1440 (HD 1440) Resolution"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:835
+msgid "Enable 2560x1440 resolution, this may hurt your server resource."
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:846
+msgid "3840x2160 (4K) Resolution"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-customizer.php:849
+msgid "Enable 3840x2160 resolution, this may hurt your server resource."
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-encoder.php:473
+msgid "Cannot create folder."
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-encoder.php:1197
+msgid "Exec function was not found."
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-encoder.php:1278
+#: ../includes/class-wp-video-encoder-encoder.php:1323
+#: ../includes/class-wp-video-encoder-encoder.php:1397
+#: ../includes/class-wp-video-encoder-encoder.php:1577
+msgid "Metadata was not found"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-encoder.php:1348
+msgid "File length was not found."
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-encoder.php:1408
+#: ../includes/class-wp-video-encoder-encoder.php:1588
+msgid "File resolution was not found."
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-encoder.php:1546
+msgid "Cannot read/write file playlist.m3u8"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-notify.php:55
+#, php-format
+msgid "Your video is now on %s"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-notify.php:60
+#, php-format
+msgid "Your video %s is now ready to watch on %s"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-post.php:103
+#: ../includes/class-wp-video-encoder-post.php:162
+msgid "Invalid Video Format or Attachment was not found"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-post.php:125
+msgid "Undefined Error"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-post.php:196
+msgid "Failed, unknown error"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-post.php:318
+msgid "Waiting ..."
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-post.php:353
+msgid "The video is currently queued for encoding."
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-post.php:354
+msgid "The video is currently being encoded."
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-post.php:355
+msgid "Encoding has failed."
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-schedule.php:41
+msgid "5 minutes"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-site-health.php:26
+msgid "Not found"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-site-health.php:66
+msgid "Version"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-site-health.php:71
+msgid "Settings"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-site-health.php:76
+msgid "FFmpeg Version"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-site-health.php:81
+msgid "FFmpeg HLS"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-site-health.php:86
+msgid "FFmpeg Segments"
+msgstr ""
+
+#: ../includes/class-wp-video-encoder-site-health.php:91
+msgid "FFmpeg H264"
+msgstr ""
+
+#: ../public/class-wp-video-encoder-public.php:115
+msgid "Queued"
+msgstr ""

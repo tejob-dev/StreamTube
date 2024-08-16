@@ -1,0 +1,62 @@
+.googlesitekit-reports{
+
+	.custom-tooltip{
+	    font-size: .9rem;
+	}
+
+	.percent-icon-up{
+		color: #1ae21a;
+	}
+
+	.percent-icon-down{
+		color: #dc3545;
+	}
+	
+	.analytics-tab{
+		padding: 2rem;
+		text-align: center!important;
+		cursor: pointer;
+
+		.analytics-tab__label{
+			font-size: 1rem;
+			color: #6c757d;
+		}
+
+		.total-number{
+			padding: 1rem;
+			h3{
+				font-size: 3rem;
+			}
+		}
+
+		.percent{
+			font-size: 1.2rem;
+		}
+
+		&.active{
+			border-bottom: 4px solid #4285f4;
+		}		
+	}
+
+	.analytics-section{
+		padding: 3rem;
+
+		.analytics-section__header{
+			margin: 0 -0.75rem auto -0.75rem;
+
+			.section-title{
+				font-size: 1.2rem;
+			}
+		}
+
+		.analytics-section__content{
+			min-height: 150px;
+			width: 100%;
+		}
+	}
+
+	.google-visualization-tooltip { 
+		width: 300px ;
+		padding: 1rem;
+	}	
+}

@@ -1,0 +1,110 @@
+html[data-theme=dark]{
+
+	.preloader{
+    	background: #121212;
+	}
+
+	.select2-container--default{
+
+		.select2-selection{
+			background: #111;
+			border: 1px solid #333 !important;	
+		}
+
+		.select2-search__field{
+			background-color: #111!important;
+			border: 1px solid #111 !important;	
+		}		
+
+		.select2-selection--single {
+			border: 1px solid #333 !important;
+			background-color: #222;
+			.select2-selection__rendered{
+				color: #f9f9f9;
+			}
+		}		
+
+		.select2-results__options{
+			.select2-results__option{
+				background: #222!important;
+			}
+			.select2-results__option[data-selected=true],
+			.select2-results__option--highlighted{
+				background: #444!important;
+			}			
+		}		
+	}
+
+	.select2-search--dropdown {
+	    background: #222;
+	}	
+
+	.select2-dropdown{
+		border: 1px solid #333;
+	}
+
+	.btn-upnext{
+	    &.auto-next{
+	        background: #ce1212 !important;
+	        span{
+	            color: #fff!important;
+	        }
+	    }
+	}	
+
+	.chapter-list{
+		border: 1px solid #333;
+		background: #222;
+
+		li{
+			border-bottom: 1px solid #333;
+		}
+	}
+
+	.ph-item {
+
+	    &:before{
+	        background: linear-gradient(90deg,#ffffff00 46%,#ffffff0f 50%,#ffffff00 54%) 50% 50%;
+	    }	
+
+	    .ph-picture,
+	    .ph-avatar,
+	    .ph-row div {
+    		background-color: #222;
+    	}
+
+	    .ph-row{
+	        .empty{
+	            background-color: transparent!important;
+	        }    
+	    }    	
+	}	
+
+	.woocommerce-breadcrumb,
+	.aioseo-breadcrumbs{
+		color: #eee;
+
+		span{
+			color: #eee;
+		}
+
+		a{
+			color: #f9f9f9;
+		}
+	}
+
+	.daterangepicker{
+		background-color: #222;
+		border-color: #333;
+
+		.calendar-table {
+		    border-color: #444;
+		    background-color: #333;
+
+		    td,
+		    th{
+		    	font-size: .8rem;
+		    }
+		}		
+	}
+}

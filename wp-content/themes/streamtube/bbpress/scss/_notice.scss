@@ -1,0 +1,27 @@
+div.bbp-template-notice{
+
+	margin-left: 0;
+	margin-bottom: 20px;
+    background-color: #fff!important;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+    border-color: transparent!important;
+    border-left: 4px solid #72aee6!important;
+    padding: 5px 15px;
+    color: #212529;
+	li,
+	p{
+		font-size: 1rem;
+	}
+
+	a{
+		font-weight: 600;
+	}
+
+	&.info{
+		border-left-color: #dfedf1;
+    }
+
+    &.error{
+    	border-left-color: #d63638!important;
+    }
+}

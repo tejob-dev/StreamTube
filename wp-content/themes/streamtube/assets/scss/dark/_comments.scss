@@ -1,0 +1,61 @@
+html[data-theme=dark]{
+
+	.comments-list{
+		.comment{
+			border-bottom: 1px solid #222;
+
+			&:hover{
+				background: #1f1f1f;
+			}
+
+			.btn__icon{
+				color: #f9fafb;
+			}
+		}
+
+		.comment-reply-link,
+		.comment-reply-login{
+			color: #f9fafb;
+		}	
+
+		.comment-read-more,
+		.comment-read-less{
+			color: #ce1212!important;
+		}
+
+		.comment-text-js{
+			.bg-overlay{
+				background: linear-gradient(180deg, rgba(242, 242, 242, 0) 0%, #1b1b1b 100%);
+			}
+
+			.comment-show-more{
+				background: none;
+			}
+		}
+	}		
+
+	.comment-respond{
+
+		border-top: 1px solid #333;
+
+		.must-log-in{
+			a{
+				color: #f9fafb;
+			}
+		}
+
+		.form-submit{
+			border-top: 1px solid #333;
+
+			button[type="submit"]{
+			    background: #ce1212;
+			}
+		}		
+	}
+
+	.comments--fixed{
+		.comment-respond{
+			border-top: 1px solid #333;			
+		}
+	}
+}

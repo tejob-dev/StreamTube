@@ -1,0 +1,44 @@
+html[data-theme=dark]{
+
+	.section-profile-header{
+		background: #111!important;
+	}
+
+	.profile-nav{
+		background: #111;
+
+		@media (max-width: 992px){
+			background: #222;
+		}
+	}	
+
+	.profile-top{
+
+		.profile-header__photo{
+			.profile-photo{
+				background-color: #222;
+			}
+		}
+
+	}
+
+	.profile-nav {
+		&.navbar{
+			.nav-link{
+	    		color: #f9fafb;
+			}
+
+			@media (max-width: 992px){
+				border-top: 1px solid #222;
+			}			
+		}
+	}	
+
+	.profile-forums{
+		#bbp-user-navigation{
+			.nav-tabs{
+				border-bottom: 1px solid #333;
+			}
+		}
+	}
+}

@@ -1,0 +1,100 @@
+html[data-theme=dark]{
+	.user-dashboard{
+
+		.btn__icon{
+			color: #f9f9f9;
+		}
+
+		.col_main{
+			background: #111;
+
+			.social-login-account{
+				.nsl-container-buttons{
+
+					.nsl-button-google[data-skin=light]{
+					    background-color: #333!important;
+					    color: #f9f9f9;
+					}				
+				}
+			}			
+
+		    .widget-live-chat-settings{
+		    	.bp-better-messages-roles-list{
+		    		background: #121212;
+		    		border: 1px solid #222;
+
+					li{
+						border-bottom: 1px solid #222;		
+					}
+
+		    		li:first-child a{
+		    			color: #f9f9f9;
+		    		}
+		    	}
+		    }
+
+		}
+
+		.nav-tabs{
+			border-bottom: 1px solid #444;
+			.nav-link{
+				&.active,
+				&:hover{
+					background-color: #333;
+					border-color: #444 #444 #333;	
+				}		
+			}
+		}
+
+		table{
+			color: #f9f9f9;
+			th,
+			td{
+				border-bottom: 1px solid #333!important;
+				background: transparent;
+			}
+
+			td{
+				border: 1px solid #333!important;
+			}
+
+			tr{
+				background: none!important;
+				border: 1px solid #333!important;
+				&:hover{
+					color: #f9f9f9;
+				}
+			}
+
+			.table-warning{
+				--bs-table-bg: #222;
+				color: #fff;
+				&:hover{
+					--bs-table-accent-bg: #1b1a1a;
+				}
+			}
+
+			.post-thumbnail{
+				background: #444!important;
+			}
+
+			.progress{
+				background-color: #333!important;
+			}			
+		}
+
+		table.shop_table{
+			th,
+			td{
+				padding: 1rem;
+			}
+		}
+
+		@media only screen and (max-width: 760px),
+		(min-device-width: 768px) and (max-device-width: 1024px) {
+		    tr {
+		        border: 1px solid #333;
+		    }		
+		}		
+	}
+}

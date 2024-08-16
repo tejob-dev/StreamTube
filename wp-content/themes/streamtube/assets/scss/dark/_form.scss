@@ -1,0 +1,131 @@
+html[data-theme=dark]{
+    input[type="text"],
+    input[type="search"],
+    input[type="email"],
+    input[type="password"],
+    input[type="url"],
+    input[type="tel"],
+    .input-text,
+    textarea,
+    select,
+    .form-control{
+        color: #f9f9f9;    
+        border: 1px solid #333!important;
+        background-color: #222;
+
+        &:focus{
+            background-color: #222!important;
+        }
+
+        &:-webkit-autofill,
+        &:-webkit-autofill:hover, 
+        &:-webkit-autofill:focus{
+            color: #f9f9f9!important;
+            background-color: #222!important;
+            -webkit-box-shadow: 0 0 0 1000px #1b1b1b inset !important;
+            -webkit-text-fill-color: #f9f9f9 !important;
+        }
+
+    }
+
+    input[type="datetime-local"],
+    input[type="date"]{
+        &::-webkit-calendar-picker-indicator{
+            filter: invert(1);
+        }
+    }
+
+    .ui-timepicker-input{
+        color: #f9f9f9!important;
+    }
+
+    .form-check-input{
+    	background-color: #444;
+    }
+
+    .taginput-wrap {
+    	background-color: #222 !important;
+    	border: 1px solid #333;
+    }
+
+    .bootstrap-tagsinput{
+
+        .tt-menu,
+        .tag{
+            background: #555;
+        }
+
+    	input[type="text"]{
+            border: none;
+    	}
+
+        .tt-menu{
+            .tt-suggestion{
+                color: #f9f9f9;
+            }
+        }
+    }
+
+    .btn-close{
+        filter: invert(1) grayscale(100%) brightness(200%);
+    }
+
+    .ui-timepicker-list{
+        li{
+            color: #f9f9f9;
+        }
+    }
+
+    .ui-timepicker-wrapper{
+        background-color: #333;
+        border: 1px solid #444;        
+    }
+
+    .drag-drop-upload{
+        .progress{
+            background: #333;
+            border: 1px solid #444;
+        }        
+    }
+
+    .modal-content .widget-content {
+        background: #222;
+    } 
+
+    .wpcf7-form{
+        .wpcf7-not-valid{
+            border-color: #dc3545!important;
+        }
+    }
+
+    div.wpforms-container-full{
+        .wpforms-form{
+            input[type=text],
+            input[type=password],
+            input[type=url],
+            input[type=email],
+            input[type=number],
+            select,
+            textarea,
+            .wpforms-field-description,
+            .choices__inner{
+                color: #f9f9f9;
+                border: 1px solid #333 !important;
+                background-color: #222!important;
+            } 
+
+            .choices__list--dropdown{
+                background-color: #222 !important;
+                border: 1px solid #333 !important;
+                color: #f9f9f9;
+                .is-highlighted{
+                    background-color: #444!important;
+                }
+            }
+
+            .wpforms-error{
+                color: #dc3545;
+            }           
+        }
+    }    
+}

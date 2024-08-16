@@ -1,0 +1,36 @@
+html[data-theme=dark]{
+	.googlesitekit-reports{
+
+		a{
+			color: #f9f9f9!important;
+		}	
+
+		.item-path{
+			a{
+				color: #a4afb7!important;
+			}
+		}
+
+		.google-visualization-tooltip {
+		    background: #444;
+		    border-color: #444;
+		    color: #fff;
+		}
+
+		.google-visualization-tooltip > ul > li > span{
+		    color: #fff!important;
+		}
+
+		.analytics-tabs{
+			.analytics-tab{
+				&.active{
+					background-color: #222;
+					border-color: #333 #333 #0d6efd;
+				}
+			}			
+		}
+
+
+
+	}
+}

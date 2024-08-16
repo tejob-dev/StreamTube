@@ -1,0 +1,21 @@
+html[data-theme=dark]{
+	.post-review {
+		border-top-color: #222 !important;
+	    background: #1b1b1b !important;
+	    .review-summary{
+	    	h4{
+				color: #f9f9f9;
+	    	}
+	    }
+
+	    .review-score{
+	    	span{
+	    		color: #f9f9f9;
+	    	}
+	    }
+
+	    .criteria{
+	    	background: #222;
+	    }
+	}	
+}

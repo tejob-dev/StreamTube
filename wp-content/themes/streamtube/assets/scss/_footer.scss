@@ -1,0 +1,95 @@
+.site-footer{
+	background: #191919;
+	color: #f9f9f9;
+	border-top: 1px solid #222;
+	a{
+		color: #f9f9f9;
+	}
+
+	.widget-title-wrap {
+	    border-bottom: 1px solid #222;
+	}
+
+	.widget-title{
+		color: #fff;
+	}	
+
+	.widget{
+		a{
+			color: #f9f9f9;
+		}
+	}
+
+	.footer-sidebar{
+		padding: 3rem 0.75rem 1.5rem 0.75rem;
+		border-bottom: 1px solid #222;
+		
+		input[type="text"],
+		input[type="password"],
+		input[type="email"],
+		input[type="url"],
+		select{
+			background-color: #222;
+			border: 1px solid #333;
+			color: #f9f9f9;
+
+			&:focus{
+				background-color: #333!important;
+			}		
+
+			&::placeholder {
+				color: #ccc;
+				opacity: 1;
+			}
+
+			&:-ms-input-placeholder {
+				color: #ccc;
+			}
+
+			&::-ms-input-placeholder {
+				color: #ccc;
+			}				
+		}
+
+		table{
+			td,
+			th{
+				border: 1px solid #333;
+			}
+		}
+
+		.widget_archive,
+		.widget_categories,
+		.widget_pages,
+		.widget_meta,
+		.widget_recent_comments,
+		.widget_recent_entries,
+		.widget_rss,
+		.widget_nav_menu{
+			li{
+				border-bottom: 1px solid #222;
+				padding: .5rem 0;			
+
+				&:last-child{
+					border-bottom: 0;
+					padding-bottom: 0;
+				}
+			}
+		}
+
+		.tagcloud{
+			a{
+				background-color: #333;
+			}
+		}
+
+		.logo{
+			max-width: 160px;
+		}
+	}
+}
+
+.footer-text{
+    border-top: 1px solid #222;
+    background: #111;
+}

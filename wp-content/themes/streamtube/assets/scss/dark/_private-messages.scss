@@ -1,0 +1,556 @@
+html[data-theme=dark]{
+
+	.uppy-Dashboard--modal{
+
+		.uppy-Dashboard-overlay{
+			background-color: #000000d6;
+		}
+
+		.uppy-Dashboard-FileCard-inner,
+		.uppy-Dashboard-FileCard-preview,
+		.uppy-Dashboard-AddFilesPanel{
+			background-color: #222!important;
+		}
+
+		.uppy-Dashboard-inner{
+			background-color: #222;
+
+			.UppyIcon {
+			    stroke: #fafbfc;
+			}
+
+			.uppy-Dashboard-close,
+			.uppy-Dashboard-AddFiles-title,
+			.uppy-DashboardTabs-title,
+			.uppy-Dashboard-dropFilesTitle,
+			.uppy-Dashboard-Item-fileName,
+			.uppy-Dashboard-FileCard-label{
+				color: #f9f9f9;
+			}
+
+			.uppy-DashboardContent-bar {
+				align-items: center;
+				color: #f9f9f9;
+				background-color: #333;
+				border-bottom: 1px solid #333;
+
+				button{
+					color: #f9f9f9;
+				}
+			}			
+		}
+
+		.uppy-StatusBar-actions,
+		.uppy-Dashboard-FileCard-actions{
+		    background: #222;
+		    border-top: 1px solid #333!important;			
+		}
+
+		.uppy-StatusBar{
+			border: none!important;
+		}
+	}
+
+	.bm-login-form{
+		background: #1b1b1b;
+		border: 1px solid #333!important;;
+		color: #f9f9f9;
+
+		.bm-login-text{
+			color: #f9f9f9;
+		}
+	}	
+	
+	.bp-messages-wrap{
+		border: 1px solid #333;
+		color: #f9f9f9;
+		background: #1b1b1b;
+
+		p{
+			font-size: 1rem;
+		}
+
+		label{
+			color: #f9f9f9;
+		}
+
+		.bm-conversation-exist{
+		    background: #222;
+		    color: #fff;	
+		    border-bottom: 1px solid #333;		
+		}
+
+		.empty-thread{
+			svg,
+			span{
+				color: #f9f9f9;
+			}
+		}
+
+		.starred-messages,
+		.bpbm-maximize,
+		.bpbm-minimize,
+		.bpbm-empty-icon,
+		.bpbm-empty-message,
+		.bpbm-empty-or,
+		.bpbm-user-option-description,
+		.mass-message,
+		.back{
+			color: #f9f9f9!important;
+		}
+
+		.bm-mentions{
+			background: #222;
+			border-top: 1px solid #333;	
+			.bm-mention{
+				border-top: 1px solid #333;		
+			}
+
+			.bm-mention-active{
+				background: #333;
+			}
+		}
+		
+        .bpbm-dropdown-menu{
+        	background: #333;
+        	border-color: #444;
+
+        	.bpbm-dropdown-item{
+        		color: #f9f9f9;
+        	}
+        }		
+
+    	.bp-messages-user-list{
+			background: #1b1b1b;
+
+            div.user{
+            	border-bottom: 1px solid #1b1b1b;
+            	padding: 5px 0;
+            	&:hover{
+            		opacity: .7;
+            		background: #1b1b1b!important;
+            	}
+
+            	.user:hover{
+            		background: none!important;
+            	}
+
+            	a.user,
+            	.open-profile{
+            		color: #f9f9f9!important;
+            	}
+
+            	a.user{
+            		font-weight: 600;
+            	}
+            }
+    	}    
+
+        .chat-footer,
+		.chat-header{
+			background: #1b1b1b;
+			border-bottom: 1px solid #333;
+			border-top: 1px solid #333;
+			.new-message,
+			.settings{
+				color: #f9fafb!important;
+			}
+
+			.thread-info{
+				.thread-info-data,
+				.name,
+				.bm-name,
+				.bm-name a{
+					color: #f9f9f9!important;
+				}
+			}
+
+			.thread-actions{
+				>span,
+				.expandingButtons{
+					color: #f9f9f9!important;
+				}
+			}
+
+			.bpbm-search form input{
+				background: #222!important;
+				color: #f9fafb!important;
+				border: 1px solid #333!important;				
+
+				&::placeholder{
+					color: #f9fafb!important;
+				}
+
+				&:focus{
+					border-color: #444!important;				
+				}
+			}
+		}
+
+		.bm-search-results-header{
+			color: #f9f9f9 !important;
+			background: #1b1b1b!important;
+			border-bottom-color: #333!important;
+		}
+
+		.bm-messages-list{
+
+			.bm-list .bm-messages-stack .bm-content .bm-messages-listing .bm-message{
+
+			    .bm-message-content-text{
+			        color: #f9f9f9;
+
+			        a{
+			        	color: #f9f9f9!important;
+			        }
+
+			        .url-wrap{
+			            border: 1px solid #222!important;
+
+				        .url-description{
+				        	.url-title,
+				        	.url-site{
+				        		color: #f9f9f9!important;
+				        	}
+				        }	            
+			        }
+
+					.bm-mention{
+						background-color: #666!important;
+					}			        		                
+			    }
+		    }
+	    }
+
+		.bpbm-chat-content{
+
+			background: #1b1b1b;
+
+			.bm-name a,
+			.bm-name .user{
+				color: #f9f9f9 !important;
+				
+				&:hover{
+					background: none!important;
+				}
+			}
+			
+			.bm-time,
+			.bm-message-content{
+				color: #f9f9f9!important;
+			}		
+
+			.bm-thread-settings{
+				background: #1b1b1b;
+
+				border-bottom: 1px solid #222;
+
+				#rename_thread{
+					border: 1px solid #1b1b1b!important;
+				}
+
+				.bpbm-thread-option-description{
+					color: #f9f9f9;
+				}
+			}
+
+			.bm-thread-settings-container,
+			.participants-panel,
+			.bp-messages-user-list{
+				background: #1b1b1b;
+			}
+
+			.bp-messages-user-list{
+
+				.actions{
+					span{
+						color: #f9f9f9!important;
+					}
+				}
+			}
+
+		    .participants-panel{
+		    	background: #1b1b1b;
+		    }			
+		}
+
+		.bpbm-preview-message{
+		    border-top: 1px solid #333;
+			background: #111;
+		}
+
+		.bm-reply{
+			border-top: 1px solid #333;
+			background: #1b1b1b;
+			
+			>*{
+				background: #1b1b1b;
+			}
+
+			.bm-editor-content:empty::before{
+				color: #f9f9f9;
+			}	
+
+			.bm-attachment,
+			.bm-emojies,
+			.bm-send-message{
+				color: #f9f9f9;
+			}		
+
+			.bm-reply-restricted{
+				margin: 0;
+				border-radius: 0;
+				font-size: 1rem;
+			}
+
+			.bm-editor{
+				.bm-inline-mention{
+					background: #444;
+				}				
+			}
+
+			.bm-editor-content{
+				background: #1b1b1b!important;
+				color: #f9f9f9!important;
+			}		
+		}
+
+		.bp-messages-side-threads{
+	        >*{
+	        	border-right: 1px solid #333;
+	        }
+		}
+
+		.threads-list{
+			.bm-info{
+				h4,
+				.name{
+					color: #f9f9f9!important;
+				}
+			}
+
+			.thread{
+				background: #222;
+
+				>*{
+					border-bottom: 1px solid #333;
+				}
+
+				&:hover>*{
+					background: #222!important;
+					opacity: .8;
+				}
+
+				.name,
+				.name + h4{
+					color: #f9f9f9;
+				}
+
+				.bm-last-message-content{
+					color: #aaa;
+				}
+
+			}
+
+	        .bp-messages-active-thread{
+	            background: #333!important;
+	        }
+		}
+
+		.bm-messages-list{
+			.bm-list{
+				.bm-conversation-start{
+					color: #f9f9f9 !important;
+				}
+			}
+
+			.bm-unread-messages{
+				color: #f9f9f9;
+			}
+
+	        &.bm-template-modern{
+
+	            .bm-messages-stack{
+
+	                &.outgoing{
+
+	                	.bm-name a{
+	                		color: #f9f9f9 !important;
+	                	}
+
+	                	.bm-message{
+		                    .bm-message-content{
+		                        background: #333!important;
+		                        color: #f9f9f9 !important;
+
+		                        .bm-message-info .bm-time,
+		                        .bm-message-content-text,
+		                        .bm-replied-message .bm-replied-message-name .bm-user,
+		                        .bm-replied-message .bm-replied-message-text{
+		                        	color: #f9f9f9 !important;
+		                        }
+
+		                        .bm-replied-message{
+		                        	border-left: none;
+		                        	background: #444!important;
+		                        }
+
+		                    }
+	                    }
+	                }           
+	            }
+	        } 
+		}
+
+		.css-b62m3t-container,
+		.bm_user_selector__control{
+			background-color: #222!important;
+			border-bottom: 1px solid #444;
+			.bm_user_selector__placeholder,
+			.bm_user_selector__input{
+				color: #f9fafb!important;
+
+				&::placeholder{
+					color: #f9fafb!important;
+				}			
+			}			
+		}
+
+		.bm_user_selector__menu{
+			background-color: #222!important;
+			border-bottom: 1px solid #444;
+			color: #f9fafb!important;
+
+			.bm_user_selector__option{
+				color: #f9fafb!important;
+				&.bm_user_selector__option_focused,
+				&:hover{
+					background-color: #333!important;					
+					opacity: .8;
+				}
+			}
+		}
+
+		.bm_user_selector__multi-value{
+			background: #444;
+			color: #fff;
+		}
+
+		.bm_thread_subject_input{
+			background-color: #222!important;
+			border-bottom: 1px solid #333!important;
+			.thread_subject__input{
+				color: #f9fafb!important;
+				&::placeholder{
+					color: gray!important;
+				}
+			}			
+		}
+
+		.bm_user_selector__menu div div {
+		    color: #f9fafb!important;
+		}		
+
+		#bm-new-thread-title{
+			color: #f9fafb!important;
+		}
+
+		.bulk-message{
+			.box{
+				background-color: #1b1b1b !important;
+				border: 1px solid #333;
+			}
+
+			input[type=text],
+			.bm-editor{
+				color: #f9f9f9!important;
+				border: 1px solid #333 !important;
+				background-color: #222!important;
+				border-radius: 0.25rem!important;	
+				margin-top: 1rem;
+			}
+
+			.progress{
+				border: 1px solid #333;
+				color: #f9fafb;
+
+				.progress-value {
+				    background: #309502;
+				    z-index: 1;
+				}				
+				.progress-text{
+					background-color: #222;
+				}				
+			}
+		}
+
+		.bp-messages-mobile-tap{
+			background: #000000e0 !important;
+		}
+
+		.bpbm-user-options{
+			.bpbm-user-blacklist{
+				table{
+					td{
+						border: 1px solid #333;
+					}
+				}
+
+	            .bpbm-user-blacklist-empty{
+	                border: 1px solid #333;
+					background: #222;
+	            }				
+			}
+		}
+
+		.bm-user-search-wrap{
+			.bm-user-search{
+				background: #333!important;
+				border: 1px solid #444!important;
+				color: #fff!important;
+			}
+		}
+	}
+
+	.user-dashboard{
+	    .bpbm-chat-main{
+	    	background: #111!important;
+	    }
+    }
+
+    .reports-list{
+        thead{
+            background: #333;
+        }
+
+        td,
+        th{
+            border: 1px solid #333!important;
+        }
+    }   
+
+    .comments-livechat-tabs{
+
+        .nav-link{
+			background: #222;
+			color: #fff;
+			border: 1px solid #333;
+            &.active{
+				border-color: transparent;
+				background: #333;
+            }			
+        }
+    }
+
+	.comments-livechat{
+		.bp-messages-column{
+			background: #1b1b1b;
+
+			.messages-stack{
+				&:hover{
+					background: #1f1f1f;
+				}
+			}
+		}
+	}	
+}

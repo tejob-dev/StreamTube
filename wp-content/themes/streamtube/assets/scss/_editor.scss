@@ -1,0 +1,32 @@
+#insert-media-button{
+	padding: .25rem 1rem;
+    background: #000;
+    color: #fff;	
+}
+
+#wp-link-wrap{
+    height:  320px;
+}            
+#wp-link-wrap #search-panel,
+#wp-link-wrap #wplink-link-existing-content,
+#wp-link .link-target label span{
+    display: none!important;
+}
+
+#wp-link-wrap .link-target{
+    margin-top: 1rem
+}
+
+#wp-link-wrap #link-options label,
+#wp-link-wrap #link-options label input[type=text],
+#wp-link-wrap #link-options label input[type=url]{
+    width:  100%;
+}
+
+#wp-link-wrap #link-options label span{
+    width:  auto;
+}
+
+.wp-editor-wrap{
+    border: none!important;
+}

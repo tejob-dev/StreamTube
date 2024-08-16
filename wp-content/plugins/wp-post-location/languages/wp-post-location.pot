@@ -1,0 +1,302 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: wp-post-location\n"
+"POT-Creation-Date: 2024-03-05 10:32+0700\n"
+"PO-Revision-Date: 2016-01-22 14:55+0700\n"
+"Last-Translator: \n"
+"Language-Team: https://themeforest.net/user/phpface\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: esc_html__;esc_html_e;__;_e;esc_attr_e;esc_attr__;_n\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../admin/class-wp-post-location-admin.php:36
+#: ../public/class-wp-post-location-public.php:126
+#: ../public/partials/edit-location.php:34
+msgid "Location"
+msgstr ""
+
+#: ../admin/partials/edit-location.php:24
+#: ../public/class-wp-post-location-public.php:102
+#: ../public/partials/edit-location.php:45
+msgid "Longitude"
+msgstr ""
+
+#: ../admin/partials/edit-location.php:31
+#: ../public/class-wp-post-location-public.php:101
+#: ../public/partials/edit-location.php:52
+msgid "Latitude"
+msgstr ""
+
+#: ../admin/partials/edit-location.php:38
+#: ../public/partials/edit-location.php:59
+msgid "Zoom Level"
+msgstr ""
+
+#: ../admin/partials/edit-location.php:45
+#: ../public/class-wp-post-location-public.php:100
+#: ../public/partials/edit-location.php:66
+msgid "Address"
+msgstr ""
+
+#: ../admin/partials/edit-location.php:53
+#: ../includes/class-wp-post-location-customizer.php:293
+#: ../public/partials/edit-location.php:74
+msgid "North"
+msgstr ""
+
+#: ../admin/partials/edit-location.php:60
+#: ../includes/class-wp-post-location-customizer.php:306
+#: ../public/partials/edit-location.php:81
+msgid "South"
+msgstr ""
+
+#: ../admin/partials/edit-location.php:67
+#: ../includes/class-wp-post-location-customizer.php:319
+#: ../public/partials/edit-location.php:88
+msgid "East"
+msgstr ""
+
+#: ../admin/partials/edit-location.php:74
+#: ../includes/class-wp-post-location-customizer.php:332
+#: ../public/partials/edit-location.php:95
+msgid "West"
+msgstr ""
+
+#: ../includes/class-wp-post-location-customizer.php:30
+msgid "Open Street Map"
+msgstr ""
+
+#: ../includes/class-wp-post-location-customizer.php:31
+msgid "Google Map"
+msgstr ""
+
+#: ../includes/class-wp-post-location-customizer.php:93
+msgid "WP Post Location"
+msgstr ""
+
+#: ../includes/class-wp-post-location-customizer.php:98
+msgid "General"
+msgstr ""
+
+#: ../includes/class-wp-post-location-customizer.php:111
+msgid "Map Provider"
+msgstr ""
+
+#: ../includes/class-wp-post-location-customizer.php:125
+msgid "Google Map API Key"
+msgstr ""
+
+#: ../includes/class-wp-post-location-customizer.php:141
+msgid "Open Street Map GEOcoding API"
+msgstr ""
+
+#: ../includes/class-wp-post-location-customizer.php:147
+msgid "Call Open Street Map GEOcoding API instead of Google Geocoding API"
+msgstr ""
+
+#: ../includes/class-wp-post-location-customizer.php:158
+msgid "Default Language"
+msgstr ""
+
+#: ../includes/class-wp-post-location-customizer.php:165
+#, php-format
+msgid "See the list of %s or leave blank for default"
+msgstr ""
+
+#: ../includes/class-wp-post-location-customizer.php:166
+msgid "supported languages"
+msgstr ""
+
+#: ../includes/class-wp-post-location-customizer.php:178
+msgid "Map Type"
+msgstr ""
+
+#: ../includes/class-wp-post-location-customizer.php:182
+msgid "Default (Roadmap)"
+msgstr ""
+
+#: ../includes/class-wp-post-location-customizer.php:183
+msgid "Satellite"
+msgstr ""
+
+#: ../includes/class-wp-post-location-customizer.php:184
+msgid "Hybrid"
+msgstr ""
+
+#: ../includes/class-wp-post-location-customizer.php:185
+msgid "Terrain"
+msgstr ""
+
+#: ../includes/class-wp-post-location-customizer.php:200
+msgid "Zoom Controller"
+msgstr ""
+
+#: ../includes/class-wp-post-location-customizer.php:204
+msgid "Scroll + CTRL"
+msgstr ""
+
+#: ../includes/class-wp-post-location-customizer.php:205
+msgid "Scroll"
+msgstr ""
+
+#: ../includes/class-wp-post-location-customizer.php:220
+msgid "Default Longitude"
+msgstr ""
+
+#: ../includes/class-wp-post-location-customizer.php:233
+msgid "Default Latitude"
+msgstr ""
+
+#: ../includes/class-wp-post-location-customizer.php:246
+msgid "Default Zoom Level"
+msgstr ""
+
+#: ../includes/class-wp-post-location-customizer.php:259
+msgid "FrontEnd Edit Post Form"
+msgstr ""
+
+#: ../includes/class-wp-post-location-customizer.php:262
+msgid "Enable Frontend Edit Post Form"
+msgstr ""
+
+#: ../includes/class-wp-post-location-customizer.php:266
+msgid "Region Restriction"
+msgstr ""
+
+#: ../includes/class-wp-post-location-customizer.php:269
+msgid "Region Restriction works for Google Map only"
+msgstr ""
+
+#: ../includes/class-wp-post-location-customizer.php:280
+msgid "Enable"
+msgstr ""
+
+#: ../includes/class-wp-post-location-customizer.php:338
+msgid "Map Styles"
+msgstr ""
+
+#: ../includes/class-wp-post-location-customizer.php:351
+msgid "Default Style Json"
+msgstr ""
+
+#: ../includes/class-wp-post-location-customizer.php:355
+#, php-format
+msgid "Get default style json from %s, works for Google Map only."
+msgstr ""
+
+#: ../includes/class-wp-post-location-customizer.php:368
+msgid "Dark Style Json"
+msgstr ""
+
+#: ../includes/class-wp-post-location-customizer.php:372
+#, php-format
+msgid "Get dark mode json from %s, works for Google Map only."
+msgstr ""
+
+#: ../includes/class-wp-post-location-customizer.php:378
+msgid "Markers"
+msgstr ""
+
+#: ../includes/class-wp-post-location-customizer.php:395
+msgid "Video Marker"
+msgstr ""
+
+#: ../includes/class-wp-post-location-customizer.php:413
+msgid "Post Marker"
+msgstr ""
+
+#: ../includes/class-wp-post-location-post.php:251
+msgid "Invalid Requested"
+msgstr ""
+
+#: ../includes/class-wp-post-location-post.php:270
+msgid "Sorry, you are not allowed to edit this post."
+msgstr ""
+
+#: ../includes/class-wp-post-location-post.php:277
+msgid "Post was not found."
+msgstr ""
+
+#: ../includes/class-wp-post-location-post.php:334
+msgid "Sorry, you are not allowed to reset this post location."
+msgstr ""
+
+#: ../includes/class-wp-post-location-post.php:380
+msgid "The location has been updated"
+msgstr ""
+
+#: ../includes/class-wp-post-location-post.php:395
+msgid "The location has been reset"
+msgstr ""
+
+#: ../includes/class-wp-post-location-widget-post-location.php:29
+msgid "[WP Post Location] Post Location"
+msgstr ""
+
+#: ../includes/class-wp-post-location-widget-post-location.php:32
+msgid "Display location of current post"
+msgstr ""
+
+#: ../includes/class-wp-post-location-widget-post-location.php:116
+msgid "Title"
+msgstr ""
+
+#: ../includes/class-wp-post-location-widget-post-location.php:132
+msgid "Zoom"
+msgstr ""
+
+#: ../includes/class-wp-post-location-widget-post-location.php:144
+msgid "Set a custom zoom number or leave 0 for default"
+msgstr ""
+
+#: ../includes/class-wp-post-location-widget-post-location.php:152
+msgid "Map Height"
+msgstr ""
+
+#: ../public/assets/leaflet.js:5
+msgid "number"
+msgstr ""
+
+#: ../public/assets/leaflet.js:5
+msgid "shadow"
+msgstr ""
+
+#: ../public/class-wp-post-location-public.php:103
+msgid "By"
+msgstr ""
+
+#: ../public/class-wp-post-location-public.php:104
+msgid "Geolocation is not supported by this browser"
+msgstr ""
+
+#: ../public/class-wp-post-location-public.php:105
+msgid "No addresses were found"
+msgstr ""
+
+#: ../public/partials/edit-location.php:109
+msgid "Loading..."
+msgstr ""
+
+#: ../public/partials/find-my-location.php:12
+msgid "My location"
+msgstr ""
+
+#: ../public/partials/find-my-location.php:24
+msgid "Reset"
+msgstr ""
+
+#: ../public/partials/search-location.php:23
+msgid "Search ..."
+msgstr ""
+
+#: ../public/partials/update-location.php:24
+msgid "Update"
+msgstr ""

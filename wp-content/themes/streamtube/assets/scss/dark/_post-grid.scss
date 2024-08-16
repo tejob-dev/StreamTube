@@ -1,0 +1,93 @@
+html[data-theme=dark]{
+
+	.more-link{
+		color: #f9f9f9;
+	}
+
+	.post-title{
+		color: #f9f9f9;
+		a{
+			color: #f9f9f9;
+		}
+	}
+
+	.post-options{
+		.btn__icon{
+			color: #f9f9f9;
+		}
+
+		.btn{
+			background: #444;			
+		}
+	}
+
+	.post-meta__items{
+		color: #aaa!important;
+
+		a{
+			color: #aaa!important;
+		}
+	}
+
+	.post-meta__author,
+	.post-meta__items{
+		color: #aaa;
+
+		.btn__text,
+		.btn__icon,
+		a{
+			color: #aaa;			
+		}
+	}
+
+	.post-meta__comment{
+		.comment-link{
+			color: #f9f9f9!important;		
+		}	
+
+		.comment-box{
+			background: #666;
+
+			&:before,
+			&:after{
+				border-top-color: #666;
+			}
+		}
+	}
+
+	.post-category{
+		a{
+			color: #f9f9f9;
+		}
+	}
+
+	.post-grid{
+		&::-webkit-scrollbar {
+		    width: 8px;
+		    background-color: #333;
+		}
+
+		&::-webkit-scrollbar-thumb {
+		    background-color: #666;
+		    border-radius: 35px;
+		}		
+	}
+
+	.hentry{
+		&.sticky{
+			background: #333;
+		}
+	}	
+
+	#post-bottom,
+	.post-main{
+		.playlist-content-widget{
+			background: #141414 !important;
+			border: 1px solid #222;
+
+			.playlist-header{
+				background: #1a1a1a;
+			}
+		}
+	}
+}

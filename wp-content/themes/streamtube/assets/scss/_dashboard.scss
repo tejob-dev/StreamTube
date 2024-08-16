@@ -1,0 +1,385 @@
+.user-dashboard{
+
+	.col_sidebar{
+		background: #222;
+		border-right: 1px solid #222;
+		.navbar-nav{
+
+			.nav-link{
+
+				font-weight: 400;
+				color: #fff;
+
+				&.active,
+				&:hover,
+				&:focus{
+					background: #333;	
+				}
+
+				.menu-icon{
+					font-size: 1.4rem;
+				    width: auto;
+				    height: auto;					
+				}
+			}
+		}
+	}
+
+	.col_main{
+		padding-left: 200px;
+
+		.widget-inbox{
+			margin: -1.5rem;
+			height: calc( 100vh - 71px );
+
+			.bp-messages-wrap{
+				height: calc( 100vh - 71px )!important;
+			}
+
+			.bp-messages-threads-wrapper{
+				height: calc( 100vh - 71px )!important;
+
+				.bp-messages-side-threads,
+				.bp-messages-column{
+					height: calc( 100vh - 71px )!important;
+				}
+			}
+		}
+
+		.social-login-account{
+			.nsl-container-buttons{
+				display: flex!important;
+				gap: 1rem;
+				flex-wrap: wrap;
+				>a{
+					width: auto;		
+				}		
+			}
+		}
+
+		.widget-live-chat-settings{
+
+		    label{
+		        cursor: pointer;  
+		        margin-bottom: .5rem;
+		        font-weight: 600;
+		    } 		
+
+			input[type=checkbox],
+			input[type=radio]{
+				margin-right: 1rem;
+			}
+
+			.bm-help-icon {
+			    padding-left: 0.5rem;
+			}			
+
+			.bp-better-messages-roles-list{
+				list-style: none;
+		        max-height: 300px;
+		        overflow-y: scroll; 
+		        border: 1px solid #eee;
+		        padding: 1rem;
+
+		        label{
+		        	display: block;
+		        	padding: .5rem;
+		        	font-size: 90%;
+		        	font-weight: 400;
+		        	margin-bottom: 0;
+
+		        	&:hover{
+		        		opacity: .7;
+		        	}
+		        }
+
+				li{
+		            border-bottom: 1px solid #eee;			
+					&:first-child{
+					    margin-bottom: 1rem;
+					    padding-bottom: 0.5rem;
+
+						a{
+							font-weight: bold;
+							color: #222;
+							text-decoration: none;
+						}
+					}
+				}
+			}
+
+			.form-table{
+				display: none;
+			}
+
+			.bm-chat-setting{
+				margin-bottom: .5rem;
+			}		
+		}
+
+	    .bp-emojionearea-editor{
+	        min-height: 4rem;
+	    }
+
+	    #pmpro_account{
+		    .pmpro_box{
+		    	border-top: none;
+		    	margin: 0;
+		    	padding: 0;
+		    }
+	    }
+
+	    .pmpro_account-membership-levelname{
+			font-size: 1.1rem;
+			color: #1dbf56;
+			text-transform: uppercase;
+			font-weight: bold;
+
+			.pmpro_actionlinks{
+				font-size: 1rem;
+				color: #212529;
+				margin-top: 1rem;
+				text-transform: capitalize;
+			}
+	    }
+
+	    @media only screen and (max-width: 1300px) {
+	        padding-left: 50px;
+	    }
+
+	}
+
+	.badge-filters{
+		.badge{
+			font-size: .9rem;
+		}
+
+		.status-any{
+			order: 0;
+		}
+
+		.status-publish{
+			order: 1;
+		}
+
+		.status-private{
+			order: 2;
+		}
+
+		.status-pending{
+			order: 3;
+		}
+
+		.status-reject{
+			order: 4;
+		}
+
+		.status-trash{
+			order: 5;
+		}	
+
+		.badge-trash{
+			background: none!important;
+		}
+
+		.entry-status{
+			display: inline-block;
+			margin-right: .7rem;
+		}
+	}
+
+	tr{
+		&:hover{
+			.row-buttons{
+				visibility: visible!important;
+			}
+		}
+	}
+
+	.table{
+		.col-id{
+			width: 2.2em;
+		}
+
+		.post-thumbnail{
+			width: 150px;
+			min-width: 150px;
+		}
+
+		.progress{
+			background-color: #e9ecef !important;
+			height: 20px;		
+		}		
+
+		td,
+		th{
+			text-align: left;
+			padding: 1rem;
+		}	
+	}
+
+	.table-videos{
+		.col-title{
+			width: 30%;
+		}
+
+		.col-author{
+			width: 15%;
+		}
+	}
+
+	.table-comments{
+		.col-author{
+			width: 10%;
+		}
+
+		.col-comment{
+			width: 40%;
+		}
+
+		.col-response-to{
+			width: 30%;
+		}		
+	}
+
+	#wp-post_content-editor-tools{
+		display: block;
+	}
+
+	.quick-upload-widget{
+		.upload-form__label{
+			.icon{
+				font-size: 3rem;
+			}
+
+			h5{
+				font-size: 1.2rem;
+			}
+		}
+	}
+
+	.post-thumbnail{
+		img{
+			object-fit: cover;
+		}
+	}
+
+	.page-title{
+		font-family: 'Poppins', sans-serif;
+	}
+
+	input[name="post_title"]{
+	    height: 5rem;
+	    font-size: 1.5rem;		
+	}
+
+	.recent-orders{
+		h2{
+			font-size: 1rem;
+			font-weight: 700;
+			text-transform: uppercase;				
+		}
+	}
+
+	@media only screen and (max-width: 1200px){
+		.col_sidebar{
+		    left: -200px;
+		}
+
+		.col_main{
+			padding-left: 0;
+		}
+	}
+
+	@media only screen and (max-width: 1024px){
+
+	    table,
+	    thead,
+	    tbody,
+	    th,
+	    td,
+	    tr {
+	        display: block;
+	    }
+
+	    thead tr{
+	        position: absolute;
+	        top: -9999px;
+	        left: -9999px;
+	    }
+
+	    tr {
+	        border: 1px solid #eee;
+	        margin-bottom: 2rem;
+	    }
+
+	    td {
+	        border: none;
+	        border-bottom: 1px solid #eee!important;
+	        position: relative;
+	        padding: 1rem 0 1rem 35% !important;
+	        text-align: left!important;
+	        width: auto!important;
+		    &:before {
+		        position: absolute;
+		        top: 1rem;
+		        left: 1rem;
+		        width: 45%;
+		        white-space: nowrap;
+		        content: attr(data-title);
+		    }
+	    }
+
+	    .col-id{
+	    	display: none;
+	    }
+
+	    .row-buttons{
+	    	visibility: visible!important;
+	    }
+
+	    .pmpro_membersip_table{
+	    	td{
+	    		padding: 1rem !important;
+	    	}
+	    }
+	}	
+}
+
+.body-dashboard{
+
+	overflow: auto!important;
+
+    .has-preloader.disable-preloader {
+        overflow-y: hidden!important;
+    }	
+
+	.site-main{
+		margin-top: 70px;
+	}
+
+	.header-user__dropdown{
+		.nav-videos{
+			.nav-link{
+				background: none;
+			}
+		}
+	}
+
+	&.admin-bar{
+
+		height: calc( 100vh - 32px );
+
+		.col_main{
+			.widget-inbox{
+				.bp-messages-threads-wrapper{
+					.bp-messages-side-threads,
+					.bp-messages-column{
+						height: calc( 100vh - 100px ) !important;
+					}				
+				}
+			}
+		}
+
+	}	
+}

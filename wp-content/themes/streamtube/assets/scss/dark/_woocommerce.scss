@@ -1,0 +1,330 @@
+html[data-theme=dark]{
+	body.woocommerce{
+
+		.reset_variations {
+			border: 1px solid #444;
+			background: #333;			
+		}
+
+		.mark, 
+		mark {
+		    background-color: #333;
+		    color: #f9f9f9;			
+		}	
+
+		label{
+			color: #f9f9f9;
+		}
+
+		.button{
+			background: #333!important;
+			border: 1px solid #444!important;
+			color: #f9f9f9!important;
+			font-weight: normal;
+		}
+
+		button[name=apply_coupon],
+		button[name=update_cart]{
+			border: 1px solid #ce1212!important;
+			background: #ce1212 !important;
+		}	
+
+		.woocommerce-error, 
+		.woocommerce-info, 
+		.woocommerce-message{
+			background-color: #222;
+			color: #f9f9f9;			
+		}
+
+		.product_type_external,
+		.product_type_grouped,
+		.product_type_simple,
+		.add_to_cart_button{
+		    border: none !important;
+		    background: #ce1212 !important;
+		    color: #fff !important;
+		}		
+
+		button.single_add_to_cart_button{
+			border: none!important;
+			background: #ce1212 !important;
+		}		
+
+		.woocommerce-variation-description {
+			background: #1b1b1b;
+			border: 1px solid #333;
+		}
+
+		.price{
+			del{
+				color: #f9f9f9!important;
+			}
+		}
+
+		.showlogin,
+		.showcoupon {
+			color: #f9f9f9;
+		}
+
+		.download-product{
+			a{
+				color: #f9f9f9;
+			}
+		}
+
+		.wc-block-components-notice-banner{
+			background-color: #222;
+			color: #f9f9f9;
+			border: none;
+			border-top: 3px solid #1e85be;
+
+			.btn{
+				padding: 0.5rem 1.5rem!important;
+				text-decoration: none;
+				font-size: 1rem;
+				opacity: 1;
+			}
+		}
+
+		table.shop_table{
+			tbody{
+				.product-price,
+				.product-subtotal{
+					color: #f9fafb;
+				}
+
+				.download-file{
+					a{
+						background-color: #2196f3 !important;
+					}
+				}
+			}			
+		}
+
+		div.product{
+
+			.product_meta{
+				.posted_in{
+					a{
+						color: #03a9f4;
+					}
+				}
+			}			
+
+			.woocommerce-tabs{
+				ul.wc-tabs{
+					&:before{
+						border-bottom: 1px solid #222;
+					}
+					li{
+						a{
+							color: #fff!important;
+						}
+					}
+				}
+
+				.panel{
+					background: #1b1b1b;
+				}
+			}
+		}
+
+		#reviews{
+
+			.comment-reply-title,
+			.meta{
+				color: #f9f9f9!important;
+			}
+
+			.woocommerce-review__author{
+
+				a{
+					color: #f9f9f9;
+				}
+			}			
+
+			#comments{
+				.commentlist{
+					li{
+						border-bottom: 1px solid #222 !important;
+
+						img.avatar{
+							background: #333;
+							border-color: #444;
+							padding: 1px;						
+						}
+
+					}
+				}
+			}
+		}
+
+		.related.products{
+			> h2{
+				color: #f9fafb;
+			}
+		}
+
+		table.shop_table,
+		table.woocommerce-product-attributes{
+
+			th{	
+				color: #f9f9f9;
+				font-weight: normal!important;
+			}		
+			
+			th,
+			td{
+				border: none;
+				border-bottom: 1px solid #333!important;
+			}
+
+			.product-name{
+				a{
+					color: #f9f9f9;
+				}
+			}
+		}
+
+
+		form#order_review{
+			background: #1b1b1b;
+
+			.shop_table{
+				td,
+				th{
+					border-color:#333;
+				}
+			}			
+		}		
+
+		.woocommerce-form-coupon,
+		.woocommerce-form-login,
+		.woocommerce-form-register{
+			border: none!important;
+			background: #1b1b1b;
+		}		
+
+
+		ul.payment_methods{
+			border-bottom: 1px solid #333!important;
+
+			div.payment_box{
+				background: #2196f3 !important;
+				color: #f9f9f9!important;
+
+				&:before{
+					border-color: transparent transparent #2196f3 transparent!important;
+				}
+			}					
+		}			
+
+		.woocommerce-terms-and-conditions-wrapper{
+			.woocommerce-privacy-policy-text {
+			    color: #ccc;
+			}			
+		}
+
+		.account-orders-table a, 
+		.woocommerce .my_account_orders a{
+			color: #f9f9f9!important;
+		}		
+
+		.woocommerce-form-coupon{
+			border: 1px solid #333;
+		}
+
+		.woocommerce-order{
+			background: #1b1b1b;
+			box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,.075);
+
+			.woocommerce-thankyou-order-received {
+			    color: #11d811;
+			}	
+				
+		}				
+
+		.woocommerce-thankyou-order-details {
+			border: 1px solid #333;
+			background: #222;
+			color: #11d811;
+		}
+
+		.woocommerce-bacs-bank-details ul{
+			border: 1px solid #333;
+			background: #222;
+			color: #f9f9f9;			
+		}
+
+		.woocommerce-table--order-details{
+			tfoot{
+				font-size: 1.1rem;
+				font-weight: 700;
+				th{
+					color: #f9f9f9;
+				}
+
+				tr:first-child{
+					th{
+						border-top: 5px solid red;
+					}
+
+					td{
+						border-top: 5px solid #11d811;	
+					}
+				}
+
+				tr:last-child{
+					color: #11d811;
+				}				
+			}
+		}	
+
+		.woocommerce-customer-details{
+
+			address{
+				border: 1px solid #333;
+			}
+		}		
+
+		.widget_shopping_cart_content{
+
+			color: #f9f9f9;
+
+			a{
+				color: #f9f9f9;
+			}
+
+			.woocommerce-mini-cart__buttons{
+				a:first-child{
+					background: #555!important;
+				}
+			}
+
+			li:not(:last-child){
+				border-bottom: 1px solid #333;
+
+			}
+
+			.woocommerce-mini-cart__empty-message,
+			.woocommerce-mini-cart__total.total{
+				color: #f9f9f9;
+			}
+
+		}
+
+		.header-user__cart{
+			.widget_shopping_cart_content{
+
+				.woocommerce-mini-cart{
+				    border-bottom: 1px solid #666;
+					background-color: #1b1b1b;
+				}
+			}
+		}		
+
+		.blockUI.blockOverlay{
+		    background: #333!important;
+		}
+	}
+}

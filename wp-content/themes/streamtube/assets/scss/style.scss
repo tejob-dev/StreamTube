@@ -1,0 +1,152 @@
+/*
+Theme Name: StreamTube
+Description: Video Streaming WordPress Theme
+Author: phpface
+Theme URI: https://1.envato.market/qny3O5
+Author URI: https://1.envato.market/mgXE4y
+Version: 3.0.15
+Requires at least: 5.3
+Tested up to: 5.8
+Requires PHP: 7.4
+License: Themeforest Licence
+License URI: http://themeforest.net/licenses
+Text Domain: streamtube
+Tags: two-columns, one-column, custom-menu, custom-logo, featured-images, rtl-language-support, sticky-post, threaded-comments, translation-ready
+*/
+/**
+ * 1. General
+ * 2. Header
+ * 3. Navigation
+ * 4. Form
+ * 5. Login
+ * 6. Site Main content
+ * 7. Post Grid - List
+ * 8. Activity
+ * 9. Sidebar
+ * 10. Comments
+ * 11. Profile
+ * 12. Dashboard
+ * 13. Member Loop
+ * 14. Single Video
+ * 15. Single Page
+ * 16. Message
+ * 17. Misc
+ * 18. VideoJS
+ * 19. Slick
+ * 20. Blocks
+ * 21. Woocommerce
+ * 22. Dark Mode
+ */
+
+/** General  */
+@import "general";
+
+/** Header  */
+@import "header";
+
+/** Navigation */
+@import "nav";
+
+/** Animate */
+@import "animate";
+
+/** Form  **/
+@import "form";
+
+/** Login  */
+@import "login";
+
+/** Site Main content  */
+@import "site-main";
+
+/** Post Grid **/
+@import "post-grid";
+
+/** Term Grid **/
+@import "term-grid";
+
+/** Activity **/
+@import "activity";
+
+/** Sidebar */
+@import "sidebar";
+
+/** Comment **/
+@import "comments";
+
+/** Profile **/
+@import "profile";
+
+/** Dashboard **/
+@import "dashboard";
+
+/** Member Loop **/
+@import "members-loop";
+
+/** Single **/
+@import "single";
+
+/** Single Video **/
+@import "single-video";
+
+/** Single Series **/
+@import "single-series";
+
+/** Search **/
+@import "search";
+
+/** Single Page**/
+@import "page";
+
+/** Message **/
+@import "message";
+
+
+/** Collection **/
+@import "collection";
+
+/** Misc **/
+@import "misc";
+
+/** Videojs **/
+@import "videojs";
+
+/** Embed **/
+@import "embed";
+
+/** Editor **/
+@import "editor";
+
+/** Review **/
+@import "review";
+
+/** Slick **/
+@import "slick";
+
+/** Blocks **/
+@import "blocks";
+
+
+/** 404 **/
+@import "404";
+
+/** Footer **/
+@import "footer";
+
+/** Woocommerce **/
+@import "woocommerce";
+
+/** myCred **/
+@import "mycred";
+
+/** bp messages **/
+@import "private-messages";
+
+/** pm pro **/
+@import "pmpro";
+
+/** Analytics **/
+@import "analytics";
+
+/** Dark mode **/
+@import "theme-dark";

@@ -1,0 +1,7 @@
+html[data-theme=dark]{
+	.post-img{
+		&.no-image{
+			background: #222;
+		}
+	}
+}

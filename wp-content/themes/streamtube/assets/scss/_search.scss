@@ -1,0 +1,24 @@
+body.search{
+
+	.page-main{
+		.post-grid-list_xl,
+		.post-grid-list_xxl{
+			.post-title{
+				font-size: 1.4rem;
+			}
+
+			.post-meta__items{
+				margin: 1rem 0;
+			}
+		}
+
+		.term-grid-widget,
+		.posts-widget{
+			margin-bottom: 0;
+
+			.navigation {
+				margin-bottom: 1.5rem!important;
+			}
+		}
+	}
+}

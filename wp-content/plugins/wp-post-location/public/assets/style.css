@@ -1,0 +1,122 @@
+:root {
+    --map-tiles-filter: brightness(0.6) invert(1) contrast(3) hue-rotate(200deg) saturate(0.3) brightness(0.8);
+}
+
+.map-dark {
+    filter:var(--map-tiles-filter, none);
+}
+
+html[data-theme=dark] .map-dark {
+    filter:var(--map-tiles-filter, none);
+}
+
+#wp-post-location-box .form-table td,
+#wp-post-location-box .form-table th{
+    border: 1px solid #f0f0f1;
+    padding: 0.8rem;    
+}
+
+#wp_post_location_map {
+    z-index: 1;
+}
+
+.wp-post-location-map .search-locations input[type=search]{
+	border-top-left-radius: 35px;
+	border-bottom-left-radius: 35px;
+}
+
+.wp-post-location-map .search-locations button.disabled .btn__icon{
+	display: none;
+}
+
+.wp-post-location-map .search-locations button.disabled .spinner{
+	margin-left:  0!important;
+}
+
+.wp-post-location-map .leaflet-popup-content{
+	min-width: 200px;
+	margin:  -1px;
+}
+
+.wp-post-location-map .global-map__topbar .dashicons{
+	vertical-align: middle;
+}
+
+.wp-post-location-map .global-map__topbar .input-group{
+	display: flex;
+}
+
+.wp-post-location-map .topbar-overlay{
+	z-index:  999;
+}
+
+.wp-post-location-map .video-hover span{
+	font-size: 30px;
+}
+
+.wp-post-location-map .post-title{
+	font-size: 1.2rem;
+}
+
+.wp-post-location-map .post-author,
+.wp-post-location-map .post-address{
+    font-size: 1rem;
+    font-style: italic;    
+}
+
+.wp-post-location-map .post-address{
+	line-height: 1.5;	
+}
+
+.wp-post-location-map .post-address li{
+	margin-bottom: 0.5rem;
+}
+
+.wp-post-location-map .post-address span:first-child {
+    min-width: 80px;
+}
+
+.widget-location-details .spinner{
+    opacity: .7;
+    visibility: hidden;	
+}
+
+.widget-location-details.loading .spinner{
+	visibility: visible;
+}
+
+html[data-theme=dark] .wp-post-location-map .global-map__topbar{
+	background: #000000c2;
+}
+
+html[data-theme=dark] .map-popup{
+	color: #f9f9f9;
+}
+
+html[data-theme=dark] .leaflet-bar a{
+	color:  #000;
+}
+
+html[data-theme=dark] .leaflet-popup-content-wrapper,
+html[data-theme=dark] .leaflet-popup-tip,
+html[data-theme=dark] .gm-style .gm-style-iw-c{
+	background: #222;
+}
+
+html[data-theme=dark] .gm-style .gm-style-iw-d{
+	overflow-x: hidden!important;
+}
+
+html[data-theme=dark] .gm-style .gm-style-iw-d > div{
+	max-width:  95%;
+}
+
+html[data-theme=dark] .gm-style .gm-style-iw-d::-webkit-scrollbar {
+    width: 5px;
+    background-color: #222;
+}
+
+html[data-theme=dark] .gm-style .gm-style-iw-d::-webkit-scrollbar-thumb {
+    background-color: #666;
+    border-radius: 35px;
+}

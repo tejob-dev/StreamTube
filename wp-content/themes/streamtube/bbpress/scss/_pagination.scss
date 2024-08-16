@@ -1,0 +1,31 @@
+#bbpress-forums{
+	.bbp-pagination{
+		font-size: 1rem;
+		.bbp-pagination-count {
+		    color: #6c757d;
+		    font-size: 1rem;
+		}
+
+		.bbp-pagination-links{
+			.page-numbers{
+				font-size: 1rem;	
+				border: 1px solid #dee2e6;
+				color: #333;
+				padding: 0.5rem 1rem;
+				border-radius: 3px;
+
+				&.current{
+					background-color: #222;
+					color: #fff;
+				}
+			}		
+		}
+	}
+
+	.bbp-topic-pagination{
+		.page-numbers{
+			font-size: .9rem;
+			padding: 0.2rem 0.5rem;
+		}
+	}
+}

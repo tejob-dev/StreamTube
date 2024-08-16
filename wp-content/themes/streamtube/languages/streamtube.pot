@@ -1,0 +1,2242 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: streamtube\n"
+"POT-Creation-Date: 2024-04-14 10:53+0700\n"
+"PO-Revision-Date: 2016-01-22 14:55+0700\n"
+"Last-Translator: \n"
+"Language-Team: https://themeforest.net/user/phpface\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: esc_html__;esc_html_e;__;_e;esc_attr_e;esc_attr__;_n\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:22
+msgid "Oops, page not found"
+msgstr ""
+
+#: ../404.php:24
+msgid "404"
+msgstr ""
+
+#: ../404.php:28
+msgid "The page you are looking for does not exist. It might have been moved or deleted."
+msgstr ""
+
+#: ../404.php:34
+msgid "back to home"
+msgstr ""
+
+#: ../archive-video.php:99
+msgid "No posts were found"
+msgstr ""
+
+#: ../bbpress/forum-tabs.php:6
+msgid "Forums"
+msgstr ""
+
+#: ../bbpress/loop-single-forum.php:67
+msgid "Topics"
+msgstr ""
+
+#: ../bbpress/loop-single-forum.php:71
+msgid "Posts"
+msgstr ""
+
+#: ../bbpress/loop-single-topic.php:70
+#, php-format
+msgid "Started by: %1$s"
+msgstr ""
+
+#: ../bbpress/loop-single-topic.php:78
+#, php-format
+msgid "in: %1$s"
+msgstr ""
+
+#: ../bbpress/user-details.php:23
+#, php-format
+msgid "%s's Topics Started"
+msgstr ""
+
+#: ../bbpress/user-details.php:23
+msgid "Topics Started"
+msgstr ""
+
+#: ../bbpress/user-details.php:28
+#, php-format
+msgid "%s's Replies Created"
+msgstr ""
+
+#: ../bbpress/user-details.php:28
+msgid "Replies Created"
+msgstr ""
+
+#: ../bbpress/user-details.php:33
+#, php-format
+msgid "%s's Engagements"
+msgstr ""
+
+#: ../bbpress/user-details.php:33
+msgid "Engagements"
+msgstr ""
+
+#: ../bbpress/user-details.php:39
+#, php-format
+msgid "%s's Favorites"
+msgstr ""
+
+#: ../bbpress/user-details.php:39
+msgid "Favorites"
+msgstr ""
+
+#: ../bbpress/user-details.php:47
+#, php-format
+msgid "%s's Subscriptions"
+msgstr ""
+
+#: ../bbpress/user-details.php:47
+msgid "Subscriptions"
+msgstr ""
+
+#: ../comments.php:62
+msgid "Older"
+msgstr ""
+
+#: ../comments.php:66
+msgid "Newer"
+msgstr ""
+
+#: ../comments.php:74
+msgid "Comments are closed."
+msgstr ""
+
+#: ../community/activity/activity-loop.php:34
+msgid "Load More"
+msgstr ""
+
+#: ../community/activity/activity-loop.php:48
+msgid "Sorry, there was no activity found. Please try a different filter."
+msgstr ""
+
+#: ../community/activity/comment.php:40
+#, php-format
+msgid "<a class=\"author-name text-body\" href=\"%1$s\">%2$s</a> replied <a href=\"%3$s\" class=\"text-muted activity-time-since\"><span class=\"time-since text-muted\" data-livestamp=\"%4$s\">%5$s</span></a>"
+msgstr ""
+
+#: ../community/activity/comment.php:52 ../inc/comment-functions.php:220
+#: ../inc/comment-functions.php:221
+msgid "Reply"
+msgstr ""
+
+#: ../community/activity/comment.php:61
+#: ../community/members/single/messages/messages-loop.php:163
+#: ../community/members/single/notifications/notifications-loop.php:63
+msgid "Delete"
+msgstr ""
+
+#: ../community/activity/entry.php:88
+msgid "View Conversation"
+msgstr ""
+
+#: ../community/activity/entry.php:95 ../inc/option-functions.php:29
+msgid "Comments"
+msgstr ""
+
+#: ../community/activity/entry.php:105
+#: ../community/buddypress-functions.php:315
+#: ../community/buddypress-functions.php:1291
+#: ../community/buddypress-functions.php:1322
+msgid "Favorite"
+msgstr ""
+
+#: ../community/activity/entry.php:111
+#: ../community/buddypress-functions.php:318
+#: ../community/buddypress-functions.php:1289
+#: ../community/buddypress-functions.php:1324
+msgid "Remove Favorite"
+msgstr ""
+
+#: ../community/activity/entry.php:157
+msgid "Comment"
+msgstr ""
+
+#: ../community/activity/entry.php:161
+#: ../template-parts/comment/comment-form.php:24
+msgid "Post"
+msgstr ""
+
+#: ../community/activity/entry.php:161
+#: ../paid-memberships-pro/pages/billing-v2.php:469
+#: ../paid-memberships-pro/pages/billing.php:450
+#: ../template-parts/comment/comment-form.php:27
+msgid "Cancel"
+msgstr ""
+
+#: ../community/activity/index.php:48
+msgid "Sitewide activities navigation"
+msgstr ""
+
+#: ../community/activity/index.php:63 ../community/members/index.php:62
+#, php-format
+msgid "All Members %s"
+msgstr ""
+
+#: ../community/activity/index.php:87 ../community/members/index.php:65
+#, php-format
+msgid "My Friends %s"
+msgstr ""
+
+#: ../community/activity/index.php:113 ../community/groups/index.php:76
+#, php-format
+msgid "My Groups %s"
+msgstr ""
+
+#: ../community/activity/index.php:137
+#, php-format
+msgid "My Favorites %s"
+msgstr ""
+
+#: ../community/activity/index.php:170
+msgid "Activity secondary navigation"
+msgstr ""
+
+#: ../community/activity/index.php:174
+#: ../community/groups/single/activity.php:31
+msgid "RSS Feed"
+msgstr ""
+
+#: ../community/activity/index.php:175
+#: ../community/groups/single/activity.php:32
+msgid "RSS"
+msgstr ""
+
+#: ../community/activity/index.php:190
+#: ../community/groups/single/activity.php:47
+#: ../community/members/single/activity.php:22
+msgid "Show:"
+msgstr ""
+
+#: ../community/activity/index.php:192
+#: ../community/groups/single/activity.php:49
+#: ../community/members/single/activity.php:24
+msgid "&mdash; Everything &mdash;"
+msgstr ""
+
+#: ../community/activity/post-form.php:12
+#, php-format
+msgid "What's new in %1$s, %2$s?"
+msgstr ""
+
+#: ../community/activity/post-form.php:15
+#, php-format
+msgid "What's new, %s?"
+msgstr ""
+
+#: ../community/activity/post-form.php:57
+msgid "Post in"
+msgstr ""
+
+#: ../community/activity/post-form.php:60
+msgid "My Profile"
+msgstr ""
+
+#: ../community/activity/post-form.php:111
+msgid "Post Update"
+msgstr ""
+
+#: ../community/buddypress-functions.php:61
+msgid "BuddyPress Legacy"
+msgstr ""
+
+#: ../community/buddypress-functions.php:311
+#: ../community/members/single/invitations/invitations-loop.php:26
+msgid "Accepted"
+msgstr ""
+
+#: ../community/buddypress-functions.php:312
+#: ../community/members/register.php:212 ../dokan/settings/store-form.php:38
+#: ../template-parts/player-videojs.php:53
+msgid "Close"
+msgstr ""
+
+#: ../community/buddypress-functions.php:313
+msgid "comments"
+msgstr ""
+
+#: ../community/buddypress-functions.php:314
+msgid "Are you sure you want to leave this group?"
+msgstr ""
+
+#: ../community/buddypress-functions.php:316
+msgid "My Favorites"
+msgstr ""
+
+#: ../community/buddypress-functions.php:317
+msgid "Rejected"
+msgstr ""
+
+#: ../community/buddypress-functions.php:319
+msgid "Show all"
+msgstr ""
+
+#: ../community/buddypress-functions.php:320
+msgid "Show all comments for this thread"
+msgstr ""
+
+#: ../community/buddypress-functions.php:323
+#, php-format
+msgid "Show all comments (%d)"
+msgstr ""
+
+#: ../community/buddypress-functions.php:324
+msgid "Your profile has unsaved changes. If you leave the page, the changes will be lost."
+msgstr ""
+
+#: ../community/buddypress-functions.php:325
+msgid "View"
+msgstr ""
+
+#: ../community/buddypress-functions.php:353
+msgid "Your password is too weak, please use a stronger password."
+msgstr ""
+
+#: ../community/buddypress-functions.php:363
+msgid "Unstar"
+msgstr ""
+
+#: ../community/buddypress-functions.php:364
+#: ../community/members/single/messages/messages-loop.php:82
+#: ../community/members/single/messages/messages-loop.php:136
+msgid "Star"
+msgstr ""
+
+#: ../community/buddypress-functions.php:365
+msgid "Starred"
+msgstr ""
+
+#: ../community/buddypress-functions.php:366
+msgid "Not starred"
+msgstr ""
+
+#: ../community/buddypress-functions.php:367
+msgid "Remove all starred messages in this thread"
+msgstr ""
+
+#: ../community/buddypress-functions.php:368
+msgid "Star the first message in this thread"
+msgstr ""
+
+#: ../community/buddypress-functions.php:993
+msgid "Please enter some content to post."
+msgstr ""
+
+#: ../community/buddypress-functions.php:1029
+msgid "There was a problem posting your update. Please try again."
+msgstr ""
+
+#: ../community/buddypress-functions.php:1080
+msgid "There was an error posting your reply. Please try again."
+msgstr ""
+
+#: ../community/buddypress-functions.php:1083
+msgid "Please do not leave the comment area blank."
+msgstr ""
+
+#: ../community/buddypress-functions.php:1166
+#: ../community/buddypress-functions.php:1206
+msgid "There was a problem when deleting. Please try again."
+msgstr ""
+
+#: ../community/buddypress-functions.php:1433
+#: ../community/groups/create.php:389
+#: ../community/groups/single/invites-loop.php:84
+msgid "Remove Invite"
+msgstr ""
+
+#: ../community/buddypress-functions.php:1438
+#, php-format
+msgid "%s has previously requested to join this group. Sending an invitation will automatically add the member to the group."
+msgstr ""
+
+#: ../community/buddypress-functions.php:1480
+msgid "No member found by that ID."
+msgstr ""
+
+#: ../community/buddypress-functions.php:1488
+msgid "Friendship could not be canceled."
+msgstr ""
+
+#: ../community/buddypress-functions.php:1498
+msgid " Friendship could not be requested."
+msgstr ""
+
+#: ../community/buddypress-functions.php:1510
+msgid "Friendship request could not be cancelled."
+msgstr ""
+
+#: ../community/buddypress-functions.php:1515
+msgid "Request Pending"
+msgstr ""
+
+#: ../community/buddypress-functions.php:1536
+msgid "There was a problem accepting that request. Please try again."
+msgstr ""
+
+#: ../community/buddypress-functions.php:1556
+msgid "There was a problem rejecting that request. Please try again."
+msgstr ""
+
+#: ../community/buddypress-functions.php:1605
+#: ../community/buddypress-functions.php:1611
+msgid "Error joining group"
+msgstr ""
+
+#: ../community/buddypress-functions.php:1620
+#: ../community/buddypress-functions.php:1641
+msgid "Leave Group"
+msgstr ""
+
+#: ../community/buddypress-functions.php:1626
+msgid "Error accepting invitation"
+msgstr ""
+
+#: ../community/buddypress-functions.php:1632
+#: ../community/buddypress-functions.php:1649
+msgid "Error requesting membership"
+msgstr ""
+
+#: ../community/buddypress-functions.php:1651
+msgid "Request Sent"
+msgstr ""
+
+#: ../community/buddypress-functions.php:1659
+msgid "Error leaving group"
+msgstr ""
+
+#: ../community/buddypress-functions.php:1668
+msgid "Join Group"
+msgstr ""
+
+#: ../community/buddypress-functions.php:1677
+msgid "Request Membership"
+msgstr ""
+
+#: ../community/buddypress-functions.php:1702
+msgid "Group invite could not be accepted"
+msgstr ""
+
+#: ../community/buddypress-functions.php:1709
+#, php-format
+msgid "Group invite accepted. View %s."
+msgstr ""
+
+#: ../community/buddypress-functions.php:1738
+msgid "Group invite could not be rejected"
+msgstr ""
+
+#: ../community/buddypress-functions.php:1743
+msgid "Group invite rejected"
+msgstr ""
+
+#: ../community/buddypress-functions.php:1764
+msgid "There was a problem closing the notice."
+msgstr ""
+
+#: ../community/buddypress-functions.php:1791
+#: ../community/buddypress-functions.php:1831
+msgid "There was a problem sending that reply. Please try again."
+msgstr ""
+
+#: ../community/common/search/dir-search-form.php:18
+#: ../dokan/products/listing-filter.php:77
+#: ../template-parts/search-filter.php:67 ../template-parts/search-form.php:33
+msgid "Search"
+msgstr ""
+
+#: ../community/groups/create.php:62
+msgid "Group Details"
+msgstr ""
+
+#: ../community/groups/create.php:75
+msgid "Group Name (required)"
+msgstr ""
+
+#: ../community/groups/create.php:80
+msgid "Group Description (required)"
+msgstr ""
+
+#: ../community/groups/create.php:103
+msgid "Group Settings"
+msgstr ""
+
+#: ../community/groups/create.php:117
+msgid "Privacy Options"
+msgstr ""
+
+#: ../community/groups/create.php:121
+msgid "This is a public group"
+msgstr ""
+
+#: ../community/groups/create.php:124
+msgid "Any site member can join this group."
+msgstr ""
+
+#: ../community/groups/create.php:125 ../community/groups/create.php:133
+msgid "This group will be listed in the groups directory and in search results."
+msgstr ""
+
+#: ../community/groups/create.php:126
+msgid "Group content and activity will be visible to any site member."
+msgstr ""
+
+#: ../community/groups/create.php:129
+msgid "This is a private group"
+msgstr ""
+
+#: ../community/groups/create.php:132
+msgid "Only users who request membership and are accepted can join the group."
+msgstr ""
+
+#: ../community/groups/create.php:134 ../community/groups/create.php:142
+msgid "Group content and activity will only be visible to members of the group."
+msgstr ""
+
+#: ../community/groups/create.php:137
+msgid "This is a hidden group"
+msgstr ""
+
+#: ../community/groups/create.php:140
+msgid "Only users who are invited can join the group."
+msgstr ""
+
+#: ../community/groups/create.php:141
+msgid "This group will not be listed in the groups directory or search results."
+msgstr ""
+
+#: ../community/groups/create.php:153
+msgid "Group Types"
+msgstr ""
+
+#: ../community/groups/create.php:155
+msgid "Select the types this group should be a part of."
+msgstr ""
+
+#: ../community/groups/create.php:163
+#, php-format
+msgid "&ndash; %s"
+msgstr ""
+
+#: ../community/groups/create.php:179
+msgid "Group Invitations"
+msgstr ""
+
+#: ../community/groups/create.php:181
+msgid "Which members of this group are allowed to invite others?"
+msgstr ""
+
+#: ../community/groups/create.php:185
+msgid "All group members"
+msgstr ""
+
+#: ../community/groups/create.php:187
+msgid "Group admins and mods only"
+msgstr ""
+
+#: ../community/groups/create.php:189
+msgid "Group admins only"
+msgstr ""
+
+#: ../community/groups/create.php:215
+msgid "Group Avatar"
+msgstr ""
+
+#: ../community/groups/create.php:238
+msgid "Upload an image to use as a profile photo for this group. The image will be shown on the main group page, and in search results."
+msgstr ""
+
+#: ../community/groups/create.php:243
+msgid "Select an image"
+msgstr ""
+
+#: ../community/groups/create.php:246
+msgid "Upload Image"
+msgstr ""
+
+#: ../community/groups/create.php:250
+msgid "To skip the group profile photo upload process, hit the \"Next Step\" button."
+msgstr ""
+
+#: ../community/groups/create.php:267
+msgid "Crop Group Profile Photo"
+msgstr ""
+
+#: ../community/groups/create.php:269
+msgid "Profile photo to crop"
+msgstr ""
+
+#: ../community/groups/create.php:272
+msgid "Profile photo preview"
+msgstr ""
+
+#: ../community/groups/create.php:275
+msgid "Crop Image"
+msgstr ""
+
+#: ../community/groups/create.php:304
+msgid "Cover Image"
+msgstr ""
+
+#: ../community/groups/create.php:318
+msgid "The Cover Image will be used to customize the header of your group."
+msgstr ""
+
+#: ../community/groups/create.php:340
+msgid "Group Invites"
+msgstr ""
+
+#: ../community/groups/create.php:371
+msgid "Select people to invite from your friends list."
+msgstr ""
+
+#: ../community/groups/create.php:408
+msgid "Once you have built up friend connections you will be able to invite others to your group."
+msgstr ""
+
+#: ../community/groups/create.php:453
+msgid "Back to Previous Step"
+msgstr ""
+
+#: ../community/groups/create.php:460
+msgid "Next Step"
+msgstr ""
+
+#: ../community/groups/create.php:467
+msgid "Create Group and Continue"
+msgstr ""
+
+#: ../community/groups/create.php:474
+msgid "Finish"
+msgstr ""
+
+#: ../community/groups/groups-loop.php:109
+#: ../community/groups/single/cover-image-header.php:72
+#, php-format
+msgid "Active %s"
+msgstr ""
+
+#: ../community/groups/groups-loop.php:181
+msgid "There were no groups found."
+msgstr ""
+
+#: ../community/groups/index.php:60
+msgid "Groups directory main navigation"
+msgstr ""
+
+#: ../community/groups/index.php:66
+#, php-format
+msgid "All Groups %s"
+msgstr ""
+
+#: ../community/groups/index.php:104 ../community/members/single/friends.php:24
+#: ../community/members/single/groups.php:23
+msgid "Order By:"
+msgstr ""
+
+#: ../community/groups/index.php:107 ../community/members/index.php:91
+#: ../community/members/single/friends.php:26
+#: ../community/members/single/groups.php:25
+msgid "Last Active"
+msgstr ""
+
+#: ../community/groups/index.php:108 ../community/members/single/groups.php:26
+msgid "Most Members"
+msgstr ""
+
+#: ../community/groups/index.php:109 ../community/members/single/groups.php:27
+msgid "Newly Created"
+msgstr ""
+
+#: ../community/groups/index.php:110 ../community/members/index.php:95
+#: ../community/members/single/friends.php:28
+#: ../community/members/single/groups.php:28
+msgid "Alphabetical"
+msgstr ""
+
+#: ../community/groups/index.php:130
+msgid "Groups directory"
+msgstr ""
+
+#: ../community/groups/single/activity.php:27
+#: ../community/groups/single/admin.php:11
+#: ../community/groups/single/members-front.php:11
+msgid "Group secondary navigation"
+msgstr ""
+
+#: ../community/groups/single/home.php:48
+msgid "Group primary navigation"
+msgstr ""
+
+#: ../community/groups/single/invites-loop.php:122
+msgid "Select friends to invite."
+msgstr ""
+
+#: ../community/groups/single/members-front.php:34
+msgid "Members"
+msgstr ""
+
+#: ../community/groups/single/members.php:218
+msgid "No members were found."
+msgstr ""
+
+#: ../community/groups/single/send-invites.php:19
+#: ../community/groups/single/send-invites.php:54
+msgid "Group invitations can only be extended to friends."
+msgstr ""
+
+#: ../community/groups/single/send-invites.php:27
+msgid "Send invites"
+msgstr ""
+
+#: ../community/groups/single/send-invites.php:37
+msgid "Send Invites"
+msgstr ""
+
+#: ../community/groups/single/send-invites.php:55
+msgid "Once you've made some friendships, you'll be able to invite those members to this group."
+msgstr ""
+
+#: ../community/groups/single/send-invites.php:63
+msgid "All of your friends already belong to this group."
+msgstr ""
+
+#: ../community/members/activate.php:47
+msgid "Your account was activated successfully! Your account details have been sent to you in a separate email."
+msgstr ""
+
+#: ../community/members/activate.php:52
+#, php-format
+msgid "Your account was activated successfully! You can now <a href=\"%s\">log in</a> with the username and password you provided when you signed up."
+msgstr ""
+
+#: ../community/members/activate.php:61
+msgid "Please provide a valid activation key."
+msgstr ""
+
+#: ../community/members/activate.php:65
+msgid "Activation Key:"
+msgstr ""
+
+#: ../community/members/activate.php:69
+#: ../inc/class-tgm-plugin-activation.php:2811
+msgid "Activate"
+msgstr ""
+
+#: ../community/members/index.php:60
+msgid "Members directory main navigation"
+msgstr ""
+
+#: ../community/members/index.php:92 ../community/members/single/friends.php:27
+msgid "Newest Registered"
+msgstr ""
+
+#: ../community/members/index.php:113
+msgid "Members directory"
+msgstr ""
+
+#: ../community/members/members-loop.php:260
+msgid "Sorry, no members were found."
+msgstr ""
+
+#: ../community/members/register.php:47
+msgid "User registration is currently not allowed."
+msgstr ""
+
+#: ../community/members/register.php:72
+msgid "Registering for this site is easy. Just fill in the fields below, and we'll get a new account set up for you in no time."
+msgstr ""
+
+#: ../community/members/register.php:89
+msgid "Account Details"
+msgstr ""
+
+#: ../community/members/register.php:91
+msgid "Username"
+msgstr ""
+
+#: ../community/members/register.php:91 ../community/members/register.php:102
+#: ../community/members/register.php:113 ../community/members/register.php:125
+#: ../community/members/register.php:287 ../community/members/register.php:303
+#: ../template-parts/admin/verify-license.php:40
+#: ../template-parts/admin/verify-license.php:63
+msgid "(required)"
+msgstr ""
+
+#: ../community/members/register.php:102
+#: ../paid-memberships-pro/pages/billing-v2.php:310
+#: ../paid-memberships-pro/pages/billing.php:292
+msgid "Email Address"
+msgstr ""
+
+#: ../community/members/register.php:113
+msgid "Choose a Password"
+msgstr ""
+
+#: ../community/members/register.php:125
+msgid "Confirm Password"
+msgstr ""
+
+#: ../community/members/register.php:171
+msgid "Profile Details"
+msgstr ""
+
+#: ../community/members/register.php:197 ../community/members/register.php:219
+#, php-format
+msgid "This field can be seen by: %s"
+msgstr ""
+
+#: ../community/members/register.php:207
+msgid "Who can see this field?"
+msgstr ""
+
+#: ../community/members/register.php:281
+msgid "Blog Details"
+msgstr ""
+
+#: ../community/members/register.php:283
+msgid "Yes, I'd like to create a new site"
+msgstr ""
+
+#: ../community/members/register.php:287
+msgid "Blog URL"
+msgstr ""
+
+#: ../community/members/register.php:303
+msgid "Site Title"
+msgstr ""
+
+#: ../community/members/register.php:315
+msgid "Privacy: I would like my site to appear in search engines, and in public listings around this network."
+msgstr ""
+
+#: ../community/members/register.php:325
+msgid "Yes"
+msgstr ""
+
+#: ../community/members/register.php:326
+msgid "No"
+msgstr ""
+
+#: ../community/members/register.php:363
+msgid "Submit Request"
+msgstr ""
+
+#: ../community/members/register.php:365
+msgid "Complete Sign Up"
+msgstr ""
+
+#: ../community/members/register.php:407
+msgid "You have successfully submitted your membership request! Our site moderators will review your submission and send you an activation email if your request is approved."
+msgstr ""
+
+#: ../community/members/register.php:409
+msgid "You have successfully created your account! To begin using this site you will need to activate your account via the email we have just sent to your address."
+msgstr ""
+
+#: ../community/members/register.php:411
+msgid "You have successfully created your account! Please log in using the username and password you have just created."
+msgstr ""
+
+#: ../community/members/single/activity.php:12
+#: ../community/members/single/friends.php:12
+#: ../community/members/single/groups.php:11
+#: ../community/members/single/invitations.php:12
+#: ../community/members/single/messages.php:11
+#: ../community/members/single/notifications.php:12
+msgid "Member secondary navigation"
+msgstr ""
+
+#: ../community/members/single/friends.php:63
+msgid "My friends"
+msgstr ""
+
+#: ../community/members/single/friends.php:68
+msgid "Friends"
+msgstr ""
+
+#: ../community/members/single/friends/requests.php:21
+msgid "Friendship requests"
+msgstr ""
+
+#: ../community/members/single/friends/requests.php:73
+#: ../community/members/single/groups/invites.php:74
+msgid "Accept"
+msgstr ""
+
+#: ../community/members/single/friends/requests.php:74
+#: ../community/members/single/groups/invites.php:76
+msgid "Reject"
+msgstr ""
+
+#: ../community/members/single/friends/requests.php:125
+msgid "You have no pending friendship requests."
+msgstr ""
+
+#: ../community/members/single/friends/requests.php:128
+#, php-format
+msgid "%s has no pending friendship requests."
+msgstr ""
+
+#: ../community/members/single/groups.php:64
+msgid "My groups"
+msgstr ""
+
+#: ../community/members/single/groups.php:69
+msgid "Member's groups"
+msgstr ""
+
+#: ../community/members/single/groups/invites.php:21
+msgid "Group invitations"
+msgstr ""
+
+#: ../community/members/single/groups/invites.php:106
+msgid "You have no outstanding group invites."
+msgstr ""
+
+#: ../community/members/single/groups/invites.php:109
+#, php-format
+msgid "%s have no outstanding group invites."
+msgstr ""
+
+#: ../community/members/single/invitations/invitations-loop.php:19
+#: ../community/members/single/messages/messages-loop.php:62
+#: ../community/members/single/notifications/notifications-loop.php:18
+msgid "Select all"
+msgstr ""
+
+#: ../community/members/single/invitations/invitations-loop.php:23
+msgid "Invitee"
+msgstr ""
+
+#: ../community/members/single/invitations/invitations-loop.php:24
+msgid "Message"
+msgstr ""
+
+#: ../community/members/single/invitations/invitations-loop.php:25
+msgid "Sent"
+msgstr ""
+
+#: ../community/members/single/invitations/invitations-loop.php:27
+msgid "Date Modified"
+msgstr ""
+
+#: ../community/members/single/invitations/invitations-loop.php:28
+#: ../community/members/single/messages/messages-loop.php:86
+#: ../community/members/single/messages/messages-loop.php:141
+#: ../community/members/single/notifications/notifications-loop.php:23
+#: ../community/members/single/notifications/notifications-loop.php:40
+msgid "Actions"
+msgstr ""
+
+#: ../community/members/single/invitations/invitations-loop.php:43
+msgid "Select this invitation"
+msgstr ""
+
+#: ../community/members/single/invitations/list-invites.php:16
+msgid "Invitations"
+msgstr ""
+
+#: ../community/members/single/invitations/list-invites.php:47
+msgid "There are no invitations to display."
+msgstr ""
+
+#: ../community/members/single/invitations/send-invites.php:13
+msgid "Send Invitations"
+msgstr ""
+
+#: ../community/members/single/invitations/send-invites.php:21
+msgid "Fill out the form below to invite a new user to join this site. Upon submission of the form, an email will be sent to the invitee containing a link to accept your invitation. You may also add a custom message to the email."
+msgstr ""
+
+#: ../community/members/single/invitations/send-invites.php:25
+msgid "Email address of new user"
+msgstr ""
+
+#: ../community/members/single/invitations/send-invites.php:32
+msgid "Add a personalized message to the invitation (optional)"
+msgstr ""
+
+#: ../community/members/single/invitations/send-invites.php:41
+msgid "Send Invitation"
+msgstr ""
+
+#: ../community/members/single/invitations/send-invites.php:50
+msgid "Sorry, you are not allowed to send invitations."
+msgstr ""
+
+#: ../community/members/single/messages.php:53
+msgid "Messages inbox"
+msgstr ""
+
+#: ../community/members/single/messages.php:58
+msgid "Sent Messages"
+msgstr ""
+
+#: ../community/members/single/messages.php:98
+msgid "Sitewide Notices"
+msgstr ""
+
+#: ../community/members/single/messages/global-notice.php:31
+#: ../inc/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../community/members/single/messages/messages-loop.php:21
+msgid "Starred messages"
+msgstr ""
+
+#: ../community/members/single/messages/messages-loop.php:64
+#: ../community/members/single/messages/messages-loop.php:103
+#: ../community/members/single/messages/messages-loop.php:110
+msgid "From"
+msgstr ""
+
+#: ../community/members/single/messages/messages-loop.php:65
+#: ../community/members/single/messages/messages-loop.php:118
+msgid "Subject"
+msgstr ""
+
+#: ../community/members/single/messages/messages-loop.php:98
+msgid "Select this message"
+msgstr ""
+
+#: ../community/members/single/messages/messages-loop.php:105
+msgid "From:"
+msgstr ""
+
+#: ../community/members/single/messages/messages-loop.php:112
+msgid "To:"
+msgstr ""
+
+#: ../community/members/single/messages/messages-loop.php:119
+msgid "View Message"
+msgstr ""
+
+#: ../community/members/single/messages/messages-loop.php:152
+#: ../community/members/single/notifications/notifications-loop.php:57
+msgid "Read"
+msgstr ""
+
+#: ../community/members/single/messages/messages-loop.php:157
+#: ../community/members/single/notifications/notifications-loop.php:52
+msgid "Unread"
+msgstr ""
+
+#: ../community/members/single/messages/messages-loop.php:213
+msgid "Sorry, no messages were found."
+msgstr ""
+
+#: ../community/members/single/notifications/notifications-dropdown.php:42
+msgid "Notifications"
+msgstr ""
+
+#: ../community/members/single/notifications/notifications-list.php:34
+msgid "All notifications"
+msgstr ""
+
+#: ../community/members/single/notifications/notifications-list.php:38
+msgid "No notifications"
+msgstr ""
+
+#: ../community/members/single/notifications/notifications-loop.php:20
+#: ../community/members/single/notifications/notifications-loop.php:37
+msgid "User"
+msgstr ""
+
+#: ../community/members/single/notifications/notifications-loop.php:21
+#: ../community/members/single/notifications/notifications-loop.php:38
+msgid "Notification"
+msgstr ""
+
+#: ../community/members/single/notifications/notifications-loop.php:22
+#: ../community/members/single/notifications/notifications-loop.php:39
+msgid "Date Received"
+msgstr ""
+
+#: ../community/members/single/notifications/notifications-loop.php:35
+msgid "Select this notification"
+msgstr ""
+
+#: ../dokan/products/listing-filter.php:37
+msgid "- Select a category -"
+msgstr ""
+
+#: ../dokan/products/listing-filter.php:58
+msgid "Product type"
+msgstr ""
+
+#: ../dokan/products/listing-filter.php:71
+msgid "Search Products"
+msgstr ""
+
+#: ../dokan/products/listing-filter.php:79
+#: ../template-parts/search-filter.php:61
+msgid "Reset"
+msgstr ""
+
+#: ../dokan/settings/store-form.php:39
+msgid "Open"
+msgstr ""
+
+#: ../dokan/settings/store-form.php:81
+msgid "Upload banner"
+msgstr ""
+
+#: ../dokan/settings/store-form.php:95
+#, php-format
+msgid "Upload a banner for your store. Banner size is (%1$sx%2$s) pixels."
+msgstr ""
+
+#: ../dokan/settings/store-form.php:108
+msgid "Profile Picture"
+msgstr ""
+
+#: ../dokan/settings/store-form.php:123
+msgid "Upload Photo"
+msgstr ""
+
+#: ../dokan/settings/store-form.php:130
+msgid "Store Name"
+msgstr ""
+
+#: ../dokan/settings/store-form.php:133
+msgid "store name"
+msgstr ""
+
+#: ../dokan/settings/store-form.php:156
+msgid "Phone No"
+msgstr ""
+
+#: ../dokan/settings/store-form.php:158
+msgid "+123456.."
+msgstr ""
+
+#: ../dokan/settings/store-form.php:168
+msgid "Email"
+msgstr ""
+
+#: ../dokan/settings/store-form.php:173
+msgid "Show email address in store"
+msgstr ""
+
+#: ../dokan/settings/store-form.php:188
+msgid "Map"
+msgstr ""
+
+#: ../dokan/settings/store-form.php:210
+msgid "Terms and Conditions"
+msgstr ""
+
+#: ../dokan/settings/store-form.php:221
+msgid "Show terms and conditions in store page"
+msgstr ""
+
+#: ../dokan/settings/store-form.php:227
+msgid "TOC Details"
+msgstr ""
+
+#: ../dokan/settings/store-form.php:249
+msgid "Store Schedule"
+msgstr ""
+
+#: ../dokan/settings/store-form.php:259
+msgid "Store has open close time"
+msgstr ""
+
+#: ../dokan/settings/store-form.php:274
+msgid "Store Open Notice"
+msgstr ""
+
+#: ../dokan/settings/store-form.php:277
+msgid "Store is open"
+msgstr ""
+
+#: ../dokan/settings/store-form.php:282
+msgid "Store Close Notice"
+msgstr ""
+
+#: ../dokan/settings/store-form.php:285
+msgid "Store is closed"
+msgstr ""
+
+#: ../dokan/settings/store-form.php:295
+msgid "Update Settings"
+msgstr ""
+
+#: ../dokan/store.php:74
+msgid "No products were found of this vendor!"
+msgstr ""
+
+#: ../embed-404.php:37 ../template-parts/player-videojs.php:274
+msgid "Video unavailable"
+msgstr ""
+
+#: ../embed-404.php:50
+msgid "Browse"
+msgstr ""
+
+#: ../functions.php:50
+msgid "Primary Menu"
+msgstr ""
+
+#: ../functions.php:123
+msgid "Primary"
+msgstr ""
+
+#: ../functions.php:125
+msgid "Add widgets here to appear in primary sidebar."
+msgstr ""
+
+#: ../functions.php:135
+msgid "Secondary"
+msgstr ""
+
+#: ../functions.php:137
+msgid "Add widgets here to appear in secondary sidebar."
+msgstr ""
+
+#: ../functions.php:147
+msgid "Featured"
+msgstr ""
+
+#: ../functions.php:149
+msgid "Add widgets here to appear in featured sidebar."
+msgstr ""
+
+#: ../functions.php:159
+msgid "Content Bottom"
+msgstr ""
+
+#: ../functions.php:161
+msgid "Add widgets here to appear in content bottom sidebar."
+msgstr ""
+
+#: ../functions.php:177
+#, php-format
+msgid "Footer %s"
+msgstr ""
+
+#: ../functions.php:181
+msgid "Add widgets here to appear in footer sidebar."
+msgstr ""
+
+#: ../inc/bbpress.php:43
+msgid "bbPress"
+msgstr ""
+
+#: ../inc/bbpress.php:45
+msgid "Add widgets here to appear in bbPress primary sidebar."
+msgstr ""
+
+#: ../inc/buddypress.php:353 ../inc/wp-user-follow.php:78
+msgid "followers"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:393
+#: ../inc/class-tgm-plugin-activation.php:912
+#: ../inc/class-tgm-plugin-activation.php:2618
+#: ../inc/class-tgm-plugin-activation.php:3665
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:394
+#: ../inc/class-tgm-plugin-activation.php:3244
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:395
+#: ../inc/class-tgm-plugin-activation.php:3037
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:399
+#, php-format
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:403
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1019
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1019
+#: ../inc/class-tgm-plugin-activation.php:1022
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:1022
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2358
+msgid "Required"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2361
+msgid "Recommended"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2377
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2380
+msgid "External Source"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2383
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2400
+msgid "Not Installed"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2404
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2406
+msgid "Active"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2412
+msgid "Required Update not Available"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2415
+msgid "Requires Update"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2418
+msgid "Update recommended"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2477
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2481
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2575
+msgid "Installed version:"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2583
+msgid "Minimum required version:"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2595
+msgid "Available version:"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2618
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2632
+msgid "Plugin"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2633
+msgid "Source"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2634
+msgid "Type"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2638
+msgid "Version"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2639
+#: ../paid-memberships-pro/pages/invoice-v2.php:73
+#: ../paid-memberships-pro/pages/invoice.php:41
+msgid "Status"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2688
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2693
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2699
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2769
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2802
+msgid "Install"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2808
+#: ../paid-memberships-pro/pages/billing-v2.php:467
+#: ../paid-memberships-pro/pages/billing.php:448
+msgid "Update"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2842
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2844
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2885
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2887
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:2993
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:3019
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:3243
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:3583
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:3586
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:3588
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:3592
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:3594
+#: ../inc/class-tgm-plugin-activation.php:3602
+msgid "Show Details"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:3594
+#: ../inc/class-tgm-plugin-activation.php:3602
+msgid "Hide Details"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:3595
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:3597
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:3600
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:3603
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../inc/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../inc/class-theme-license.php:223 ../inc/class-theme-license.php:252
+msgid "Invalid Purchase Code"
+msgstr ""
+
+#: ../inc/class-theme-license.php:338
+msgid "Undefined Error, please try again."
+msgstr ""
+
+#: ../inc/class-theme-license.php:377 ../inc/class-theme-license.php:419
+msgid "Not verified yet"
+msgstr ""
+
+#: ../inc/class-theme-license.php:584
+#, php-format
+msgid "Congratulations, you have verified <strong>%s - %s</strong> successfully"
+msgstr ""
+
+#: ../inc/class-theme-license.php:627
+#, php-format
+msgid "Congratulations, you verified <strong>%s - %s</strong> successfully."
+msgstr ""
+
+#: ../inc/class-theme-license.php:641
+msgid "No permission"
+msgstr ""
+
+#: ../inc/class-theme-license.php:650
+msgid "Dismissed"
+msgstr ""
+
+#: ../inc/class-theme-license.php:663
+#, php-format
+msgid "Would you like to receive automatic updates and unlock premium support? Please %s of %s."
+msgstr ""
+
+#: ../inc/class-theme-license.php:664
+msgid "activate your copy"
+msgstr ""
+
+#: ../inc/class-theme-license.php:768 ../inc/class-theme-license.php:769
+#: ../template-parts/admin/verify-license.php:24
+msgid "Verify License"
+msgstr ""
+
+#: ../inc/class-wp-bootstrap-navwalker.php:386
+msgid "Add a menu"
+msgstr ""
+
+#: ../inc/comment-functions.php:22 ../template-parts/post-date-diff.php:30
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: ../inc/comment-functions.php:166
+#, php-format
+msgid "last modified %s"
+msgstr ""
+
+#: ../inc/comment-functions.php:178
+msgid "show more"
+msgstr ""
+
+#: ../inc/comment-functions.php:185
+msgid "show less"
+msgstr ""
+
+#: ../inc/comment-functions.php:197
+msgid "Replies"
+msgstr ""
+
+#: ../inc/mycred.php:91
+msgid "point"
+msgstr ""
+
+#: ../inc/mycred.php:93
+msgid "points"
+msgstr ""
+
+#: ../inc/option-functions.php:27 ../template-parts/comment/comment-form.php:49
+msgid "Name"
+msgstr ""
+
+#: ../inc/option-functions.php:28
+#: ../paid-memberships-pro/pages/invoice-v2.php:222
+#: ../paid-memberships-pro/pages/invoice.php:133
+#: ../paid-memberships-pro/pages/invoice.php:145
+msgid "Date"
+msgstr ""
+
+#: ../inc/option-functions.php:37
+msgid "Views"
+msgstr ""
+
+#: ../inc/template-functions.php:267 ../page-templates/page-boxed.php:65
+#: ../template-parts/content/content-page.php:52
+#: ../template-parts/content/content.php:69
+msgid "Continue reading"
+msgstr ""
+
+#: ../inc/template-functions.php:312
+msgid "Please enter your password to unlock this content"
+msgstr ""
+
+#: ../inc/template-functions.php:319
+msgid "Unlock"
+msgstr ""
+
+#: ../inc/template-tags.php:69
+msgid "Older posts"
+msgstr ""
+
+#: ../inc/template-tags.php:70
+msgid "Newer posts"
+msgstr ""
+
+#: ../inc/woocommerce.php:41
+msgid "Woocommerce Primary"
+msgstr ""
+
+#: ../inc/woocommerce.php:43
+msgid "Add widgets here to appear in Woocommerce primary sidebar."
+msgstr ""
+
+#: ../page-templates/single-v2.php:104
+#: ../template-parts/content/content-search.php:79
+#: ../template-parts/content/content.php:93
+msgid "Tagged:"
+msgstr ""
+
+#: ../paid-memberships-pro/pages/billing-v2.php:70
+#: ../paid-memberships-pro/pages/invoice-v2.php:224
+#: ../paid-memberships-pro/pages/invoice.php:135
+#: ../paid-memberships-pro/pages/invoice.php:149
+msgid "Level"
+msgstr ""
+
+#: ../paid-memberships-pro/pages/billing-v2.php:73
+msgid "Membership Fee"
+msgstr ""
+
+#: ../paid-memberships-pro/pages/billing-v2.php:77
+#, php-format
+msgid "%s every %d %s."
+msgstr ""
+
+#: ../paid-memberships-pro/pages/billing-v2.php:79
+#, php-format
+msgid "%s per %s."
+msgstr ""
+
+#: ../paid-memberships-pro/pages/billing-v2.php:91
+msgid "Duration"
+msgstr ""
+
+#: ../paid-memberships-pro/pages/billing-v2.php:99
+#: ../paid-memberships-pro/pages/invoice-v2.php:175
+#: ../paid-memberships-pro/pages/invoice.php:90
+msgid "Payment Method"
+msgstr ""
+
+#: ../paid-memberships-pro/pages/billing-v2.php:101
+#: ../paid-memberships-pro/pages/invoice-v2.php:178
+#: ../paid-memberships-pro/pages/invoice.php:92
+msgid "ending in"
+msgstr ""
+
+#: ../paid-memberships-pro/pages/billing-v2.php:103
+#: ../paid-memberships-pro/pages/invoice-v2.php:183
+#: ../paid-memberships-pro/pages/invoice.php:94
+msgid "Expiration"
+msgstr ""
+
+#: ../paid-memberships-pro/pages/billing-v2.php:128
+#: ../paid-memberships-pro/pages/billing-v2.php:134
+#: ../paid-memberships-pro/pages/billing.php:114
+#: ../paid-memberships-pro/pages/billing.php:120
+msgid "View Your Membership Account &rarr;"
+msgstr ""
+
+#: ../paid-memberships-pro/pages/billing-v2.php:131
+#: ../paid-memberships-pro/pages/billing.php:117
+msgid "Your payment subscription is managed by PayPal. Please <a href=\"http://www.paypal.com\">login to PayPal here</a> to update your billing information."
+msgstr ""
+
+#: ../paid-memberships-pro/pages/billing-v2.php:139
+#: ../paid-memberships-pro/pages/billing.php:125
+msgid "Your billing information cannot be updated at this time."
+msgstr ""
+
+#: ../paid-memberships-pro/pages/billing-v2.php:161
+#: ../paid-memberships-pro/pages/billing.php:146
+#, php-format
+msgid "You are logged in as <strong>%s</strong>. If you would like to update your billing information for a different account, <a href=\"%s\">log out now</a>."
+msgstr ""
+
+#: ../paid-memberships-pro/pages/billing-v2.php:174
+#: ../paid-memberships-pro/pages/billing.php:158
+#: ../paid-memberships-pro/pages/invoice-v2.php:117
+#: ../paid-memberships-pro/pages/invoice.php:73
+msgid "Billing Address"
+msgstr ""
+
+#: ../paid-memberships-pro/pages/billing-v2.php:178
+#: ../paid-memberships-pro/pages/billing.php:162
+msgid "First Name"
+msgstr ""
+
+#: ../paid-memberships-pro/pages/billing-v2.php:182
+#: ../paid-memberships-pro/pages/billing.php:166
+msgid "Last Name"
+msgstr ""
+
+#: ../paid-memberships-pro/pages/billing-v2.php:188
+#: ../paid-memberships-pro/pages/billing.php:170
+msgid "Address 1"
+msgstr ""
+
+#: ../paid-memberships-pro/pages/billing-v2.php:192
+#: ../paid-memberships-pro/pages/billing.php:174
+msgid "Address 2"
+msgstr ""
+
+#: ../paid-memberships-pro/pages/billing-v2.php:193
+#: ../paid-memberships-pro/pages/billing.php:175
+msgid "optional"
+msgstr ""
+
+#: ../paid-memberships-pro/pages/billing-v2.php:203
+#: ../paid-memberships-pro/pages/billing.php:185
+msgid "City"
+msgstr ""
+
+#: ../paid-memberships-pro/pages/billing-v2.php:207
+#: ../paid-memberships-pro/pages/billing.php:189
+msgid "State"
+msgstr ""
+
+#: ../paid-memberships-pro/pages/billing-v2.php:211
+#: ../paid-memberships-pro/pages/billing.php:193
+msgid "Postal Code"
+msgstr ""
+
+#: ../paid-memberships-pro/pages/billing-v2.php:220
+#: ../paid-memberships-pro/pages/billing.php:202
+msgid "City, State Zip"
+msgstr ""
+
+#: ../paid-memberships-pro/pages/billing-v2.php:273
+#: ../paid-memberships-pro/pages/billing.php:255
+msgid "Country"
+msgstr ""
+
+#: ../paid-memberships-pro/pages/billing-v2.php:299
+#: ../paid-memberships-pro/pages/billing.php:281
+msgid "Phone"
+msgstr ""
+
+#: ../paid-memberships-pro/pages/billing-v2.php:321
+#: ../paid-memberships-pro/pages/billing.php:303
+msgid "Confirm Email"
+msgstr ""
+
+#: ../paid-memberships-pro/pages/billing-v2.php:351
+#: ../paid-memberships-pro/pages/billing.php:333
+msgid "Credit Card Information"
+msgstr ""
+
+#: ../paid-memberships-pro/pages/billing-v2.php:352
+#: ../paid-memberships-pro/pages/billing.php:334
+#, php-format
+msgid "We accept %s"
+msgstr ""
+
+#: ../paid-memberships-pro/pages/billing-v2.php:364
+#: ../paid-memberships-pro/pages/billing.php:346
+msgid "Card Type"
+msgstr ""
+
+#: ../paid-memberships-pro/pages/billing-v2.php:403
+#: ../paid-memberships-pro/pages/billing.php:384
+msgid "Card Number"
+msgstr ""
+
+#: ../paid-memberships-pro/pages/billing-v2.php:407
+#: ../paid-memberships-pro/pages/billing.php:388
+msgid "Expiration Date"
+msgstr ""
+
+#: ../paid-memberships-pro/pages/billing-v2.php:443
+#: ../paid-memberships-pro/pages/billing.php:424
+msgid "CVV"
+msgstr ""
+
+#: ../paid-memberships-pro/pages/billing-v2.php:501
+#, php-format
+msgid "Your membership is not active. <a href='%s'>Renew now.</a>"
+msgstr ""
+
+#: ../paid-memberships-pro/pages/billing-v2.php:504
+#, php-format
+msgid "You do not have an active membership. <a href='%s'>Register here.</a>"
+msgstr ""
+
+#: ../paid-memberships-pro/pages/billing-v2.php:507
+#: ../paid-memberships-pro/pages/billing.php:476
+#, php-format
+msgid "You do not have an active membership. <a href='%s'>Choose a membership level.</a>"
+msgstr ""
+
+#: ../paid-memberships-pro/pages/billing-v2.php:510
+#: ../paid-memberships-pro/pages/billing.php:469
+msgid "This subscription is not recurring. So you don't need to update your billing information."
+msgstr ""
+
+#: ../paid-memberships-pro/pages/invoice-v2.php:32
+#: ../paid-memberships-pro/pages/invoice.php:34
+#, php-format
+msgid "Invoice #%s on %s"
+msgstr ""
+
+#: ../paid-memberships-pro/pages/invoice-v2.php:41
+#: ../paid-memberships-pro/pages/invoice.php:35
+msgid "Print"
+msgstr ""
+
+#: ../paid-memberships-pro/pages/invoice-v2.php:50
+#: ../paid-memberships-pro/pages/invoice.php:38
+msgid "Account"
+msgstr ""
+
+#: ../paid-memberships-pro/pages/invoice-v2.php:55
+#: ../paid-memberships-pro/pages/invoice.php:39
+msgid "Membership Level"
+msgstr ""
+
+#: ../paid-memberships-pro/pages/invoice-v2.php:66
+msgid "Deleted"
+msgstr ""
+
+#: ../paid-memberships-pro/pages/invoice-v2.php:76
+#: ../paid-memberships-pro/pages/invoice.php:44
+msgid "Paid"
+msgstr ""
+
+#: ../paid-memberships-pro/pages/invoice-v2.php:92
+#: ../paid-memberships-pro/pages/invoice.php:57
+msgid "Discount Code"
+msgstr ""
+
+#: ../paid-memberships-pro/pages/invoice-v2.php:199
+#: ../paid-memberships-pro/pages/invoice-v2.php:225
+#: ../paid-memberships-pro/pages/invoice.php:106
+#: ../paid-memberships-pro/pages/invoice.php:136
+#: ../paid-memberships-pro/pages/invoice.php:154
+msgid "Total Billed"
+msgstr ""
+
+#: ../paid-memberships-pro/pages/invoice-v2.php:223
+#: ../paid-memberships-pro/pages/invoice.php:134
+#: ../paid-memberships-pro/pages/invoice.php:146
+msgid "Invoice #"
+msgstr ""
+
+#: ../paid-memberships-pro/pages/invoice-v2.php:268
+#: ../paid-memberships-pro/pages/invoice.php:170
+msgid "No invoices found."
+msgstr ""
+
+#: ../searchform.php:20
+msgid "Search for:"
+msgstr ""
+
+#: ../searchform.php:25 ../template-parts/search-form.php:34
+msgid "Search here..."
+msgstr ""
+
+#: ../template-parts/admin/verify-license.php:37
+msgid "Access Token"
+msgstr ""
+
+#: ../template-parts/admin/verify-license.php:51
+msgid "Create your personal access token key"
+msgstr ""
+
+#: ../template-parts/admin/verify-license.php:60
+msgid "Purchase Code"
+msgstr ""
+
+#: ../template-parts/admin/verify-license.php:79
+msgid "IMPORTANT: do not share these two keys with anyone."
+msgstr ""
+
+#: ../template-parts/admin/verify-license.php:91
+msgid "Verified, check for update"
+msgstr ""
+
+#: ../template-parts/admin/verify-license.php:91
+msgid "Verify Purchase"
+msgstr ""
+
+#: ../template-parts/admin/verify-license.php:99
+msgid "Deregister"
+msgstr ""
+
+#: ../template-parts/admin/verify-license.php:109
+msgid "How to verfy purchase?"
+msgstr ""
+
+#: ../template-parts/alert/content-draft.php:18
+#, php-format
+msgid "This %s is drafted."
+msgstr ""
+
+#: ../template-parts/alert/content-future.php:18
+#, php-format
+msgid "This %s is scheduled."
+msgstr ""
+
+#: ../template-parts/alert/content-pending.php:18
+#, php-format
+msgid "This %s is pending review."
+msgstr ""
+
+#: ../template-parts/alert/content-private.php:18
+#, php-format
+msgid "This %s is privated."
+msgstr ""
+
+#: ../template-parts/alert/content-reject.php:18
+#, php-format
+msgid "This %s is rejected."
+msgstr ""
+
+#: ../template-parts/alert/content-trash.php:18
+#, php-format
+msgid "This %s is trashed."
+msgstr ""
+
+#: ../template-parts/comment/comment-form.php:31
+#, php-format
+msgid "You must be %s to post a comment."
+msgstr ""
+
+#: ../template-parts/comment/comment-form.php:32
+msgid "logged in"
+msgstr ""
+
+#: ../template-parts/comment/comment-form.php:40
+msgid "Your comment"
+msgstr ""
+
+#: ../template-parts/comment/comment-form.php:57
+msgid "Email address"
+msgstr ""
+
+#: ../template-parts/comment/comment-form.php:65
+msgid "Website"
+msgstr ""
+
+#: ../template-parts/comment/comment-form.php:78
+msgid "Leave a comment"
+msgstr ""
+
+#: ../template-parts/content/content-none.php:18
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: ../template-parts/content/content-none.php:22
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: ../template-parts/content/content-taxonomy-playlist.php:120
+msgid "Private"
+msgstr ""
+
+#: ../template-parts/content/content-taxonomy-playlist.php:125
+msgid "Public"
+msgstr ""
+
+#: ../template-parts/content/content-taxonomy-playlist.php:136
+#: ../template-parts/content/content-taxonomy.php:48
+#, php-format
+msgid "%s video"
+msgstr ""
+
+#: ../template-parts/content/content-taxonomy.php:42
+#, php-format
+msgid "%s post"
+msgstr ""
+
+#: ../template-parts/content/content-taxonomy.php:55
+#, php-format
+msgid "%s product"
+msgstr ""
+
+#: ../template-parts/content/content.php:83
+msgid "Pages"
+msgstr ""
+
+#: ../template-parts/edit-link.php:20
+msgid "Edit"
+msgstr ""
+
+#: ../template-parts/footer/copyright.php:16
+#, php-format
+msgid "Copyright %s %s"
+msgstr ""
+
+#: ../template-parts/footer/socials.php:36
+msgid "Connect with us"
+msgstr ""
+
+#: ../template-parts/header/profile-dropdown.php:55
+msgid "Sign In"
+msgstr ""
+
+#: ../template-parts/header/profile-menu.php:81
+msgid "Dashboard"
+msgstr ""
+
+#: ../template-parts/header/profile-menu.php:110
+#, php-format
+msgid "%s mode"
+msgstr ""
+
+#: ../template-parts/header/profile-menu.php:123
+msgid "Customizer"
+msgstr ""
+
+#: ../template-parts/header/profile-menu.php:130
+msgid "Backend"
+msgstr ""
+
+#: ../template-parts/header/profile-menu.php:140
+msgid "Log Out"
+msgstr ""
+
+#: ../template-parts/page-header.php:64
+msgid "Blog"
+msgstr ""
+
+#: ../template-parts/page-header.php:79
+#, php-format
+msgid "Search result for \"%s\""
+msgstr ""
+
+#: ../template-parts/post-comment.php:29
+msgid "0 comments"
+msgstr ""
+
+#: ../template-parts/post-date-normal.php:23
+#, php-format
+msgid "on %s"
+msgstr ""
+
+#: ../template-parts/post-views.php:28
+#, php-format
+msgid "%s view"
+msgstr ""
+
+#: ../template-parts/search-form/dropdown-taxonomy.php:17
+msgid "All"
+msgstr ""
+
+#: ../template-parts/sortby.php:27
+#, php-format
+msgid "Sort by %s"
+msgstr ""
+
+#: ../template-parts/spinner.php:18
+msgid "Loading..."
+msgstr ""
+
+#: ../template-parts/term-play-all-overlay.php:21
+msgid "Play all"
+msgstr ""
+
+#: ../template-parts/turn-off-light.php:19
+msgid "Turn off light"
+msgstr ""
+
+#: ../template-parts/turn-off-light.php:20
+msgid "Turn on light"
+msgstr ""
+
+#: ../template-parts/up-next.php:27
+msgid "Turn on Up Next"
+msgstr ""
+
+#: ../template-parts/up-next.php:28
+msgid "Turn off Up Next"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:36 ../woocommerce/cart/cart.php:96
+msgid "Product"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:37 ../woocommerce/cart/cart.php:121
+msgid "Price"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:38 ../woocommerce/cart/cart.php:127
+msgid "Quantity"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:39 ../woocommerce/cart/cart.php:153
+msgid "Subtotal"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:72
+#, php-format
+msgid "Remove %s from cart"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:116
+msgid "Available on backorder"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:171
+msgid "Coupon:"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:171
+msgid "Coupon code"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:171
+msgid "Apply coupon"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:176
+msgid "Update cart"
+msgstr ""
+
+#: ../woocommerce/checkout/form-checkout.php:26
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: ../woocommerce/checkout/form-checkout.php:63
+msgid "Your order"
+msgstr ""
+
+#: ../woocommerce/loop/sale-flash.php:27
+#: ../woocommerce/single-product/sale-flash.php:27
+msgid "Sale!"
+msgstr ""
+
+#: ../woocommerce/myaccount/downloads.php:42
+msgid "No downloads available yet."
+msgstr ""
+
+#: ../woocommerce/myaccount/downloads.php:42
+msgid "Browse products"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-edit-address.php:20
+msgid "Billing address"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-edit-address.php:20
+msgid "Shipping address"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-edit-address.php:46
+msgid "Save address"
+msgstr ""
+
+#: ../woocommerce/product-searchform.php:25
+msgid "Search products&hellip;"
+msgstr ""
+
+#: ../woocommerce/single-product/product-image.php:46
+msgid "Awaiting product image"
+msgstr ""
+
+#: ../woocommerce/single-product/related.php:46
+msgid "Related products"
+msgstr ""
+
+#: ../woocommerce/single-product/review-meta.php:27
+msgid "Your review is awaiting approval"
+msgstr ""
+
+#: ../woocommerce/single-product/review-meta.php:43
+msgid "Purchased"
+msgstr ""

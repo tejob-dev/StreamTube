@@ -1,0 +1,26 @@
+.activity-item{
+
+	.post-title{
+		font-size: 1.1rem;
+	}
+
+	.comment-count{
+		a{
+		    text-decoration: none;
+		    color: #a0a1a3;
+		    font-size: .95rem;
+		}
+	}
+
+	@media only screen and (max-width: 700px){
+
+		.user-avatar{
+			width: 45px;
+			height: 45px;
+		}
+
+		.post-title{
+			font-size: 1rem;
+		}
+	}
+}

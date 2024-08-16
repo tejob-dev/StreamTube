@@ -1,0 +1,932 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: streamtube\n"
+"POT-Creation-Date: 2024-03-15 17:03+0700\n"
+"PO-Revision-Date: 2016-01-22 14:55+0700\n"
+"Last-Translator: \n"
+"Language-Team: https://themeforest.net/user/phpface\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: esc_html__;esc_html_e;__;_e;esc_attr_e;esc_attr__;_n\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../admin/class-wp-cloudflare-stream-admin.php:127
+#: ../admin/class-wp-cloudflare-stream-admin.php:128
+#: ../admin/settings/settings.php:37
+msgid "WP Cloudflare Stream"
+msgstr ""
+
+#: ../admin/class-wp-cloudflare-stream-admin.php:147
+msgid "Cloudflare Stream - Details"
+msgstr ""
+
+#: ../admin/class-wp-cloudflare-stream-admin.php:156
+msgid "Cloudflare Stream - Simulcast"
+msgstr ""
+
+#: ../admin/class-wp-cloudflare-stream-admin.php:214
+msgid "No content available"
+msgstr ""
+
+#: ../admin/class-wp-cloudflare-stream-admin.php:233
+msgid "Live Outputs are not available"
+msgstr ""
+
+#: ../admin/class-wp-cloudflare-stream-admin.php:255
+msgid "Start Live Stream"
+msgstr ""
+
+#: ../admin/class-wp-cloudflare-stream-admin.php:295
+#: ../includes/class-wp-cloudflare-stream-post.php:1721
+msgid "Live Stream has been closed successfully"
+msgstr ""
+
+#: ../admin/class-wp-cloudflare-stream-admin.php:301
+#: ../includes/class-wp-cloudflare-stream-post.php:1726
+msgid "Live Stream has been opened successfully"
+msgstr ""
+
+#: ../admin/class-wp-cloudflare-stream-admin.php:321
+msgid "Sorry, You do not have permission to view logs"
+msgstr ""
+
+#: ../admin/class-wp-cloudflare-stream-admin.php:325
+msgid "No logs were found"
+msgstr ""
+
+#: ../admin/class-wp-cloudflare-stream-admin.php:358
+#: ../includes/class-wp-cloudflare-stream-post.php:1935
+msgid "Sorry, You do not have permission to do this action"
+msgstr ""
+
+#: ../admin/class-wp-cloudflare-stream-admin.php:369
+msgid "Synced"
+msgstr ""
+
+#: ../admin/class-wp-cloudflare-stream-admin.php:390
+msgid "Cloudflare Stream"
+msgstr ""
+
+#: ../admin/class-wp-cloudflare-stream-admin.php:391
+msgid "Date"
+msgstr ""
+
+#: ../admin/metabox/cloudflare-control.php:20
+msgid "Ready"
+msgstr ""
+
+#: ../admin/metabox/cloudflare-control.php:47
+msgid "Log"
+msgstr ""
+
+#: ../admin/metabox/cloudflare-control.php:53
+#: ../includes/class-wp-cloudflare-stream-settings.php:170
+msgid "Sync"
+msgstr ""
+
+#: ../admin/metabox/video-details.php:23 ../admin/settings/watermark.php:81
+msgid "Name"
+msgstr ""
+
+#: ../admin/metabox/video-details.php:37 ../admin/settings/watermark.php:162
+msgid "UID"
+msgstr ""
+
+#: ../admin/metabox/video-details.php:52
+#: ../public/partials/live-stream-settings.php:75
+msgid "HLS Playback URL"
+msgstr ""
+
+#: ../admin/metabox/video-details.php:67
+#: ../public/partials/live-stream-settings.php:85
+msgid "Dash Playback URL"
+msgstr ""
+
+#: ../admin/metabox/video-details.php:84
+msgid "RTMP URL"
+msgstr ""
+
+#: ../admin/metabox/video-details.php:99
+msgid "RTMP Stream Key"
+msgstr ""
+
+#: ../admin/metabox/video-details.php:114
+#: ../public/partials/live-stream-settings.php:138
+msgid "SRT URL"
+msgstr ""
+
+#: ../admin/metabox/video-details.php:129
+#: ../public/partials/live-stream-settings.php:146
+msgid "SRT Stream ID"
+msgstr ""
+
+#: ../admin/metabox/video-details.php:144
+#: ../public/partials/live-stream-settings.php:154
+msgid "SRT Passphrase"
+msgstr ""
+
+#: ../admin/metabox/video-details.php:161
+msgid "Thumbnail URL"
+msgstr ""
+
+#: ../admin/metabox/video-details.php:175
+msgid "Read To Stream"
+msgstr ""
+
+#: ../admin/metabox/video-details.php:189 ../admin/metabox/video-outputs.php:46
+#: ../admin/settings/live_stream.php:150
+msgid "Status"
+msgstr ""
+
+#: ../admin/metabox/video-details.php:203
+msgid "Error Reason Code"
+msgstr ""
+
+#: ../admin/metabox/video-details.php:217
+msgid "Error Reason Text"
+msgstr ""
+
+#: ../admin/metabox/video-details.php:231
+msgid "Uploaded"
+msgstr ""
+
+#: ../admin/metabox/video-details.php:245
+msgid "Created"
+msgstr ""
+
+#: ../admin/metabox/video-details.php:259
+msgid "Modified"
+msgstr ""
+
+#: ../admin/metabox/video-details.php:273
+msgid "Size"
+msgstr ""
+
+#: ../admin/metabox/video-details.php:288
+msgid "Preview"
+msgstr ""
+
+#: ../admin/metabox/video-details.php:302
+#: ../admin/settings/api_credentials.php:81
+msgid "Allowed Origins"
+msgstr ""
+
+#: ../admin/metabox/video-details.php:316
+msgid "Require Signed URLs"
+msgstr ""
+
+#: ../admin/metabox/video-details.php:330
+msgid "Duration"
+msgstr ""
+
+#: ../admin/metabox/video-details.php:344
+msgid "Width"
+msgstr ""
+
+#: ../admin/metabox/video-details.php:358
+msgid "Height"
+msgstr ""
+
+#: ../admin/metabox/video-outputs.php:21
+#: ../public/partials/live-stream-outputs.php:41
+msgid "Search services ..."
+msgstr ""
+
+#: ../admin/metabox/video-outputs.php:28
+msgid "Added Services"
+msgstr ""
+
+#: ../admin/metabox/video-outputs.php:33
+msgid "Enabled Services"
+msgstr ""
+
+#: ../admin/metabox/video-outputs.php:43
+msgid "Service"
+msgstr ""
+
+#: ../admin/metabox/video-outputs.php:44
+#: ../public/partials/live-stream-outputs.php:160
+msgid "Server"
+msgstr ""
+
+#: ../admin/metabox/video-outputs.php:45
+msgid "Stream Key"
+msgstr ""
+
+#: ../admin/metabox/video-outputs.php:47
+msgid "Action"
+msgstr ""
+
+#: ../admin/metabox/video-outputs.php:147
+#: ../includes/class-wp-cloudflare-stream-post.php:1744
+#: ../public/partials/live-stream-outputs.php:205
+msgid "Delete"
+msgstr ""
+
+#: ../admin/metabox/video-outputs.php:147
+#: ../includes/class-wp-cloudflare-stream-post.php:1753
+#: ../public/partials/live-stream-outputs.php:205
+msgid "Add"
+msgstr ""
+
+#: ../admin/metabox/video-outputs.php:153
+#: ../includes/class-wp-cloudflare-stream-post.php:1745
+#: ../includes/class-wp-cloudflare-stream-post.php:1831
+#: ../public/partials/live-stream-outputs.php:215
+msgid "Disable"
+msgstr ""
+
+#: ../admin/metabox/video-outputs.php:153
+#: ../admin/settings/api_credentials.php:20
+#: ../admin/settings/live_stream.php:21 ../admin/settings/watermark.php:45
+#: ../includes/class-wp-cloudflare-stream-post.php:1754
+#: ../includes/class-wp-cloudflare-stream-post.php:1794
+#: ../public/partials/live-stream-outputs.php:215
+msgid "Enable"
+msgstr ""
+
+#: ../admin/metabox/video-outputs.php:178
+#: ../public/partials/live-stream-outputs.php:298
+msgid "No services match your search term."
+msgstr ""
+
+#: ../admin/metabox/video-outputs.php:228
+#: ../public/partials/live-stream-outputs.php:276
+msgid "N/A"
+msgstr ""
+
+#: ../admin/settings/api_credentials.php:29
+msgid "Enable Cloudflare Stream API"
+msgstr ""
+
+#: ../admin/settings/api_credentials.php:36
+msgid "Cloudflare Account ID"
+msgstr ""
+
+#: ../admin/settings/api_credentials.php:37
+#: ../admin/settings/api_credentials.php:52
+msgid "(required)"
+msgstr ""
+
+#: ../admin/settings/api_credentials.php:51
+msgid "Cloudflare Account API Token"
+msgstr ""
+
+#: ../admin/settings/api_credentials.php:66
+msgid "Cloudflare Customer Subdomain"
+msgstr ""
+
+#: ../admin/settings/api_credentials.php:73
+msgid "e.g: customer-0a4pgsokheys4z14.cloudflarestream.com"
+msgstr ""
+
+#: ../admin/settings/api_credentials.php:91
+msgid "e.g: *.domain.com, comma separated list of origins to restrict embedding."
+msgstr ""
+
+#: ../admin/settings/api_credentials.php:99
+msgid "Signed URLs"
+msgstr ""
+
+#: ../admin/settings/api_credentials.php:108
+msgid "Secure videos with signed URLs"
+msgstr ""
+
+#: ../admin/settings/api_credentials.php:113
+#, php-format
+msgid "%s may be necessary after enabling this option."
+msgstr ""
+
+#: ../admin/settings/api_credentials.php:114
+msgid "Bulk updating videos"
+msgstr ""
+
+#: ../admin/settings/api_credentials.php:121
+msgid "Revoke Tokens"
+msgstr ""
+
+#: ../admin/settings/live_stream.php:30
+msgid "Enable Live Stream"
+msgstr ""
+
+#: ../admin/settings/live_stream.php:38
+msgid "Low Latency"
+msgstr ""
+
+#: ../admin/settings/live_stream.php:47
+msgid "Enable Low Latency"
+msgstr ""
+
+#: ../admin/settings/live_stream.php:55
+msgid "Timeout"
+msgstr ""
+
+#: ../admin/settings/live_stream.php:67
+msgid "Specifies how long a live feed can be disconnected before it results in a new video being created, default is 15 minutes"
+msgstr ""
+
+#: ../admin/settings/live_stream.php:75
+msgid "Delete Recorded After Days"
+msgstr ""
+
+#: ../admin/settings/live_stream.php:87
+msgid "Specifies a date and time for when the recording will be deleted."
+msgstr ""
+
+#: ../admin/settings/live_stream.php:95
+msgid "Display playback URLs"
+msgstr ""
+
+#: ../admin/settings/live_stream.php:111
+msgid "Custom Ingest Domain"
+msgstr ""
+
+#: ../admin/settings/live_stream.php:118
+msgid "e.g: live.domain.com"
+msgstr ""
+
+#: ../admin/settings/live_stream.php:123
+#, php-format
+msgid "Read %s"
+msgstr ""
+
+#: ../admin/settings/live_stream.php:124
+msgid "Add custom ingest domains"
+msgstr ""
+
+#: ../admin/settings/live_stream.php:133
+msgid "Live Stream Capability"
+msgstr ""
+
+#: ../admin/settings/live_stream.php:143
+msgid "Admin and Editor can always start Live Stream without any restriction"
+msgstr ""
+
+#: ../admin/settings/live_stream.php:174
+msgid "Multiple Live Streams"
+msgstr ""
+
+#: ../admin/settings/live_stream.php:183
+msgid "Allow members to open Multiple Live Streams, this option does not apply to Admin or Editor"
+msgstr ""
+
+#: ../admin/settings/live_stream.php:191
+msgid "Webhook URL"
+msgstr ""
+
+#: ../admin/settings/live_stream.php:202
+#, php-format
+msgid "Do not share this URL publicly, read %s"
+msgstr ""
+
+#: ../admin/settings/live_stream.php:203
+msgid "Subscribe to Stream Live Webhooks"
+msgstr ""
+
+#: ../admin/settings/live_stream.php:212
+msgid "Thumbnail Image Size"
+msgstr ""
+
+#: ../admin/settings/live_stream.php:223
+#, php-format
+msgid "Maximum upload file size in MB, must be smaller than %sMB, 2MB is default."
+msgstr ""
+
+#: ../admin/settings/misc.php:21
+msgid "Cloudflare Player"
+msgstr ""
+
+#: ../admin/settings/misc.php:30
+msgid "Enable Cloudflare Player instead of the default build-in player."
+msgstr ""
+
+#: ../admin/settings/misc.php:38 ../admin/settings/misc.php:46
+msgid "Bulk Update"
+msgstr ""
+
+#: ../admin/settings/misc.php:47
+msgid "Updating ..."
+msgstr ""
+
+#: ../admin/settings/misc.php:52
+msgid "Bulk updating existing videos if any settings have been modified."
+msgstr ""
+
+#: ../admin/settings/notify.php:25
+msgid "Public Notification"
+msgstr ""
+
+#: ../admin/settings/notify.php:32
+msgid "Send a notification to author after publishing video"
+msgstr ""
+
+#: ../admin/settings/notify.php:37 ../admin/settings/notify.php:71
+msgid "Subject"
+msgstr ""
+
+#: ../admin/settings/notify.php:59
+msgid "Fail Notification"
+msgstr ""
+
+#: ../admin/settings/notify.php:66
+msgid "Send a notification to author after video encoding failed"
+msgstr ""
+
+#: ../admin/settings/notify.php:93
+msgid "Shortcodes"
+msgstr ""
+
+#: ../admin/settings/notify.php:99
+msgid "Author display name"
+msgstr ""
+
+#: ../admin/settings/notify.php:117
+msgid "Video title"
+msgstr ""
+
+#: ../admin/settings/notify.php:123
+msgid "Video URL"
+msgstr ""
+
+#: ../admin/settings/notify.php:129
+msgid "Error Code while processing video"
+msgstr ""
+
+#: ../admin/settings/notify.php:135
+msgid "Error Message while processing video"
+msgstr ""
+
+#: ../admin/settings/settings.php:24
+msgid "Install"
+msgstr ""
+
+#: ../admin/settings/settings.php:29
+msgid "Save Changes"
+msgstr ""
+
+#: ../admin/settings/settings.php:49
+msgid "Settings saved."
+msgstr ""
+
+#: ../admin/settings/sync.php:21
+msgid "Auto Sync"
+msgstr ""
+
+#: ../admin/settings/sync.php:30
+msgid "Auto-sync uploads from Cloudflare Stream."
+msgstr ""
+
+#: ../admin/settings/sync.php:38
+msgid "Default Author ID"
+msgstr ""
+
+#: ../admin/settings/sync.php:47
+msgid "Default owner ID for synchronized posts"
+msgstr ""
+
+#: ../admin/settings/sync.php:55
+msgid "Default Status"
+msgstr ""
+
+#: ../admin/settings/upload.php:23 ../admin/settings/watermark.php:137
+msgid "Upload Type"
+msgstr ""
+
+#: ../admin/settings/upload.php:47
+msgid "Allow Formats"
+msgstr ""
+
+#: ../admin/settings/upload.php:61
+msgid "Enable MP4 Download"
+msgstr ""
+
+#: ../admin/settings/upload.php:70
+msgid "Allow downloading MP4 file"
+msgstr ""
+
+#: ../admin/settings/upload.php:78
+msgid "Delete Original File"
+msgstr ""
+
+#: ../admin/settings/upload.php:87
+msgid "Auto Delete the original file after processing completed"
+msgstr ""
+
+#: ../admin/settings/upload.php:91
+msgid "Warning: Original files will be permanently deleted from the WordPress media library."
+msgstr ""
+
+#: ../admin/settings/upload.php:99
+msgid "Auto Import Thumbnail"
+msgstr ""
+
+#: ../admin/settings/upload.php:108
+msgid "Auto Import Thumbnail Image"
+msgstr ""
+
+#: ../admin/settings/upload.php:116
+msgid "Auto Import Gif Thumbnail"
+msgstr ""
+
+#: ../admin/settings/upload.php:125
+msgid "Auto Import Gif Thumbnail Image"
+msgstr ""
+
+#: ../admin/settings/upload.php:133
+msgid "Auto Publish"
+msgstr ""
+
+#: ../admin/settings/upload.php:142
+msgid "Auto publish Parent Post after file processing completed"
+msgstr ""
+
+#: ../admin/settings/upload.php:150
+msgid "Webhook"
+msgstr ""
+
+#: ../admin/settings/upload.php:157
+msgid "Install Webhook"
+msgstr ""
+
+#: ../admin/settings/upload.php:157
+#: ../includes/class-wp-cloudflare-stream-post.php:2410
+msgid "Installed"
+msgstr ""
+
+#: ../admin/settings/watermark.php:32
+msgid "Watermark has been added successfully."
+msgstr ""
+
+#: ../admin/settings/watermark.php:54
+msgid "Enable Watermark"
+msgstr ""
+
+#: ../admin/settings/watermark.php:62
+msgid "Image URL"
+msgstr ""
+
+#: ../admin/settings/watermark.php:72
+#: ../includes/class-wp-cloudflare-stream-settings.php:166
+msgid "Upload"
+msgstr ""
+
+#: ../admin/settings/watermark.php:95
+msgid "Opacity"
+msgstr ""
+
+#: ../admin/settings/watermark.php:109
+msgid "Padding"
+msgstr ""
+
+#: ../admin/settings/watermark.php:123
+msgid "Scale"
+msgstr ""
+
+#: ../includes/class-wp-cloudflare-stream-api.php:886
+msgid "Failed to sign the token."
+msgstr ""
+
+#: ../includes/class-wp-cloudflare-stream-api.php:925
+#: ../includes/class-wp-cloudflare-stream-settings.php:50
+#: ../includes/class-wp-cloudflare-stream-settings.php:168
+msgid "Watermark"
+msgstr ""
+
+#: ../includes/class-wp-cloudflare-stream-notify.php:27
+msgid "Your {post_name} is now on {website_name}"
+msgstr ""
+
+#: ../includes/class-wp-cloudflare-stream-notify.php:41
+msgid "Your video {post_name} is now ready to watch on {website_name}"
+msgstr ""
+
+#: ../includes/class-wp-cloudflare-stream-notify.php:58
+msgid "Your {post_name} encoding failed on {website_name}"
+msgstr ""
+
+#: ../includes/class-wp-cloudflare-stream-notify.php:72
+#, php-format
+msgid "Your video {post_name} encoding failed on %s"
+msgstr ""
+
+#: ../includes/class-wp-cloudflare-stream-post.php:255
+msgid "Video UID is not found"
+msgstr ""
+
+#: ../includes/class-wp-cloudflare-stream-post.php:314
+msgid "Stream is closed"
+msgstr ""
+
+#: ../includes/class-wp-cloudflare-stream-post.php:324
+msgid "Stream has not started yet"
+msgstr ""
+
+#: ../includes/class-wp-cloudflare-stream-post.php:331
+msgid "Stream is initializing"
+msgstr ""
+
+#: ../includes/class-wp-cloudflare-stream-post.php:351
+msgid "Video is processing"
+msgstr ""
+
+#: ../includes/class-wp-cloudflare-stream-post.php:775
+msgid "This file is already synced"
+msgstr ""
+
+#: ../includes/class-wp-cloudflare-stream-post.php:792
+msgid "The file size has exceeded the maximum allowed limit."
+msgstr ""
+
+#: ../includes/class-wp-cloudflare-stream-post.php:1145
+msgid "Live Stream is disabled"
+msgstr ""
+
+#: ../includes/class-wp-cloudflare-stream-post.php:1152
+msgid "You do not have permission to start live stream"
+msgstr ""
+
+#: ../includes/class-wp-cloudflare-stream-post.php:1165
+msgid "Not allowed, You cannot open mutiple live streams."
+msgstr ""
+
+#: ../includes/class-wp-cloudflare-stream-post.php:1173
+msgid "Live Stream Title is required."
+msgstr ""
+
+#: ../includes/class-wp-cloudflare-stream-post.php:1188
+msgid "Featured Image is required or File format is not accepted."
+msgstr ""
+
+#: ../includes/class-wp-cloudflare-stream-post.php:1200
+#, php-format
+msgid "Thumbnail Image size has to be smaller than %s"
+msgstr ""
+
+#: ../includes/class-wp-cloudflare-stream-post.php:1218
+msgid "Incorrect Video ID"
+msgstr ""
+
+#: ../includes/class-wp-cloudflare-stream-post.php:1318
+msgid "Live Stream has been created successfully."
+msgstr ""
+
+#: ../includes/class-wp-cloudflare-stream-post.php:1360
+msgid "You do not have permission to add live output"
+msgstr ""
+
+#: ../includes/class-wp-cloudflare-stream-post.php:1367
+msgid "Stream Key is required"
+msgstr ""
+
+#: ../includes/class-wp-cloudflare-stream-post.php:1376
+msgid "Live UID was not found"
+msgstr ""
+
+#: ../includes/class-wp-cloudflare-stream-post.php:1470
+msgid "You do not have permission to update live output"
+msgstr ""
+
+#: ../includes/class-wp-cloudflare-stream-post.php:1491
+msgid "Output UID was not found"
+msgstr ""
+
+#: ../includes/class-wp-cloudflare-stream-post.php:1575
+msgid "Invalid Request"
+msgstr ""
+
+#: ../includes/class-wp-cloudflare-stream-post.php:1634
+msgid "Stream was not found"
+msgstr ""
+
+#: ../includes/class-wp-cloudflare-stream-post.php:1699
+msgid "You do not have permission to update live stream"
+msgstr ""
+
+#: ../includes/class-wp-cloudflare-stream-post.php:1743
+msgid "Live output has been added successfully"
+msgstr ""
+
+#: ../includes/class-wp-cloudflare-stream-post.php:1747
+#: ../public/partials/live-stream-outputs.php:27
+#: ../public/partials/live-stream-outputs.php:132
+msgid "Added"
+msgstr ""
+
+#: ../includes/class-wp-cloudflare-stream-post.php:1752
+msgid "Live output has been deleted successfully"
+msgstr ""
+
+#: ../includes/class-wp-cloudflare-stream-post.php:1756
+#: ../public/partials/live-stream-outputs.php:132
+msgid "Not added"
+msgstr ""
+
+#: ../includes/class-wp-cloudflare-stream-post.php:1792
+msgid "Live output has been disabled successfully"
+msgstr ""
+
+#: ../includes/class-wp-cloudflare-stream-post.php:1829
+msgid "Live output has been enabled successfully"
+msgstr ""
+
+#: ../includes/class-wp-cloudflare-stream-post.php:1896
+#, php-format
+msgid "[%s] %s has been successfully updated."
+msgstr ""
+
+#: ../includes/class-wp-cloudflare-stream-post.php:1955
+msgid "Done! all videos have been successfully updated."
+msgstr ""
+
+#: ../includes/class-wp-cloudflare-stream-post.php:1995
+msgid "Tokens have been successfully revoked."
+msgstr ""
+
+#: ../includes/class-wp-cloudflare-stream-post.php:2064
+msgid "Waiting for stream"
+msgstr ""
+
+#: ../includes/class-wp-cloudflare-stream-post.php:2142
+msgid "Live stream has ended, waiting for the latest recording."
+msgstr ""
+
+#: ../includes/class-wp-cloudflare-stream-post.php:2148
+msgid "Live stream has ended, no recordings were found."
+msgstr ""
+
+#: ../includes/class-wp-cloudflare-stream-post.php:2162
+msgid "Video is currently being encoded."
+msgstr ""
+
+#: ../includes/class-wp-cloudflare-stream-post.php:2207
+#: ../public/partials/add-live-stream.php:11
+#: ../public/partials/live-stream-outputs.php:139
+msgid "Go Live"
+msgstr ""
+
+#: ../includes/class-wp-cloudflare-stream-post.php:2245
+#: ../includes/class-wp-cloudflare-stream-post.php:2273
+msgid "Live"
+msgstr ""
+
+#: ../includes/class-wp-cloudflare-stream-post.php:2252
+msgid "Simulcast"
+msgstr ""
+
+#: ../includes/class-wp-cloudflare-stream-post.php:2450
+msgid "Thumbnail Image is already existed"
+msgstr ""
+
+#: ../includes/class-wp-cloudflare-stream-post.php:2953
+msgid "Cloudflare Stream UID was not found"
+msgstr ""
+
+#: ../includes/class-wp-cloudflare-stream-settings.php:165
+msgid "API Credentials"
+msgstr ""
+
+#: ../includes/class-wp-cloudflare-stream-settings.php:167
+msgid "Live Stream"
+msgstr ""
+
+#: ../includes/class-wp-cloudflare-stream-settings.php:169
+msgid "Notifications"
+msgstr ""
+
+#: ../includes/class-wp-cloudflare-stream-settings.php:171
+msgid "Misc"
+msgstr ""
+
+#: ../includes/class-wp-cloudflare-stream-settings.php:202
+msgid "Auto"
+msgstr ""
+
+#: ../includes/class-wp-cloudflare-stream-settings.php:203
+msgid "Manual"
+msgstr ""
+
+#: ../includes/class-wp-cloudflare-stream-settings.php:218
+msgid "Pending For Approval"
+msgstr ""
+
+#: ../includes/class-wp-cloudflare-stream-settings.php:219
+msgid "Private"
+msgstr ""
+
+#: ../includes/class-wp-cloudflare-stream-settings.php:220
+msgid "Publish"
+msgstr ""
+
+#: ../includes/class-wp-cloudflare-stream-settings.php:235
+msgid "Upper Right"
+msgstr ""
+
+#: ../includes/class-wp-cloudflare-stream-settings.php:236
+msgid "Lower Right"
+msgstr ""
+
+#: ../includes/class-wp-cloudflare-stream-settings.php:237
+msgid "Upper Left"
+msgstr ""
+
+#: ../includes/class-wp-cloudflare-stream-settings.php:238
+msgid "Lower Left"
+msgstr ""
+
+#: ../includes/class-wp-cloudflare-stream-settings.php:239
+msgid "Center"
+msgstr ""
+
+#: ../includes/class-wp-cloudflare-stream-shortcode.php:61
+#: ../public/partials/add-live-stream.php:41
+msgid "Upload Image"
+msgstr ""
+
+#: ../includes/class-wp-cloudflare-stream-shortcode.php:70
+#: ../public/partials/add-live-stream.php:50
+msgid "Title"
+msgstr ""
+
+#: ../includes/class-wp-cloudflare-stream-shortcode.php:74
+#: ../public/partials/add-live-stream.php:54
+msgid "Add a title that describes your stream"
+msgstr ""
+
+#: ../includes/class-wp-cloudflare-stream-shortcode.php:79
+#: ../public/partials/add-live-stream.php:59
+msgid "Description"
+msgstr ""
+
+#: ../includes/class-wp-cloudflare-stream-shortcode.php:83
+#: ../public/partials/add-live-stream.php:63
+msgid "Tell viewers more about your stream"
+msgstr ""
+
+#: ../includes/class-wp-cloudflare-stream-shortcode.php:96
+#: ../public/partials/add-live-stream.php:91
+msgid "Start"
+msgstr ""
+
+#: ../public/partials/add-live-stream.php:13
+#: ../public/partials/live-stream-settings.php:174
+msgid "Close"
+msgstr ""
+
+#: ../public/partials/live-stream-outputs.php:17
+msgid "Live Outputs"
+msgstr ""
+
+#: ../public/partials/live-stream-outputs.php:35
+msgid "Enabled"
+msgstr ""
+
+#: ../public/partials/live-stream-outputs.php:175
+msgid "Stream key"
+msgstr ""
+
+#: ../public/partials/live-stream-settings.php:29
+msgid "The live stream has concluded, and you cannot send a stream unless you reopen it."
+msgstr ""
+
+#: ../public/partials/live-stream-settings.php:31
+msgid "The live stream is now open, awaiting the stream."
+msgstr ""
+
+#: ../public/partials/live-stream-settings.php:36
+msgid "Live Credentials"
+msgstr ""
+
+#: ../public/partials/live-stream-settings.php:68
+msgid "Playbacks"
+msgstr ""
+
+#: ../public/partials/live-stream-settings.php:102
+msgid "RMTP Credentials"
+msgstr ""
+
+#: ../public/partials/live-stream-settings.php:109
+msgid "RMTP URL"
+msgstr ""
+
+#: ../public/partials/live-stream-settings.php:117
+msgid "RMTP Stream Key"
+msgstr ""
+
+#: ../public/partials/live-stream-settings.php:131
+msgid "SRT Credentials"
+msgstr ""
+
+#: ../public/partials/live-stream-settings.php:174
+msgid "Open"
+msgstr ""
+
+#: ../public/partials/live-stream-settings.php:180
+msgid "View"
+msgstr ""

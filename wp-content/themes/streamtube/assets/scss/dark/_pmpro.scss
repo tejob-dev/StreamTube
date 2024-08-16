@@ -1,0 +1,91 @@
+html[data-theme=dark]{
+
+	.pmpro_content_message{
+		border: 1px solid #333;
+	}
+
+	.pmpro_price_part-total {
+		border-top: 1px solid #444;
+	}
+
+	.pmpro_a-print{
+		color: #f9f9f9;		
+	}
+
+	.pmpro_message{	
+		background-color: #333;
+		color: #f9f9f9;		
+	}
+
+	.pmpro_table{
+		a{
+			color: #f9f9f9;
+		}
+	}
+
+	#pmpro_license {
+	    background: #222;
+	    color: #f9f9f9;
+	    padding: 1rem;
+	    border: 1px solid #333;
+	}	
+
+	[class*="pmpro_checkout_gateway"]{
+		background-color: #1b1b1b;
+
+		a{
+		    color: #f9f9f9;
+		}		
+
+		#pmpro_level_cost{
+			border: 1px solid #333;
+		}
+
+		#pmpro_payment_method{
+
+			.pmpro_checkout-fields{	
+				span{
+					background: #222;
+					border: 1px solid #333;					
+				}
+			}
+		}		
+	}
+
+	.pmpro_confirmation_wrap{
+		> p:first-child{
+			background-color: #333;
+		}
+	}
+
+	.pmpro_confirmation_wrap,
+	.pmpro_cancel_wrap{
+		background: #1b1b1b;
+
+		a{
+			color: #f9f9f9;
+
+			&:hover{
+				color: #f9f9f9;
+			}
+		}
+	}
+
+	.pmpro-affiliates-wrap{
+		.row-item {
+			border: 1px solid #333;
+		}
+	}	
+
+	.pmpro_login_wrap{
+		#loginform{
+			background: #1b1b1b;
+		}
+
+	    .pmpro_actions_nav{
+	    	a{
+	    		color: #f9f9f9;
+	    	}
+	    }		
+	}
+}

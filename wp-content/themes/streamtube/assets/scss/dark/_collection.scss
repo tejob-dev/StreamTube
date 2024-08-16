@@ -1,0 +1,29 @@
+html[data-theme=dark]{
+	.collection-list{
+		background: #111;
+	    li{
+	        &:hover{
+	            background: #101010;
+	        }
+	        .btn__icon{
+	            font-size: 1.2rem;
+	            color: #f9f9f9;
+	        }	        
+
+	        .alert{
+				background: #222;
+				border: none;	        	
+	        }
+	    }	
+	}
+
+	.search_videos-list{
+		background: #111!important;
+
+	    .post-item{
+	        &:hover{
+	            background: #101010;
+	        }
+	    }		
+	}
+}
