@@ -248,6 +248,7 @@ class Streamtube_Core_Menu{
 				?>
 
 			<?php endforeach;?>
+
 		</ul>
 		<?php
 
